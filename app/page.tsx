@@ -6,7 +6,7 @@ import { Separator } from "@/components/ui/separator";
 
 import ReposTable from "@/components/ReposTable";
 import TopBar from "@/components/TopBar";
-import GroupTable from "@/components/GroupTable";
+import GroupTable from "@/components/SideBar";
 
 import { Button } from "@/components/ui/button";
 

@@ -1,36 +1,110 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+---
+
+# Awesomeness
+
+A **local solution to organize your GitHub stars**. Built for developers who want more ways to categorize and manage their starred repositories on their own machine.
+
+> **Beta version:** still a bit unstable and may need some polishing.
+
+---
+
+## Features
+
+* Organize your GitHub stars into custom categories locally.
+* Fully **local-first**, powered by IndexedDB via **Dexie.js**.
+* Clean, modern UI built with **React + Next.js** and **shadcn/ui**.
+* Uses OAuth for GitHub authentication — no live hosting or server-side storage required.
+
+---
+
+## Why I Built This
+
+This project was inspired by the need for a **personal, customizable way to organize starred repositories**. It is meant for **local use only**, and does not replace GitHub’s platform or interfere with its services.
+
+---
+
+## Tech Stack
+
+* **React + Next.js** – UI and app logic
+* **Dexie.js** – Local IndexedDB management
+* **shadcn/ui** – Accessible, modern components
+
+---
 
 ## Getting Started
 
-First, run the development server:
+1. **Clone the repository:**
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+   ```bash
+   git clone https://github.com/your-username/awesomeness.git
+   cd awesomeness
+   ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. **Install dependencies:**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+   ```bash
+   npm install
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+3. **Create a GitHub OAuth App**
 
-## Learn More
+   * Go to [GitHub Developer Settings](https://github.com/settings/developers) → OAuth Apps → New OAuth App.
+   * Set the callback URL to your local dev environment (e.g., `http://localhost:3000/api/auth/callback`).
+   * Note the **Client ID** and **Client Secret**.
 
-To learn more about Next.js, take a look at the following resources:
+4. **Add your next-auth secret:**
+   
+   ```env
+   npx auth secret
+   ```
+   
+5. **Add your OAuth credentials:**
+   On `.env.local` file:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ```env
+   AUTH_GITHUB_ID=your_client_id
+   AUTH_GITHUB_SECRET=your_client_secret
+   NEXTAUTH_URL=http://localhost:3000
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+6. **Run the app:**
 
-## Deploy on Vercel
+   ```bash
+   npm run dev
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## Usage
+
+* Sign in with your GitHub account via OAuth.
+* Click refresh button to fetch all your starred repositories from github.
+* Browse your starred repositories locally.
+* Organize them into categories or create new ones.
+* All data is stored **locally on your machine**.
+
+---
+
+
+## Acknowledgements
+
+* Thanks to **[shadcn/ui](https://github.com/shadcn/ui)** for their clean and accessible UI components.
+* Thanks to **[Dexie.js](https://dexie.org/)** for making IndexedDB easy to work with.
+* Inspired by developers and open-source projects that make building tools like this possible.
+
+---
+
+
+## Contributing
+
+Contributions, feedback, and suggestions are welcome! Please open issues or submit pull requests.
+
+---
+
+## License
+
+MIT License © 2025 \[gurjeetsahu]
+
+---
