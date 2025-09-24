@@ -1,6 +1,6 @@
 "use client";
 import { signOut } from "next-auth/react";
-import { ChevronsUpDown, LogOut } from "lucide-react";
+import { ChevronsUpDown, LogOut, RefreshCcw } from "lucide-react";
 import { useSession } from "next-auth/react";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import {
@@ -10,9 +10,10 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { Button } from "./ui/button";
-import { ThemeChanger } from "./ThemeChanger";
+import { useQueryClient } from "@tanstack/react-query";
 
 export function User() {
+  const queryClient = useQueryClient();
   const { data: session } = useSession();
   return (
     <DropdownMenu>
@@ -36,6 +37,18 @@ export function User() {
         align="end"
         sideOffset={4}
       >
+        <DropdownMenuItem>
+          <RefreshCcw />
+          <Button
+            className="ml-3"
+            onClick={() => {
+              queryClient.invalidateQueries({ queryKey: ["all-stars"] });
+              alert("Refreshing! Please wait for the data to load.");
+            }}
+          >
+            Refresh
+          </Button>
+        </DropdownMenuItem>
         <DropdownMenuItem>
           <LogOut />
           <Button className="ml-3" onClick={() => signOut()}>
