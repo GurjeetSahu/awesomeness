@@ -1,5 +1,6 @@
 "use client";
 import { ThemeChanger } from "@/components/ThemeChanger";
+import { User } from "@/components/User";
 
 export default function TopBar() {
   return (
@@ -8,6 +9,7 @@ export default function TopBar() {
       <div className="flex space-x-4"></div>
       <div className="flex space-x-4">
         <ThemeChanger />
+        <User />
       </div>
     </div>
   );

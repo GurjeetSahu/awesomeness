@@ -8,7 +8,6 @@ import CategoryTree from "@/components/GroupTable";
 export default function Tab() {
   return (
     <ScrollArea className="h-full">
-      <User />
       <NewCategory />
       <CategoryTree />
     </ScrollArea>

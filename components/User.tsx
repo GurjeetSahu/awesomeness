@@ -1,6 +1,6 @@
 "use client";
 import { signOut } from "next-auth/react";
-import { ChevronsUpDown, LogOut, RefreshCcw } from "lucide-react";
+import { ChevronsDown, LogOut, RefreshCcw } from "lucide-react";
 import { useSession } from "next-auth/react";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import {
@@ -27,13 +27,12 @@ export function User() {
             <span className="truncate font-semibold">
               {session?.user?.name}
             </span>
-            <span className="truncate text-xs">{session?.user?.email}</span>
           </div>
-          <ChevronsUpDown className="ml-auto size-4" />
+          <ChevronsDown className="ml-auto size-4" />
         </div>
       </DropdownMenuTrigger>
       <DropdownMenuContent
-        className="w-[--radix-dropdown-menu-trigger-width] min-w-56 rounded-lg"
+        className="w-[--radix-dropdown-menu-trigger-width] min-w-56 rounded-lg "
         align="end"
         sideOffset={4}
       >
