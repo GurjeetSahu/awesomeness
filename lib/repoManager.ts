@@ -90,7 +90,6 @@ export default class RepoManager {
   }
 
   async saveReposLocally(repos: any) {
-    this.reposTable.clear();
     await this.reposTable.bulkPut(
       Array.from(repos, ([key, value], index) => ({ key, value, order: index }))
     );

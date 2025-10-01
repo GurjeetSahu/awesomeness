@@ -25,7 +25,6 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
 
   callbacks: {
     async jwt({ token, account }: any) {
-      // Persist the OAuth access_token and or the user id to the token right after signin
       if (account) {
         token.accessToken = account.access_token
       }
@@ -33,7 +32,14 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
     },
     async session({ session }: any) {
       return session
-    }
+    },
+    // async signIn({ user }) {
+    //   if (user.email === "") {
+    //     return true
+    //   } else {
+    //     return false
+    //   }
+    // }
   }
 
 })

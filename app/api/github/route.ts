@@ -7,6 +7,8 @@ import { gql } from "graphql-request";
 import { GraphQLClient } from "graphql-request";
 
 export async function GET(req: Request) {
+  const { searchParams } = new URL(req.url);
+  const search = searchParams.get("cursor");
   const secret = process.env.AUTH_SECRET
   const endpoint = "https://api.github.com/graphql";
   const token = await getToken({ req, secret })
@@ -15,10 +17,14 @@ export async function GET(req: Request) {
   }
   const headers = {
     headers: {
-      authorization: `Bearer ${token.accessToken}`,
+      authorization: `Bearer ${token!.accessToken}`,
     },
   };
   const graphqlClient = new GraphQLClient(endpoint, headers);
+
+  let cursor: String | null = search || null;
+
+
   const Query = gql`
     query GetStars($after: String) {
           viewer {
@@ -51,7 +57,7 @@ export async function GET(req: Request) {
   `;
 
   const allStars = new Map();
-  let cursor: String | null = null;
+
 
   let hasNextPage = true;
   while (hasNextPage) {
@@ -67,7 +73,11 @@ export async function GET(req: Request) {
     );
     hasNextPage = page.pageInfo.hasNextPage;
   }
-  //console.log("this is array", Array.from(allStars))
+  console.log(cursor)
   console.log("done")
-  return NextResponse.json(Array.from(allStars))
+  return NextResponse.json({
+    stars: Array.from(allStars),
+    cursor: cursor
+  })
+
 }
