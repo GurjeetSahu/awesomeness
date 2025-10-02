@@ -32,7 +32,7 @@ export default class RepoManager {
     this.db = new Dexie('Awesomeness');
     this.db.version(1).stores({
       categories: '++id,name,parentId',
-      mapEntries: "++order",
+      mapEntries: "++order,key",
       categoryMapEntry: '++id, categoryId, mapEntryId, [categoryId+mapEntryId]'
     });
     this.categoriesTable = this.db.table('categories');
@@ -56,7 +56,9 @@ export default class RepoManager {
   async getReposByCategory(categoryId: string | number): Promise<any> {
     const links = await this.categoryMapEntry.where("categoryId").equals(categoryId).toArray();
     const entryIds = links.map(l => l.mapEntryId);
-    const values = (await this.reposTable.bulkGet(entryIds))
+    console.log(entryIds)
+
+    const values = (await this.reposTable.where("key").anyOf(entryIds).toArray())
       .map(e => e?.value);
     return values;
   }
@@ -91,7 +93,7 @@ export default class RepoManager {
 
   async saveReposLocally(repos: any) {
     await this.reposTable.bulkPut(
-      Array.from(repos, ([key, value], index) => ({ key, value}))
+      Array.from(repos, ([key, value], index) => ({ key, value }))
     );
   }
 
