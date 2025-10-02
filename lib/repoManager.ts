@@ -32,7 +32,7 @@ export default class RepoManager {
     this.db = new Dexie('Awesomeness');
     this.db.version(1).stores({
       categories: '++id,name,parentId',
-      mapEntries: "key, order",
+      mapEntries: "++order",
       categoryMapEntry: '++id, categoryId, mapEntryId, [categoryId+mapEntryId]'
     });
     this.categoriesTable = this.db.table('categories');
@@ -91,7 +91,7 @@ export default class RepoManager {
 
   async saveReposLocally(repos: any) {
     await this.reposTable.bulkPut(
-      Array.from(repos, ([key, value], index) => ({ key, value, order: index }))
+      Array.from(repos, ([key, value], index) => ({ key, value}))
     );
   }
 

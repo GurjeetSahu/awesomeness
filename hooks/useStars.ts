@@ -16,7 +16,6 @@ export default function useStars() {
         const { stars, cursor } = await res.json();
         const dataArray = new Map(stars);
 
-        console.log(dataArray)
         // Optionally store the new cursor
         if (cursor) {
           localStorage.setItem('cursor', cursor);
@@ -33,7 +32,7 @@ export default function useStars() {
         const { stars, cursor } = await res.json();
         const dataArray = new Map(stars);
 
-        console.log(dataArray)
+     
         // Optionally store the new cursor
         if (cursor) {
           localStorage.setItem('cursor', cursor);
