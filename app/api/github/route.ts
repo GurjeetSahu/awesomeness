@@ -49,6 +49,7 @@ export async function GET(req: Request) {
                     name,
                     color,
                   }
+                  description
                 }
               }
             }

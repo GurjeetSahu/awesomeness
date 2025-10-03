@@ -31,7 +31,7 @@ import { useRepoStore } from "@/lib/useRepoStore";
 export default function ReposTable() {
   const [repoManager] = useState(() => new RepoManager());
   const [categories, setCategories] = useState<string[]>([]);
-  const { repos, setRepos } = useRepoStore(); 
+  const { repos, setRepos } = useRepoStore();
   const [sorting, setSorting] = useState<SortingState>([]);
   const { allStars: repoMap, isLoading } = useStars();
 
@@ -135,7 +135,9 @@ export default function ReposTable() {
                       {repo.nameWithOwner}
                     </a>
                   </div>
-
+                  <div className="">
+                      {repo.description}
+                  </div>
                   <div className="text-lg font-bold">
                     {JSON.stringify(repo.categories)}
                   </div>
