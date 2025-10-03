@@ -135,9 +135,7 @@ export default function ReposTable() {
                       {repo.nameWithOwner}
                     </a>
                   </div>
-                  <div className="">
-                      {repo.description}
-                  </div>
+
                   <div className="text-lg font-bold">
                     {JSON.stringify(repo.categories)}
                   </div>
@@ -153,6 +151,7 @@ export default function ReposTable() {
                     </DropdownMenu>
                   </span>
                 </div>
+                <div className="pb-5">{repo.description}</div>
                 <div className="text-sm mb-1">
                   ⭐{repo.stargazerCount ?? "N/A"}{" "}
                   <Badge
