@@ -9,8 +9,6 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog";
-import { Input } from "@/components/ui/input";
-import { Label } from "@/components/ui/label";
 import { useState } from "react";
 
 export default function Ai() {
@@ -20,8 +18,6 @@ export default function Ai() {
   async function handleSubmit() {
     setLoading(true);
     setText("Processing...");
-
-    const token = process.env.HF_TOKEN;
     const response = await fetch(
       "https://router.huggingface.co/v1/chat/completions",
       {

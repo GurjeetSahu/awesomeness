@@ -8,7 +8,8 @@ export default function TopBar() {
       <div className="text-white text-lg font-bold">Awesomeness</div>
       <div className="flex space-x-4"></div>
       <div className="flex space-x-4">
-        <Ai />
+        {/* Work in Progress */}
+        {/* <Ai /> */}
         <ThemeChanger />
         <User />
       </div>

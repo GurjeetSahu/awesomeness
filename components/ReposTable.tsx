@@ -24,7 +24,7 @@ import {
 } from "@/components/ui/dropdown-menu";
 
 import RepoManager from "@/lib/repoManager";
-import useStars from "@/hooks/useStars";
+import useStars from "@/lib/useStars";
 
 import { useRepoStore } from "@/lib/useRepoStore";
 
