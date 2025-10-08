@@ -11,8 +11,10 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { Button } from "./ui/button";
 import { useQueryClient } from "@tanstack/react-query";
+import useStars from "@/lib/useStars";
 
 export function User() {
+  const { isLoading } = useStars();
   const queryClient = useQueryClient();
   const { data: session } = useSession();
   return (
@@ -39,10 +41,10 @@ export function User() {
         <DropdownMenuItem>
           <RefreshCcw />
           <Button
+            disabled={isLoading}
             className="ml-3"
             onClick={() => {
               queryClient.invalidateQueries({ queryKey: ["all-stars"] });
-              alert("Refreshing! Please wait for the data to load.");
             }}
           >
             Refresh
