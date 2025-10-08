@@ -1,13 +1,7 @@
 ---
 
 # Awesomeness
-
-A **local solution to organize your GitHub stars**. Built for developers who want more ways to categorize and manage their starred repositories on their own machine.
-
-> **Beta version:** still a bit unstable and may need some polishing.
-
 ---
-## Caution
 ⚠️ CAUTION
 
 THIS REPOSITORY IS INTENDED FOR PERSONAL AND EDUCATIONAL USE ONLY.
@@ -18,6 +12,12 @@ OVERUSE, ABUSE, OR MISUSE (E.G., EXCESSIVE API CALLS, AUTOMATION BEYOND RATE LIM
 THE DEVELOPER IS NOT RESPONSIBLE FOR ANY BANS, RESTRICTIONS, OR DAMAGES RESULTING FROM IMPROPER OR EXCESSIVE USE OF THIS CODE.
 
 USE RESPONSIBLY.
+A **local solution to organize your GitHub stars**. Built for developers who want more ways to categorize and manage their starred repositories on their own machine.
+
+> **Beta version:** still a bit unstable and may need some polishing.
+
+---
+
 
 ## Features
 
