@@ -16,14 +16,6 @@ interface RepoState {
   clearRepos: () => void;
 }
 
-export const useRepoStore = create<RepoState>((set) => ({
-  repos: [],
-  setRepos: (repos) => set({ repos }),
-  addRepo: (repo) =>
-    set((state) => ({ repos: [...state.repos, repo] })),
-  clearRepos: () => set({ repos: [] }),
-}));
-
 interface CategoryOption {
   value: string | number;
   label: string;
@@ -33,6 +25,14 @@ interface CategoryState {
   options: CategoryOption[];
   setOptions: (opts: CategoryOption[]) => void;
 }
+
+export const useRepoStore = create<RepoState>((set) => ({
+  repos: [],
+  setRepos: (repos) => set({ repos }),
+  addRepo: (repo) =>
+    set((state) => ({ repos: [...state.repos, repo] })),
+  clearRepos: () => set({ repos: [] }),
+}));
 
 export const useCategoryStore = create<CategoryState>((set) => ({
   options: [],
