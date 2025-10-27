@@ -9,15 +9,10 @@ import { GraphQLClient } from "graphql-request";
 export async function GET(req: Request) {
   const { searchParams } = new URL(req.url);
   const search = searchParams.get("cursor");
-  const secret = process.env.AUTH_SECRET
   const endpoint = "https://api.github.com/graphql";
-  const token = await getToken({ req, secret })
-  if (!token?.accessToken) {
-    return NextResponse.json({ error: "Unauthorized" }, { status: 401 })
-  }
   const headers = {
     headers: {
-      authorization: `Bearer ${token!.accessToken}`,
+      authorization: `Bearer ${process.env.PAT}`,
     },
   };
   const graphqlClient = new GraphQLClient(endpoint, headers);
@@ -74,8 +69,6 @@ export async function GET(req: Request) {
     );
     hasNextPage = page.pageInfo.hasNextPage;
   }
-  console.log(cursor)
-  console.log("done")
   return NextResponse.json({
     stars: Array.from(allStars),
     cursor: cursor
