@@ -1,0 +1,81 @@
+name: Fetch Star List
+run-name: Creating Star-List for ${{ github.actor }} 🚀
+
+on: workflow_dispatch
+permissions: write-all
+jobs:
+  list-issues:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate JSON with github-script
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const allStars = new Map();
+            const query = `query($owner:String!, $after:String) {
+              user(login: $owner) {
+                  starredRepositories(
+                    orderBy: {direction: DESC, field: STARRED_AT}
+                    first: 100
+                    after: $after
+                  ) {
+                    pageInfo {
+                      hasNextPage 
+                      endCursor
+                    }
+                    edges {
+                      node {
+                        databaseId
+                        nameWithOwner
+                        description
+                        stargazerCount
+                        primaryLanguage {
+                          name
+                        }
+                        updatedAt
+                        forkCount
+                      }
+                    }
+                  }
+                }
+              }
+            `;
+            const variables = {
+              owner: context.repo.owner,
+            };
+            try{      
+              let cursor = null;
+              let hasNextPage = true;
+              const result = await github.graphql(query, {...variables,after:cursor});
+              while (hasNextPage) {
+                const result = await github.graphql(query, {...variables,after:cursor});
+                const page = result.user.starredRepositories;
+                cursor = page.pageInfo.endCursor;
+                await Promise.resolve(
+                  page.edges.forEach((item) => {
+                    allStars.set(item.node.databaseId.toString(), item.node);
+                  })
+                );
+                hasNextPage = page.pageInfo.hasNextPage;
+              //console.log(allStars)}
+            }}catch(error){
+              console.log("error is",error);
+            }
+            //const obj = Object.fromEntries(allStars);
+            const jsonData = JSON.stringify(Array.from(allStars.entries()),null,2);
+            const fs = require('fs');
+            fs.writeFileSync('starsData.json', jsonData, 'utf8');
+
+      - name: Commit and push file
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add starsData.json
+          git commit -m "Add starsData.json"
+          git push
+        env:
+          # GITHUB_TOKEN is provided by Actions by default
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
