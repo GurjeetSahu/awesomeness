@@ -27,6 +27,7 @@ import RepoManager from "@/lib/repoManager";
 import useStars from "@/lib/useStars";
 
 import { useRepoStore } from "@/lib/useRepoStore";
+import ExportBtn from "./exportBtn";
 
 export default function ReposTable() {
   const [repoManager] = useState(() => new RepoManager());
@@ -55,6 +56,7 @@ export default function ReposTable() {
       setRepos(await repoManager.getReposByCategory(category));
     }
   };
+  
 
   const columnHelper = createColumnHelper<any>();
   const columns = useMemo(
@@ -119,6 +121,7 @@ export default function ReposTable() {
             ],
           }}
         /> */}
+        <ExportBtn />
       </div>
       <ScrollArea className="h-[calc(100dvh-150px)] w-full border">
         <div className=" flex flex-col ">
