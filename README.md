@@ -59,11 +59,10 @@ This project was inspired by the need for a **personal, customizable way to orga
    npm install
    ```
 
-3. **Create a GitHub OAuth App**
+3. **Create a GitHub Personal Access Token(PAT)**
 
-   * Go to [GitHub Developer Settings](https://github.com/settings/developers) → OAuth Apps → New OAuth App.
-   * Set the callback URL to your local dev environment (e.g., `http://localhost:3000/api/auth/callback`).
-   * Note the **Client ID** and **Client Secret**.
+   * Go to [GitHub Developer Settings](https://github.com/settings/personal-access-tokens) → Generate New Token.
+   * Copy the **Token**.
 
 4. **Add your next-auth secret:**
    
@@ -75,8 +74,7 @@ This project was inspired by the need for a **personal, customizable way to orga
    On `.env.local` file:
 
    ```env
-   AUTH_GITHUB_ID=your_client_id
-   AUTH_GITHUB_SECRET=your_client_secret
+   PAT=your_token
    NEXTAUTH_URL=http://localhost:3000
    ```
 
