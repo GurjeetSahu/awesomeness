@@ -34,7 +34,7 @@ export default function ReposTable() {
   const [categories, setCategories] = useState<string[]>([]);
   const { repos, setRepos } = useRepoStore();
   const [sorting, setSorting] = useState<SortingState>([]);
-  const { allStars: repoMap, isLoading } = useStars();
+  const { allStars: repoMap, isLoading, isFetching } = useStars();
 
   useEffect(() => {
     (async function () {
@@ -56,7 +56,6 @@ export default function ReposTable() {
       setRepos(await repoManager.getReposByCategory(category));
     }
   };
-  
 
   const columnHelper = createColumnHelper<any>();
   const columns = useMemo(
@@ -85,8 +84,14 @@ export default function ReposTable() {
     getCoreRowModel: getCoreRowModel(),
     getSortedRowModel: getSortedRowModel(),
   });
-  if (isLoading) {
-    return <div>Loading</div>;
+  if (isFetching) {
+    return (
+      <div>
+        <h1 className="scroll-m-20 text-center text-4xl font-extrabold tracking-tight text-balance">
+          The Stars are being fetched, please wait and do not close this tab...
+        </h1>
+      </div>
+    );
   }
   return (
     <div className="">
