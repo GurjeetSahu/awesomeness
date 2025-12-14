@@ -1,0 +1,5080 @@
+[
+  [
+    "61306336",
+    {
+      "databaseId": 61306336,
+      "nameWithOwner": "maguowei/starred",
+      "description": "creating your own Awesome List by GitHub stars!",
+      "stargazerCount": 1820,
+      "primaryLanguage": {
+        "name": "Python"
+      },
+      "updatedAt": "2025-12-13T14:45:32Z",
+      "forkCount": 98
+    }
+  ],
+  [
+    "680843895",
+    {
+      "databaseId": 680843895,
+      "nameWithOwner": "ncdai/chanhdai.com",
+      "description": "A minimal, pixel-perfect dev portfolio, component registry, and blog.",
+      "stargazerCount": 1197,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-14T15:17:53Z",
+      "forkCount": 201
+    }
+  ],
+  [
+    "238514517",
+    {
+      "databaseId": 238514517,
+      "nameWithOwner": "tsparticles/tsparticles",
+      "description": "tsParticles - Easily create highly customizable JavaScript particles effects, confetti explosions and fireworks animations and use them as animated backgrounds for your website. Ready to use components available for React.js, Vue.js (2.x and 3.x), Angular, Svelte, jQuery, Preact, Inferno, Solid, Riot and Web Components.",
+      "stargazerCount": 8608,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-14T15:54:21Z",
+      "forkCount": 921
+    }
+  ],
+  [
+    "208279416",
+    {
+      "databaseId": 208279416,
+      "nameWithOwner": "emmabostian/developer-portfolios",
+      "description": "A list of developer portfolios for your inspiration",
+      "stargazerCount": 19330,
+      "primaryLanguage": {
+        "name": "Python"
+      },
+      "updatedAt": "2025-12-14T16:43:15Z",
+      "forkCount": 3750
+    }
+  ],
+  [
+    "294556570",
+    {
+      "databaseId": 294556570,
+      "nameWithOwner": "chriswalz/bit",
+      "description": "Bit is a modern Git CLI",
+      "stargazerCount": 6101,
+      "primaryLanguage": {
+        "name": "Go"
+      },
+      "updatedAt": "2025-12-14T07:05:28Z",
+      "forkCount": 109
+    }
+  ],
+  [
+    "291154544",
+    {
+      "databaseId": 291154544,
+      "nameWithOwner": "jakegut/resume",
+      "description": "LaTeX template for my personal resume",
+      "stargazerCount": 2315,
+      "primaryLanguage": {
+        "name": "TeX"
+      },
+      "updatedAt": "2025-12-14T16:13:49Z",
+      "forkCount": 532
+    }
+  ],
+  [
+    "43076202",
+    {
+      "databaseId": 43076202,
+      "nameWithOwner": "hacksalot/HackMyResume",
+      "description": "Generate polished résumés and CVs in HTML, Markdown, LaTeX, MS Word, PDF, plain text, JSON, XML, YAML, smoke signal, and carrier pigeon.",
+      "stargazerCount": 9345,
+      "primaryLanguage": {
+        "name": "JavaScript"
+      },
+      "updatedAt": "2025-12-12T12:10:32Z",
+      "forkCount": 530
+    }
+  ],
+  [
+    "44073937",
+    {
+      "databaseId": 44073937,
+      "nameWithOwner": "sb2nov/resume",
+      "description": "Software developer resume in Latex",
+      "stargazerCount": 6322,
+      "primaryLanguage": {
+        "name": "TeX"
+      },
+      "updatedAt": "2025-12-14T15:03:19Z",
+      "forkCount": 1757
+    }
+  ],
+  [
+    "1061964278",
+    {
+      "databaseId": 1061964278,
+      "nameWithOwner": "GurjeetSahu/awesomeness",
+      "description": "Manage your full star lists of Github.",
+      "stargazerCount": 4,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-01T20:33:23Z",
+      "forkCount": 0
+    }
+  ],
+  [
+    "1003143578",
+    {
+      "databaseId": 1003143578,
+      "nameWithOwner": "NirDiamant/agents-towards-production",
+      "description": " This repository delivers end-to-end, code-first tutorials covering every layer of production-grade GenAI agents, guiding you from spark to scale with proven patterns and reusable blueprints for real-world launches.",
+      "stargazerCount": 15790,
+      "primaryLanguage": {
+        "name": "Jupyter Notebook"
+      },
+      "updatedAt": "2025-12-14T16:19:37Z",
+      "forkCount": 2072
+    }
+  ],
+  [
+    "556191167",
+    {
+      "databaseId": 556191167,
+      "nameWithOwner": "sanjib-sen/WebLaTex",
+      "description": "A complete alternative for Overleaf with VSCode + Web + Git Integration + Copilot + Grammar & Spell Checker + Live Collaboration Support. Based on GitHub Codespace and Dev container.",
+      "stargazerCount": 1379,
+      "primaryLanguage": {
+        "name": "TeX"
+      },
+      "updatedAt": "2025-12-06T04:34:39Z",
+      "forkCount": 386
+    }
+  ],
+  [
+    "208017150",
+    {
+      "databaseId": 208017150,
+      "nameWithOwner": "darryncampbell/WiFi-RTT-Trilateration",
+      "description": "Combining Android WiFi-RTT (802.11mc) with multilateration to determine position",
+      "stargazerCount": 66,
+      "primaryLanguage": {
+        "name": "Java"
+      },
+      "updatedAt": "2025-12-02T01:59:12Z",
+      "forkCount": 19
+    }
+  ],
+  [
+    "582744371",
+    {
+      "databaseId": 582744371,
+      "nameWithOwner": "demsr/expo-ble",
+      "description": null,
+      "stargazerCount": 15,
+      "primaryLanguage": {
+        "name": "JavaScript"
+      },
+      "updatedAt": "2025-10-12T08:12:26Z",
+      "forkCount": 3
+    }
+  ],
+  [
+    "278173871",
+    {
+      "databaseId": 278173871,
+      "nameWithOwner": "zhm-real/MotionPlanning",
+      "description": "Motion planning algorithms commonly used on autonomous vehicles. (path planning + path tracking)",
+      "stargazerCount": 2597,
+      "primaryLanguage": {
+        "name": "Python"
+      },
+      "updatedAt": "2025-12-11T08:07:11Z",
+      "forkCount": 622
+    }
+  ],
+  [
+    "139729179",
+    {
+      "databaseId": 139729179,
+      "nameWithOwner": "vita-epfl/CrowdNav",
+      "description": "[ICRA] Crowd-aware Robot Navigation",
+      "stargazerCount": 685,
+      "primaryLanguage": {
+        "name": "Python"
+      },
+      "updatedAt": "2025-12-10T06:44:48Z",
+      "forkCount": 179
+    }
+  ],
+  [
+    "135713718",
+    {
+      "databaseId": 135713718,
+      "nameWithOwner": "ChanganVR/CADRL",
+      "description": "Implementation of paper \"Decentralized Non-communicating Multiagent Collision Avoidance with Deep Reinforcement Learning\". NO LONGER MAINTAINED. CHECK OUT CrowdNav.",
+      "stargazerCount": 95,
+      "primaryLanguage": {
+        "name": "Python"
+      },
+      "updatedAt": "2025-10-11T12:21:36Z",
+      "forkCount": 31
+    }
+  ],
+  [
+    "10926872",
+    {
+      "databaseId": 10926872,
+      "nameWithOwner": "snape/RVO2",
+      "description": "Optimal Reciprocal Collision Avoidance (C++)",
+      "stargazerCount": 898,
+      "primaryLanguage": {
+        "name": "C++"
+      },
+      "updatedAt": "2025-12-14T00:24:51Z",
+      "forkCount": 269
+    }
+  ],
+  [
+    "12036327",
+    {
+      "databaseId": 12036327,
+      "nameWithOwner": "Muon/pyorca",
+      "description": "Python implementation of the ORCA collision avoidance algorithm",
+      "stargazerCount": 35,
+      "primaryLanguage": {
+        "name": "Python"
+      },
+      "updatedAt": "2025-10-24T06:34:50Z",
+      "forkCount": 16
+    }
+  ],
+  [
+    "383269100",
+    {
+      "databaseId": 383269100,
+      "nameWithOwner": "downflux/go-orca",
+      "description": "Golang implementation of the Optimal Reciprocal Collision Avoidance (ORCA) algorithm",
+      "stargazerCount": 48,
+      "primaryLanguage": {
+        "name": "Go"
+      },
+      "updatedAt": "2025-10-11T11:55:25Z",
+      "forkCount": 2
+    }
+  ],
+  [
+    "185680181",
+    {
+      "databaseId": 185680181,
+      "nameWithOwner": "PathPlanning/ORCA-algorithm",
+      "description": "Implementation of ORCA algorithm",
+      "stargazerCount": 160,
+      "primaryLanguage": {
+        "name": "C++"
+      },
+      "updatedAt": "2025-12-11T05:14:28Z",
+      "forkCount": 28
+    }
+  ],
+  [
+    "69762753",
+    {
+      "databaseId": 69762753,
+      "nameWithOwner": "MengGuo/RVO_Py_MAS",
+      "description": "Python Implementation of Reciprocal Velocity Obstacle for Multi-agent Systems",
+      "stargazerCount": 182,
+      "primaryLanguage": {
+        "name": "Python"
+      },
+      "updatedAt": "2025-12-10T08:48:20Z",
+      "forkCount": 46
+    }
+  ],
+  [
+    "278335273",
+    {
+      "databaseId": 278335273,
+      "nameWithOwner": "anuraghazra/github-readme-stats",
+      "description": ":zap: Dynamically generated stats for your github readmes",
+      "stargazerCount": 77455,
+      "primaryLanguage": {
+        "name": "JavaScript"
+      },
+      "updatedAt": "2025-12-14T16:20:16Z",
+      "forkCount": 28218
+    }
+  ],
+  [
+    "491911983",
+    {
+      "databaseId": 491911983,
+      "nameWithOwner": "rzashakeri/beautify-github-profile",
+      "description": "This repository will assist you in creating a more beautiful and appealing github profile, and you will have access to a comprehensive range of tools and tutorials for beautifying your github profile.  🪄 ⭐  ",
+      "stargazerCount": 12054,
+      "primaryLanguage": null,
+      "updatedAt": "2025-12-14T13:19:42Z",
+      "forkCount": 646
+    }
+  ],
+  [
+    "291293670",
+    {
+      "databaseId": 291293670,
+      "nameWithOwner": "durgeshsamariya/awesome-github-profile-readme-templates",
+      "description": "This repository contains best profile readme's for your reference. ",
+      "stargazerCount": 5081,
+      "primaryLanguage": {
+        "name": "HTML"
+      },
+      "updatedAt": "2025-12-13T16:27:00Z",
+      "forkCount": 7570
+    }
+  ],
+  [
+    "983345476",
+    {
+      "databaseId": 983345476,
+      "nameWithOwner": "Zie619/n8n-workflows",
+      "description": "all of the workflows of n8n i could find (also from the site itself)",
+      "stargazerCount": 47721,
+      "primaryLanguage": {
+        "name": "Python"
+      },
+      "updatedAt": "2025-12-14T16:43:39Z",
+      "forkCount": 5437
+    }
+  ],
+  [
+    "461908156",
+    {
+      "databaseId": 461908156,
+      "nameWithOwner": "darkroomengineering/lenis",
+      "description": "Smooth scroll at it should be",
+      "stargazerCount": 12662,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-14T16:26:36Z",
+      "forkCount": 505
+    }
+  ],
+  [
+    "502129301",
+    {
+      "databaseId": 502129301,
+      "nameWithOwner": "tszheichoi/awesome-sensor-logger",
+      "description": "Collection of tools, resources and sample code to use alongside the Sensor Logger app",
+      "stargazerCount": 319,
+      "primaryLanguage": null,
+      "updatedAt": "2025-12-13T13:34:41Z",
+      "forkCount": 47
+    }
+  ],
+  [
+    "83506511",
+    {
+      "databaseId": 83506511,
+      "nameWithOwner": "guardianproject/haven",
+      "description": "Haven is for people who need a way to protect their personal spaces and possessions without compromising their own privacy, through an Android app and on-device sensors",
+      "stargazerCount": 6747,
+      "primaryLanguage": {
+        "name": "Java"
+      },
+      "updatedAt": "2025-12-13T20:35:23Z",
+      "forkCount": 743
+    }
+  ],
+  [
+    "1035739956",
+    {
+      "databaseId": 1035739956,
+      "nameWithOwner": "better-auth/examples",
+      "description": null,
+      "stargazerCount": 26,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-01T22:36:55Z",
+      "forkCount": 9
+    }
+  ],
+  [
+    "149111813",
+    {
+      "databaseId": 149111813,
+      "nameWithOwner": "Tencent/MMKV",
+      "description": "An efficient, small mobile key-value storage framework developed by WeChat. Works on Android, iOS, macOS, Windows, POSIX, and OHOS.",
+      "stargazerCount": 18364,
+      "primaryLanguage": {
+        "name": "C++"
+      },
+      "updatedAt": "2025-12-13T21:46:41Z",
+      "forkCount": 1969
+    }
+  ],
+  [
+    "129721834",
+    {
+      "databaseId": 129721834,
+      "nameWithOwner": "lichess-bot-devs/lichess-bot",
+      "description": "A bridge between Lichess bots and chess engines",
+      "stargazerCount": 945,
+      "primaryLanguage": {
+        "name": "Python"
+      },
+      "updatedAt": "2025-12-07T09:39:29Z",
+      "forkCount": 523
+    }
+  ],
+  [
+    "726379305",
+    {
+      "databaseId": 726379305,
+      "nameWithOwner": "hsuanyi-chou/shadcn-ui-expansions",
+      "description": "More components built on top of shadcn-ui.",
+      "stargazerCount": 1877,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-12T03:00:36Z",
+      "forkCount": 81
+    }
+  ],
+  [
+    "72867492",
+    {
+      "databaseId": 72867492,
+      "nameWithOwner": "anders94/blockchain-demo",
+      "description": "A web-based demonstration of blockchain concepts.",
+      "stargazerCount": 5619,
+      "primaryLanguage": {
+        "name": "Pug"
+      },
+      "updatedAt": "2025-12-13T15:40:20Z",
+      "forkCount": 2774
+    }
+  ],
+  [
+    "44971752",
+    {
+      "databaseId": 44971752,
+      "nameWithOwner": "ethereum/EIPs",
+      "description": "The Ethereum Improvement Proposal repository",
+      "stargazerCount": 13687,
+      "primaryLanguage": {
+        "name": "Python"
+      },
+      "updatedAt": "2025-12-14T15:45:04Z",
+      "forkCount": 5974
+    }
+  ],
+  [
+    "15452919",
+    {
+      "databaseId": 15452919,
+      "nameWithOwner": "ethereum/go-ethereum",
+      "description": "Go implementation of the Ethereum protocol",
+      "stargazerCount": 50475,
+      "primaryLanguage": {
+        "name": "Go"
+      },
+      "updatedAt": "2025-12-14T12:31:15Z",
+      "forkCount": 21643
+    }
+  ],
+  [
+    "14531737",
+    {
+      "databaseId": 14531737,
+      "nameWithOwner": "bitcoin/bips",
+      "description": "Bitcoin Improvement Proposals",
+      "stargazerCount": 10417,
+      "primaryLanguage": {
+        "name": "Wikitext"
+      },
+      "updatedAt": "2025-12-14T11:29:36Z",
+      "forkCount": 5839
+    }
+  ],
+  [
+    "1181927",
+    {
+      "databaseId": 1181927,
+      "nameWithOwner": "bitcoin/bitcoin",
+      "description": "Bitcoin Core integration/staging tree",
+      "stargazerCount": 87218,
+      "primaryLanguage": {
+        "name": "C++"
+      },
+      "updatedAt": "2025-12-14T12:31:01Z",
+      "forkCount": 38353
+    }
+  ],
+  [
+    "204253463",
+    {
+      "databaseId": 204253463,
+      "nameWithOwner": "abhijithvijayan/stargazed",
+      "description": "📋 Creating your own Awesome List of GitHub stars! ",
+      "stargazerCount": 496,
+      "primaryLanguage": {
+        "name": "JavaScript"
+      },
+      "updatedAt": "2025-11-25T17:43:45Z",
+      "forkCount": 34
+    }
+  ],
+  [
+    "112370765",
+    {
+      "databaseId": 112370765,
+      "nameWithOwner": "texstudio-org/texstudio",
+      "description": "TeXstudio is a fully featured LaTeX editor. Our goal is to make writing LaTeX documents as easy and comfortable as possible.",
+      "stargazerCount": 3303,
+      "primaryLanguage": {
+        "name": "C++"
+      },
+      "updatedAt": "2025-12-13T22:34:21Z",
+      "forkCount": 378
+    }
+  ],
+  [
+    "14003349",
+    {
+      "databaseId": 14003349,
+      "nameWithOwner": "localForage/localForage",
+      "description": "💾 Offline storage, improved. Wraps IndexedDB, WebSQL, or localStorage using a simple but powerful API.",
+      "stargazerCount": 25695,
+      "primaryLanguage": {
+        "name": "JavaScript"
+      },
+      "updatedAt": "2025-12-13T22:38:42Z",
+      "forkCount": 1297
+    }
+  ],
+  [
+    "229504810",
+    {
+      "databaseId": 229504810,
+      "nameWithOwner": "sethcottle/littlelink",
+      "description": "A lightweight DIY Linktree alternative.",
+      "stargazerCount": 2679,
+      "primaryLanguage": {
+        "name": "HTML"
+      },
+      "updatedAt": "2025-12-13T00:35:11Z",
+      "forkCount": 1364
+    }
+  ],
+  [
+    "931135",
+    {
+      "databaseId": 931135,
+      "nameWithOwner": "Leaflet/Leaflet",
+      "description": "🍃 JavaScript library for mobile-friendly interactive maps 🇺🇦",
+      "stargazerCount": 44109,
+      "primaryLanguage": {
+        "name": "JavaScript"
+      },
+      "updatedAt": "2025-12-14T10:59:04Z",
+      "forkCount": 6060
+    }
+  ],
+  [
+    "60696763",
+    {
+      "databaseId": 60696763,
+      "nameWithOwner": "yeasy/blockchain_guide",
+      "description": "Introduce blockchain related technologies, from theory to practice with bitcoin, ethereum and hyperledger.",
+      "stargazerCount": 7050,
+      "primaryLanguage": {
+        "name": "Go"
+      },
+      "updatedAt": "2025-12-12T07:08:01Z",
+      "forkCount": 1960
+    }
+  ],
+  [
+    "15259244",
+    {
+      "databaseId": 15259244,
+      "nameWithOwner": "bitpay/bitcore",
+      "description": "A full stack for bitcoin and blockchain-based applications",
+      "stargazerCount": 4970,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-11T01:43:39Z",
+      "forkCount": 2147
+    }
+  ],
+  [
+    "178991158",
+    {
+      "databaseId": 178991158,
+      "nameWithOwner": "starship/starship",
+      "description": "☄🌌️  The minimal, blazing-fast, and infinitely customizable prompt for any shell!",
+      "stargazerCount": 52771,
+      "primaryLanguage": {
+        "name": "Rust"
+      },
+      "updatedAt": "2025-12-14T16:31:01Z",
+      "forkCount": 2316
+    }
+  ],
+  [
+    "66573241",
+    {
+      "databaseId": 66573241,
+      "nameWithOwner": "hyperledger/fabric",
+      "description": "Hyperledger Fabric is an enterprise-grade permissioned distributed ledger framework for developing solutions and applications. Its modular and versatile design satisfies a broad range of industry use cases. It offers a unique approach to consensus that enables performance at scale while preserving privacy.",
+      "stargazerCount": 16433,
+      "primaryLanguage": {
+        "name": "Go"
+      },
+      "updatedAt": "2025-12-14T08:37:36Z",
+      "forkCount": 9101
+    }
+  ],
+  [
+    "40310985",
+    {
+      "databaseId": 40310985,
+      "nameWithOwner": "jakearchibald/idb",
+      "description": "IndexedDB, but with promises",
+      "stargazerCount": 7165,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-14T08:41:06Z",
+      "forkCount": 382
+    }
+  ],
+  [
+    "11654790",
+    {
+      "databaseId": 11654790,
+      "nameWithOwner": "techfort/LokiJS",
+      "description": "javascript embeddable / in-memory database",
+      "stargazerCount": 6839,
+      "primaryLanguage": {
+        "name": "JavaScript"
+      },
+      "updatedAt": "2025-12-14T06:48:32Z",
+      "forkCount": 482
+    }
+  ],
+  [
+    "667110339",
+    {
+      "databaseId": 667110339,
+      "nameWithOwner": "drawdb-io/drawdb",
+      "description": "Free, simple, and intuitive online database diagram editor and SQL generator.",
+      "stargazerCount": 35148,
+      "primaryLanguage": {
+        "name": "JavaScript"
+      },
+      "updatedAt": "2025-12-14T15:03:15Z",
+      "forkCount": 2733
+    }
+  ],
+  [
+    "197018189",
+    {
+      "databaseId": 197018189,
+      "nameWithOwner": "xyflow/xyflow",
+      "description": "React Flow | Svelte Flow - Powerful open source libraries for building node-based UIs with React (https://reactflow.dev) or Svelte (https://svelteflow.dev). Ready out-of-the-box and infinitely customizable.",
+      "stargazerCount": 34214,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-14T16:33:23Z",
+      "forkCount": 2239
+    }
+  ],
+  [
+    "214874637",
+    {
+      "databaseId": 214874637,
+      "nameWithOwner": "octokit/plugin-paginate-rest.js",
+      "description": "Octokit plugin to paginate REST API endpoint responses",
+      "stargazerCount": 55,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-09T13:34:29Z",
+      "forkCount": 32
+    }
+  ],
+  [
+    "8445877",
+    {
+      "databaseId": 8445877,
+      "nameWithOwner": "github/platform-samples",
+      "description": "A public place for all platform sample projects.",
+      "stargazerCount": 2084,
+      "primaryLanguage": {
+        "name": "Shell"
+      },
+      "updatedAt": "2025-12-14T02:34:36Z",
+      "forkCount": 1821
+    }
+  ],
+  [
+    "26631293",
+    {
+      "databaseId": 26631293,
+      "nameWithOwner": "mldangelo/personal-site",
+      "description": "My personal website - built with Next for Static-Export, and GitHub Pages.",
+      "stargazerCount": 1596,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-12T01:13:29Z",
+      "forkCount": 948
+    }
+  ],
+  [
+    "536608426",
+    {
+      "databaseId": 536608426,
+      "nameWithOwner": "manuelernestog/astrofy",
+      "description": "Astrofy is a free and open-source template for your Personal Portfolio Website built with Astro and TailwindCSS. Create in minutes a website with Blog, CV, Project Section, Store and RSS Feed.",
+      "stargazerCount": 1282,
+      "primaryLanguage": {
+        "name": "Astro"
+      },
+      "updatedAt": "2025-12-11T13:40:28Z",
+      "forkCount": 423
+    }
+  ],
+  [
+    "538373370",
+    {
+      "databaseId": 538373370,
+      "nameWithOwner": "said7388/developer-portfolio",
+      "description": "Software Developer Portfolio Website built with next.js and tailwind CSS that helps you showcase your work and skills as a software developer.",
+      "stargazerCount": 2278,
+      "primaryLanguage": {
+        "name": "JavaScript"
+      },
+      "updatedAt": "2025-12-11T18:06:42Z",
+      "forkCount": 1099
+    }
+  ],
+  [
+    "121876351",
+    {
+      "databaseId": 121876351,
+      "nameWithOwner": "Authenticator-Extension/Authenticator",
+      "description": "Authenticator generates 2-Step Verification codes in your browser.",
+      "stargazerCount": 4247,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-14T11:58:38Z",
+      "forkCount": 1029
+    }
+  ],
+  [
+    "213717672",
+    {
+      "databaseId": 213717672,
+      "nameWithOwner": "octokit/graphql-action",
+      "description": "A GitHub Action to send queries to GitHub's GraphQL API",
+      "stargazerCount": 131,
+      "primaryLanguage": {
+        "name": "JavaScript"
+      },
+      "updatedAt": "2025-12-10T17:42:28Z",
+      "forkCount": 24
+    }
+  ],
+  [
+    "94911145",
+    {
+      "databaseId": 94911145,
+      "nameWithOwner": "facebook/docusaurus",
+      "description": "Easy to maintain open source documentation websites.",
+      "stargazerCount": 62987,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-14T15:13:56Z",
+      "forkCount": 9585
+    }
+  ],
+  [
+    "351321602",
+    {
+      "databaseId": 351321602,
+      "nameWithOwner": "octokit/auth-oauth-user-client.js",
+      "description": "OAuth user authentication without exposing client secret",
+      "stargazerCount": 21,
+      "primaryLanguage": null,
+      "updatedAt": "2025-12-09T13:44:24Z",
+      "forkCount": 14
+    }
+  ],
+  [
+    "191261083",
+    {
+      "databaseId": 191261083,
+      "nameWithOwner": "octokit/auth-oauth-app.js",
+      "description": "GitHub OAuth App authentication for JavaScript",
+      "stargazerCount": 73,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-09T13:32:33Z",
+      "forkCount": 15
+    }
+  ],
+  [
+    "28735637",
+    {
+      "databaseId": 28735637,
+      "nameWithOwner": "aarondl/authboss",
+      "description": "The boss of http auth.",
+      "stargazerCount": 4121,
+      "primaryLanguage": {
+        "name": "Go"
+      },
+      "updatedAt": "2025-12-14T16:11:53Z",
+      "forkCount": 222
+    }
+  ],
+  [
+    "418266120",
+    {
+      "databaseId": 418266120,
+      "nameWithOwner": "aidantwoods/go-paseto",
+      "description": "Platform-Agnostic Security Tokens implementation in Golang.",
+      "stargazerCount": 428,
+      "primaryLanguage": {
+        "name": "Go"
+      },
+      "updatedAt": "2025-11-29T12:03:37Z",
+      "forkCount": 22
+    }
+  ],
+  [
+    "48872603",
+    {
+      "databaseId": 48872603,
+      "nameWithOwner": "thewhitetulip/web-dev-golang-anti-textbook",
+      "description": "Learn how to write webapps without a framework in Go.",
+      "stargazerCount": 3235,
+      "primaryLanguage": {
+        "name": "Go"
+      },
+      "updatedAt": "2025-12-10T22:07:49Z",
+      "forkCount": 277
+    }
+  ],
+  [
+    "35093606",
+    {
+      "databaseId": 35093606,
+      "nameWithOwner": "dariubs/GoBooks",
+      "description": "List of Golang books",
+      "stargazerCount": 18880,
+      "primaryLanguage": null,
+      "updatedAt": "2025-12-14T11:13:37Z",
+      "forkCount": 2235
+    }
+  ],
+  [
+    "179577791",
+    {
+      "databaseId": 179577791,
+      "nameWithOwner": "octokit/authentication-strategies.js",
+      "description": "GitHub API authentication strategies for Browsers, Node.js, and Deno",
+      "stargazerCount": 324,
+      "primaryLanguage": null,
+      "updatedAt": "2025-12-09T13:31:27Z",
+      "forkCount": 33
+    }
+  ],
+  [
+    "510607652",
+    {
+      "databaseId": 510607652,
+      "nameWithOwner": "pocketbase/pocketbase",
+      "description": "Open Source realtime backend in 1 file",
+      "stargazerCount": 54318,
+      "primaryLanguage": {
+        "name": "Go"
+      },
+      "updatedAt": "2025-12-14T16:34:05Z",
+      "forkCount": 2953
+    }
+  ],
+  [
+    "20587599",
+    {
+      "databaseId": 20587599,
+      "nameWithOwner": "apache/flink",
+      "description": "Apache Flink",
+      "stargazerCount": 25598,
+      "primaryLanguage": {
+        "name": "Java"
+      },
+      "updatedAt": "2025-12-14T05:07:04Z",
+      "forkCount": 13805
+    }
+  ],
+  [
+    "17165658",
+    {
+      "databaseId": 17165658,
+      "nameWithOwner": "apache/spark",
+      "description": "Apache Spark - A unified analytics engine for large-scale data processing",
+      "stargazerCount": 42489,
+      "primaryLanguage": {
+        "name": "Scala"
+      },
+      "updatedAt": "2025-12-14T06:57:29Z",
+      "forkCount": 28973
+    }
+  ],
+  [
+    "322484700",
+    {
+      "databaseId": 322484700,
+      "nameWithOwner": "jj-vcs/jj",
+      "description": "A Git-compatible VCS that is both simple and powerful",
+      "stargazerCount": 23017,
+      "primaryLanguage": {
+        "name": "Rust"
+      },
+      "updatedAt": "2025-12-14T16:20:39Z",
+      "forkCount": 835
+    }
+  ],
+  [
+    "93324270",
+    {
+      "databaseId": 93324270,
+      "nameWithOwner": "shiftkey/desktop",
+      "description": "Fork of GitHub Desktop to support various Linux distributions",
+      "stargazerCount": 7670,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-14T10:38:20Z",
+      "forkCount": 565
+    }
+  ],
+  [
+    "134017286",
+    {
+      "databaseId": 134017286,
+      "nameWithOwner": "jesseduffield/lazygit",
+      "description": "simple terminal UI for git commands",
+      "stargazerCount": 69323,
+      "primaryLanguage": {
+        "name": "Go"
+      },
+      "updatedAt": "2025-12-14T16:14:55Z",
+      "forkCount": 2386
+    }
+  ],
+  [
+    "18765044",
+    {
+      "databaseId": 18765044,
+      "nameWithOwner": "golang/oauth2",
+      "description": "Go OAuth2",
+      "stargazerCount": 5776,
+      "primaryLanguage": {
+        "name": "Go"
+      },
+      "updatedAt": "2025-12-14T07:00:51Z",
+      "forkCount": 1041
+    }
+  ],
+  [
+    "10575811",
+    {
+      "databaseId": 10575811,
+      "nameWithOwner": "octokit/go-octokit",
+      "description": "Simple Go wrapper for the GitHub API",
+      "stargazerCount": 258,
+      "primaryLanguage": {
+        "name": "Go"
+      },
+      "updatedAt": "2025-12-09T13:11:42Z",
+      "forkCount": 66
+    }
+  ],
+  [
+    "10270722",
+    {
+      "databaseId": 10270722,
+      "nameWithOwner": "google/go-github",
+      "description": "Go library for accessing the GitHub v3 API",
+      "stargazerCount": 11049,
+      "primaryLanguage": {
+        "name": "Go"
+      },
+      "updatedAt": "2025-12-14T08:40:58Z",
+      "forkCount": 2195
+    }
+  ],
+  [
+    "113361906",
+    {
+      "databaseId": 113361906,
+      "nameWithOwner": "machinebox/graphql",
+      "description": "Simple low-level GraphQL HTTP client for Go",
+      "stargazerCount": 961,
+      "primaryLanguage": {
+        "name": "Go"
+      },
+      "updatedAt": "2025-11-27T10:42:51Z",
+      "forkCount": 219
+    }
+  ],
+  [
+    "71253874",
+    {
+      "databaseId": 71253874,
+      "nameWithOwner": "graph-gophers/graphql-go",
+      "description": "GraphQL server with a focus on ease of use",
+      "stargazerCount": 4743,
+      "primaryLanguage": {
+        "name": "Go"
+      },
+      "updatedAt": "2025-12-11T00:16:03Z",
+      "forkCount": 492
+    }
+  ],
+  [
+    "121086193",
+    {
+      "databaseId": 121086193,
+      "nameWithOwner": "99designs/gqlgen",
+      "description": "go generate based graphql server library",
+      "stargazerCount": 10608,
+      "primaryLanguage": {
+        "name": "Go"
+      },
+      "updatedAt": "2025-12-13T11:20:04Z",
+      "forkCount": 1240
+    }
+  ],
+  [
+    "39332913",
+    {
+      "databaseId": 39332913,
+      "nameWithOwner": "graphql-go/graphql",
+      "description": "An implementation of GraphQL for Go / Golang",
+      "stargazerCount": 10137,
+      "primaryLanguage": {
+        "name": "Go"
+      },
+      "updatedAt": "2025-12-13T23:19:03Z",
+      "forkCount": 850
+    }
+  ],
+  [
+    "21540759",
+    {
+      "databaseId": 21540759,
+      "nameWithOwner": "avelino/awesome-go",
+      "description": "A curated list of awesome Go frameworks, libraries and software",
+      "stargazerCount": 159924,
+      "primaryLanguage": {
+        "name": "Go"
+      },
+      "updatedAt": "2025-12-14T16:43:27Z",
+      "forkCount": 12816
+    }
+  ],
+  [
+    "285864199",
+    {
+      "databaseId": 285864199,
+      "nameWithOwner": "zeromicro/go-zero",
+      "description": "A cloud-native Go microservices framework with cli tool for productivity.",
+      "stargazerCount": 32277,
+      "primaryLanguage": {
+        "name": "Go"
+      },
+      "updatedAt": "2025-12-14T13:40:12Z",
+      "forkCount": 4246
+    }
+  ],
+  [
+    "11180687",
+    {
+      "databaseId": 11180687,
+      "nameWithOwner": "gohugoio/hugo",
+      "description": "The world’s fastest framework for building websites.",
+      "stargazerCount": 85362,
+      "primaryLanguage": {
+        "name": "Go"
+      },
+      "updatedAt": "2025-12-14T15:22:32Z",
+      "forkCount": 8137
+    }
+  ],
+  [
+    "17803236",
+    {
+      "databaseId": 17803236,
+      "nameWithOwner": "rclone/rclone",
+      "description": "\"rsync for cloud storage\" - Google Drive, S3, Dropbox, Backblaze B2, One Drive, Swift, Hubic, Wasabi, Google Cloud Storage, Azure Blob, Azure Files, Yandex Files",
+      "stargazerCount": 54072,
+      "primaryLanguage": {
+        "name": "Go"
+      },
+      "updatedAt": "2025-12-14T16:18:32Z",
+      "forkCount": 4795
+    }
+  ],
+  [
+    "356677177",
+    {
+      "databaseId": 356677177,
+      "nameWithOwner": "a-h/templ",
+      "description": "A language for writing HTML user interfaces in Go.",
+      "stargazerCount": 9890,
+      "primaryLanguage": {
+        "name": "Go"
+      },
+      "updatedAt": "2025-12-14T06:58:49Z",
+      "forkCount": 336
+    }
+  ],
+  [
+    "314823175",
+    {
+      "databaseId": 314823175,
+      "nameWithOwner": "doge1338/fractal",
+      "description": "A small mandelbrot set renderer in Go",
+      "stargazerCount": 277,
+      "primaryLanguage": {
+        "name": "Go"
+      },
+      "updatedAt": "2025-12-11T23:59:18Z",
+      "forkCount": 26
+    }
+  ],
+  [
+    "255378816",
+    {
+      "databaseId": 255378816,
+      "nameWithOwner": "bigskysoftware/htmx",
+      "description": "</> htmx - high power tools for HTML",
+      "stargazerCount": 46788,
+      "primaryLanguage": {
+        "name": "JavaScript"
+      },
+      "updatedAt": "2025-12-14T15:21:03Z",
+      "forkCount": 1552
+    }
+  ],
+  [
+    "873694083",
+    {
+      "databaseId": 873694083,
+      "nameWithOwner": "twelve-factor/twelve-factor",
+      "description": "The Twelve-Factor Manifesto",
+      "stargazerCount": 1920,
+      "primaryLanguage": null,
+      "updatedAt": "2025-12-14T13:17:09Z",
+      "forkCount": 162
+    }
+  ],
+  [
+    "774034833",
+    {
+      "databaseId": 774034833,
+      "nameWithOwner": "sikozonpc/ecom",
+      "description": "E-commerce REST API in Go",
+      "stargazerCount": 302,
+      "primaryLanguage": {
+        "name": "Go"
+      },
+      "updatedAt": "2025-12-11T12:08:44Z",
+      "forkCount": 73
+    }
+  ],
+  [
+    "462627017",
+    {
+      "databaseId": 462627017,
+      "nameWithOwner": "gofiber/awesome-fiber",
+      "description": "✨ A curated list of awesome Fiber middlewares, boilerplates, recipes, articles and tools.",
+      "stargazerCount": 759,
+      "primaryLanguage": null,
+      "updatedAt": "2025-12-13T21:57:20Z",
+      "forkCount": 51
+    }
+  ],
+  [
+    "44344606",
+    {
+      "databaseId": 44344606,
+      "nameWithOwner": "go-chi/chi",
+      "description": "lightweight, idiomatic and composable router for building Go HTTP services",
+      "stargazerCount": 21126,
+      "primaryLanguage": {
+        "name": "Go"
+      },
+      "updatedAt": "2025-12-14T16:02:04Z",
+      "forkCount": 1059
+    }
+  ],
+  [
+    "49662222",
+    {
+      "databaseId": 49662222,
+      "nameWithOwner": "oracle/graal",
+      "description": "GraalVM compiles applications into native executables that start instantly, scale fast, and use fewer compute resources 🚀",
+      "stargazerCount": 21362,
+      "primaryLanguage": {
+        "name": "Java"
+      },
+      "updatedAt": "2025-12-14T16:13:21Z",
+      "forkCount": 1761
+    }
+  ],
+  [
+    "726506825",
+    {
+      "databaseId": 726506825,
+      "nameWithOwner": "HuXn-WebDev/Golang-Complete-Course",
+      "description": "Everything you need to become a Golang MONSTER 💙",
+      "stargazerCount": 92,
+      "primaryLanguage": {
+        "name": "Go"
+      },
+      "updatedAt": "2025-11-25T14:13:03Z",
+      "forkCount": 28
+    }
+  ],
+  [
+    "834149946",
+    {
+      "databaseId": 834149946,
+      "nameWithOwner": "dreamsofcode-io/goprojects",
+      "description": null,
+      "stargazerCount": 633,
+      "primaryLanguage": {
+        "name": "CSS"
+      },
+      "updatedAt": "2025-12-14T10:17:08Z",
+      "forkCount": 114
+    }
+  ],
+  [
+    "635051088",
+    {
+      "databaseId": 635051088,
+      "nameWithOwner": "bootdotdev/fcc-learn-golang-assets",
+      "description": "A snapshot of the assets for the Learn Go course on FreeCodeCamp's youtube",
+      "stargazerCount": 423,
+      "primaryLanguage": {
+        "name": "Go"
+      },
+      "updatedAt": "2025-12-07T13:33:57Z",
+      "forkCount": 278
+    }
+  ],
+  [
+    "6887813",
+    {
+      "databaseId": 6887813,
+      "nameWithOwner": "crystal-lang/crystal",
+      "description": "The Crystal Programming Language",
+      "stargazerCount": 20094,
+      "primaryLanguage": {
+        "name": "Crystal"
+      },
+      "updatedAt": "2025-12-14T01:59:39Z",
+      "forkCount": 1656
+    }
+  ],
+  [
+    "106704041",
+    {
+      "databaseId": 106704041,
+      "nameWithOwner": "air-verse/air",
+      "description": "☁️ Live reload for Go apps",
+      "stargazerCount": 22475,
+      "primaryLanguage": {
+        "name": "Go"
+      },
+      "updatedAt": "2025-12-14T16:13:52Z",
+      "forkCount": 898
+    }
+  ],
+  [
+    "795730130",
+    {
+      "databaseId": 795730130,
+      "nameWithOwner": "burakorkmez/react-go-tutorial",
+      "description": null,
+      "stargazerCount": 320,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-11T23:07:36Z",
+      "forkCount": 74
+    }
+  ],
+  [
+    "62341543",
+    {
+      "databaseId": 62341543,
+      "nameWithOwner": "gleam-lang/gleam",
+      "description": "⭐️ A friendly language for building type-safe, scalable systems!",
+      "stargazerCount": 20771,
+      "primaryLanguage": {
+        "name": "Rust"
+      },
+      "updatedAt": "2025-12-14T16:36:40Z",
+      "forkCount": 895
+    }
+  ],
+  [
+    "724712",
+    {
+      "databaseId": 724712,
+      "nameWithOwner": "rust-lang/rust",
+      "description": "Empowering everyone to build reliable and efficient software.",
+      "stargazerCount": 108499,
+      "primaryLanguage": {
+        "name": "Rust"
+      },
+      "updatedAt": "2025-12-14T16:39:13Z",
+      "forkCount": 14153
+    }
+  ],
+  [
+    "67836789",
+    {
+      "databaseId": 67836789,
+      "nameWithOwner": "tokio-rs/tokio",
+      "description": "A runtime for writing reliable asynchronous applications with Rust. Provides I/O, networking, scheduling, timers, ...",
+      "stargazerCount": 30502,
+      "primaryLanguage": {
+        "name": "Rust"
+      },
+      "updatedAt": "2025-12-14T14:23:04Z",
+      "forkCount": 2855
+    }
+  ],
+  [
+    "23500865",
+    {
+      "databaseId": 23500865,
+      "nameWithOwner": "hyperium/hyper",
+      "description": "An HTTP library for Rust",
+      "stargazerCount": 15759,
+      "primaryLanguage": {
+        "name": "Rust"
+      },
+      "updatedAt": "2025-12-14T13:50:07Z",
+      "forkCount": 1693
+    }
+  ],
+  [
+    "7083242",
+    {
+      "databaseId": 7083242,
+      "nameWithOwner": "go-sql-driver/mysql",
+      "description": "Go MySQL Driver is a MySQL driver for Go's (golang) database/sql package",
+      "stargazerCount": 15334,
+      "primaryLanguage": {
+        "name": "Go"
+      },
+      "updatedAt": "2025-12-14T14:59:49Z",
+      "forkCount": 2339
+    }
+  ],
+  [
+    "6051812",
+    {
+      "databaseId": 6051812,
+      "nameWithOwner": "gorilla/mux",
+      "description": "Package gorilla/mux is a powerful HTTP router and URL matcher for building Go web servers with 🦍",
+      "stargazerCount": 21743,
+      "primaryLanguage": {
+        "name": "Go"
+      },
+      "updatedAt": "2025-12-13T11:37:45Z",
+      "forkCount": 1880
+    }
+  ],
+  [
+    "471780567",
+    {
+      "databaseId": 471780567,
+      "nameWithOwner": "codewithsadee/vcard-personal-portfolio",
+      "description": "vCard is a fully responsive personal portfolio website, responsive for all devices.",
+      "stargazerCount": 7335,
+      "primaryLanguage": {
+        "name": "HTML"
+      },
+      "updatedAt": "2025-12-14T14:24:15Z",
+      "forkCount": 3915
+    }
+  ],
+  [
+    "102969245",
+    {
+      "databaseId": 102969245,
+      "nameWithOwner": "golang-standards/project-layout",
+      "description": "Standard Go Project Layout",
+      "stargazerCount": 54733,
+      "primaryLanguage": {
+        "name": "Makefile"
+      },
+      "updatedAt": "2025-12-14T13:02:37Z",
+      "forkCount": 5417
+    }
+  ],
+  [
+    "6838921",
+    {
+      "databaseId": 6838921,
+      "nameWithOwner": "prometheus/prometheus",
+      "description": "The Prometheus monitoring system and time series database.",
+      "stargazerCount": 61724,
+      "primaryLanguage": {
+        "name": "Go"
+      },
+      "updatedAt": "2025-12-14T13:30:37Z",
+      "forkCount": 9995
+    }
+  ],
+  [
+    "31504491",
+    {
+      "databaseId": 31504491,
+      "nameWithOwner": "labstack/echo",
+      "description": "High performance, minimalist Go web framework",
+      "stargazerCount": 31917,
+      "primaryLanguage": {
+        "name": "Go"
+      },
+      "updatedAt": "2025-12-14T13:58:59Z",
+      "forkCount": 2307
+    }
+  ],
+  [
+    "234231371",
+    {
+      "databaseId": 234231371,
+      "nameWithOwner": "gofiber/fiber",
+      "description": "⚡️ Express inspired web framework written in Go",
+      "stargazerCount": 38732,
+      "primaryLanguage": {
+        "name": "Go"
+      },
+      "updatedAt": "2025-12-14T15:45:02Z",
+      "forkCount": 1922
+    }
+  ],
+  [
+    "20904437",
+    {
+      "databaseId": 20904437,
+      "nameWithOwner": "gin-gonic/gin",
+      "description": "Gin is a high-performance HTTP web framework written in Go. It provides a Martini-like API but with significantly better performance—up to 40 times faster—thanks to httprouter. Gin is designed for building REST APIs, web applications, and microservices.",
+      "stargazerCount": 87367,
+      "primaryLanguage": {
+        "name": "Go"
+      },
+      "updatedAt": "2025-12-14T16:12:57Z",
+      "forkCount": 8504
+    }
+  ],
+  [
+    "469392857",
+    {
+      "databaseId": 469392857,
+      "nameWithOwner": "mhsohan/How-to-download-protected-view-only-files-from-google-drive-",
+      "description": null,
+      "stargazerCount": 85,
+      "primaryLanguage": null,
+      "updatedAt": "2025-12-11T04:13:33Z",
+      "forkCount": 17
+    }
+  ],
+  [
+    "350360184",
+    {
+      "databaseId": 350360184,
+      "nameWithOwner": "calcom/cal.com",
+      "description": "Scheduling infrastructure for absolutely everyone.",
+      "stargazerCount": 39186,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-14T15:47:58Z",
+      "forkCount": 11281
+    }
+  ],
+  [
+    "677113240",
+    {
+      "databaseId": 677113240,
+      "nameWithOwner": "HuXn-WebDev/Zero-To-FullStack-JS-Course",
+      "description": "Everything you need to become a Full Stack JavaScript MONSTER 💛",
+      "stargazerCount": 741,
+      "primaryLanguage": {
+        "name": "JavaScript"
+      },
+      "updatedAt": "2025-12-13T00:21:11Z",
+      "forkCount": 275
+    }
+  ],
+  [
+    "146468829",
+    {
+      "databaseId": 146468829,
+      "nameWithOwner": "Nozbe/WatermelonDB",
+      "description": "🍉 Reactive & asynchronous database for powerful React and React Native apps ⚡️",
+      "stargazerCount": 11405,
+      "primaryLanguage": {
+        "name": "JavaScript"
+      },
+      "updatedAt": "2025-12-14T11:42:53Z",
+      "forkCount": 634
+    }
+  ],
+  [
+    "75425073",
+    {
+      "databaseId": 75425073,
+      "nameWithOwner": "pubkey/rxdb",
+      "description": "A fast, local first, reactive Database for JavaScript Applications https://rxdb.info/",
+      "stargazerCount": 22867,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-14T05:58:20Z",
+      "forkCount": 1142
+    }
+  ],
+  [
+    "3214406",
+    {
+      "databaseId": 3214406,
+      "nameWithOwner": "meteor/meteor",
+      "description": "Meteor, the JavaScript App Platform",
+      "stargazerCount": 44756,
+      "primaryLanguage": {
+        "name": "JavaScript"
+      },
+      "updatedAt": "2025-12-14T16:18:13Z",
+      "forkCount": 5258
+    }
+  ],
+  [
+    "22475123",
+    {
+      "databaseId": 22475123,
+      "nameWithOwner": "amark/gun",
+      "description": "An open source cybersecurity protocol for syncing decentralized graph data.",
+      "stargazerCount": 18797,
+      "primaryLanguage": {
+        "name": "JavaScript"
+      },
+      "updatedAt": "2025-12-14T07:46:43Z",
+      "forkCount": 1220
+    }
+  ],
+  [
+    "206417",
+    {
+      "databaseId": 206417,
+      "nameWithOwner": "apache/couchdb",
+      "description": "Seamless multi-primary syncing database with an intuitive HTTP/JSON API, designed for reliability",
+      "stargazerCount": 6753,
+      "primaryLanguage": {
+        "name": "Erlang"
+      },
+      "updatedAt": "2025-12-13T10:43:27Z",
+      "forkCount": 1061
+    }
+  ],
+  [
+    "714074",
+    {
+      "databaseId": 714074,
+      "nameWithOwner": "apache/pouchdb",
+      "description": ":kangaroo: - PouchDB is a pocket-sized database.",
+      "stargazerCount": 17494,
+      "primaryLanguage": {
+        "name": "JavaScript"
+      },
+      "updatedAt": "2025-12-12T10:17:05Z",
+      "forkCount": 1502
+    }
+  ],
+  [
+    "231921809",
+    {
+      "databaseId": 231921809,
+      "nameWithOwner": "supertokens/supertokens-core",
+      "description": "Open source alternative to Auth0 / Firebase Auth / AWS Cognito ",
+      "stargazerCount": 14774,
+      "primaryLanguage": {
+        "name": "Java"
+      },
+      "updatedAt": "2025-12-14T05:48:11Z",
+      "forkCount": 633
+    }
+  ],
+  [
+    "2540368",
+    {
+      "databaseId": 2540368,
+      "nameWithOwner": "jaredhanson/passport",
+      "description": "Simple, unobtrusive authentication for Node.js.",
+      "stargazerCount": 23466,
+      "primaryLanguage": {
+        "name": "JavaScript"
+      },
+      "updatedAt": "2025-12-13T13:05:53Z",
+      "forkCount": 1247
+    }
+  ],
+  [
+    "184064793",
+    {
+      "databaseId": 184064793,
+      "nameWithOwner": "decalage2/awesome-security-hardening",
+      "description": "A collection of awesome security hardening guides, tools and other resources",
+      "stargazerCount": 6036,
+      "primaryLanguage": null,
+      "updatedAt": "2025-12-14T02:40:59Z",
+      "forkCount": 620
+    }
+  ],
+  [
+    "285092252",
+    {
+      "databaseId": 285092252,
+      "nameWithOwner": "sst/sst",
+      "description": "Build full-stack apps on your own infrastructure.",
+      "stargazerCount": 24998,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-14T06:16:44Z",
+      "forkCount": 1971
+    }
+  ],
+  [
+    "191432321",
+    {
+      "databaseId": 191432321,
+      "nameWithOwner": "octokit/auth-app.js",
+      "description": "GitHub App authentication for JavaScript",
+      "stargazerCount": 169,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-09T13:32:33Z",
+      "forkCount": 59
+    }
+  ],
+  [
+    "887503379",
+    {
+      "databaseId": 887503379,
+      "nameWithOwner": "sst/openauth",
+      "description": "▦ Universal, standards-based auth provider.",
+      "stargazerCount": 6231,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-14T16:24:20Z",
+      "forkCount": 217
+    }
+  ],
+  [
+    "737204897",
+    {
+      "databaseId": 737204897,
+      "nameWithOwner": "speedyapply/2026-SWE-College-Jobs",
+      "description": "2026 SWE internship & new graduate job list updated daily",
+      "stargazerCount": 6471,
+      "primaryLanguage": null,
+      "updatedAt": "2025-12-14T12:50:31Z",
+      "forkCount": 320
+    }
+  ],
+  [
+    "205262760",
+    {
+      "databaseId": 205262760,
+      "nameWithOwner": "actions/github-script",
+      "description": "Write workflows scripting the GitHub API in JavaScript",
+      "stargazerCount": 4799,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-11T17:17:18Z",
+      "forkCount": 527
+    }
+  ],
+  [
+    "159005645",
+    {
+      "databaseId": 159005645,
+      "nameWithOwner": "octokit/graphql.js",
+      "description": "GitHub GraphQL API client for browsers and Node",
+      "stargazerCount": 493,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-09T13:29:18Z",
+      "forkCount": 90
+    }
+  ],
+  [
+    "118695306",
+    {
+      "databaseId": 118695306,
+      "nameWithOwner": "urql-graphql/urql",
+      "description": "The highly customizable and versatile GraphQL client with which you add on features like normalized caching as you grow.",
+      "stargazerCount": 8905,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-12T17:51:54Z",
+      "forkCount": 475
+    }
+  ],
+  [
+    "182299236",
+    {
+      "databaseId": 182299236,
+      "nameWithOwner": "actions/toolkit",
+      "description": "The GitHub ToolKit for developing GitHub Actions.",
+      "stargazerCount": 5560,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-14T10:38:42Z",
+      "forkCount": 1663
+    }
+  ],
+  [
+    "153500249",
+    {
+      "databaseId": 153500249,
+      "nameWithOwner": "sdras/awesome-actions",
+      "description": "A curated list of awesome actions to use on GitHub",
+      "stargazerCount": 27192,
+      "primaryLanguage": null,
+      "updatedAt": "2025-12-14T09:26:20Z",
+      "forkCount": 1574
+    }
+  ],
+  [
+    "163883279",
+    {
+      "databaseId": 163883279,
+      "nameWithOwner": "nektos/act",
+      "description": "Run your GitHub Actions locally 🚀",
+      "stargazerCount": 67566,
+      "primaryLanguage": {
+        "name": "Go"
+      },
+      "updatedAt": "2025-12-14T15:17:06Z",
+      "forkCount": 1802
+    }
+  ],
+  [
+    "193558319",
+    {
+      "databaseId": 193558319,
+      "nameWithOwner": "actions/typescript-action",
+      "description": "Create a TypeScript Action with tests, linting, workflow, publishing, and versioning",
+      "stargazerCount": 2353,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-13T15:47:55Z",
+      "forkCount": 564
+    }
+  ],
+  [
+    "190416463",
+    {
+      "databaseId": 190416463,
+      "nameWithOwner": "actions/runner-images",
+      "description": "GitHub Actions runner images",
+      "stargazerCount": 12232,
+      "primaryLanguage": {
+        "name": "PowerShell"
+      },
+      "updatedAt": "2025-12-14T13:48:02Z",
+      "forkCount": 3619
+    }
+  ],
+  [
+    "199488860",
+    {
+      "databaseId": 199488860,
+      "nameWithOwner": "actions/starter-workflows",
+      "description": "Accelerating new GitHub Actions workflows ",
+      "stargazerCount": 11019,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-14T11:00:50Z",
+      "forkCount": 6644
+    }
+  ],
+  [
+    "36633370",
+    {
+      "databaseId": 36633370,
+      "nameWithOwner": "awesome-selfhosted/awesome-selfhosted",
+      "description": "A list of Free Software network services and web applications which can be hosted on your own servers",
+      "stargazerCount": 262924,
+      "primaryLanguage": null,
+      "updatedAt": "2025-12-14T16:33:59Z",
+      "forkCount": 12088
+    }
+  ],
+  [
+    "329869031",
+    {
+      "databaseId": 329869031,
+      "nameWithOwner": "simonecorsi/mawesome",
+      "description": "😎 Github action to generate your own awesome list from project you've starred ordered by languages!",
+      "stargazerCount": 122,
+      "primaryLanguage": {
+        "name": "JavaScript"
+      },
+      "updatedAt": "2025-12-04T05:32:18Z",
+      "forkCount": 6
+    }
+  ],
+  [
+    "5351666",
+    {
+      "databaseId": 5351666,
+      "nameWithOwner": "mozilla/nunjucks",
+      "description": "A powerful templating engine with inheritance, asynchronous control, and more (jinja2 inspired)",
+      "stargazerCount": 8840,
+      "primaryLanguage": {
+        "name": "JavaScript"
+      },
+      "updatedAt": "2025-12-13T16:00:02Z",
+      "forkCount": 648
+    }
+  ],
+  [
+    "156353247",
+    {
+      "databaseId": 156353247,
+      "nameWithOwner": "panva/jose",
+      "description": "JWA, JWS, JWE, JWT, JWK, JWKS for Node.js, Browser, Cloudflare Workers, Deno, Bun, and other Web-interoperable runtimes",
+      "stargazerCount": 7160,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-12T15:01:22Z",
+      "forkCount": 358
+    }
+  ],
+  [
+    "11081405",
+    {
+      "databaseId": 11081405,
+      "nameWithOwner": "auth0/node-jsonwebtoken",
+      "description": "JsonWebToken implementation for node.js http://self-issued.info/docs/draft-ietf-oauth-json-web-token.html",
+      "stargazerCount": 18119,
+      "primaryLanguage": {
+        "name": "JavaScript"
+      },
+      "updatedAt": "2025-12-14T04:13:30Z",
+      "forkCount": 1257
+    }
+  ],
+  [
+    "790207054",
+    {
+      "databaseId": 790207054,
+      "nameWithOwner": "better-auth/better-fetch",
+      "description": "Advanced fetch wrapper for typescript",
+      "stargazerCount": 902,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-14T15:21:44Z",
+      "forkCount": 41
+    }
+  ],
+  [
+    "892884163",
+    {
+      "databaseId": 892884163,
+      "nameWithOwner": "sadmann7/diceui",
+      "description": "Accessible shadcn/ui components built with React, TypeScript, and Tailwind CSS. Copy-paste ready, and customizable.",
+      "stargazerCount": 1577,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-14T14:20:15Z",
+      "forkCount": 55
+    }
+  ],
+  [
+    "959473422",
+    {
+      "databaseId": 959473422,
+      "nameWithOwner": "The-Pocket/PocketFlow-Tutorial-Codebase-Knowledge",
+      "description": "Pocket Flow: Codebase to Tutorial",
+      "stargazerCount": 11887,
+      "primaryLanguage": {
+        "name": "Python"
+      },
+      "updatedAt": "2025-12-14T12:18:23Z",
+      "forkCount": 1373
+    }
+  ],
+  [
+    "669879380",
+    {
+      "databaseId": 669879380,
+      "nameWithOwner": "rasbt/LLMs-from-scratch",
+      "description": "Implement a ChatGPT-like LLM in PyTorch from scratch, step by step",
+      "stargazerCount": 80982,
+      "primaryLanguage": {
+        "name": "Jupyter Notebook"
+      },
+      "updatedAt": "2025-12-14T16:20:47Z",
+      "forkCount": 12085
+    }
+  ],
+  [
+    "19620844",
+    {
+      "databaseId": 19620844,
+      "nameWithOwner": "ovity/octotree",
+      "description": "GitHub on steroids",
+      "stargazerCount": 23112,
+      "primaryLanguage": {
+        "name": "JavaScript"
+      },
+      "updatedAt": "2025-12-13T12:29:01Z",
+      "forkCount": 1790
+    }
+  ],
+  [
+    "51769689",
+    {
+      "databaseId": 51769689,
+      "nameWithOwner": "refined-github/refined-github",
+      "description": ":octocat: Browser extension that simplifies the GitHub interface and adds useful features",
+      "stargazerCount": 29894,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-14T13:45:58Z",
+      "forkCount": 1635
+    }
+  ],
+  [
+    "119811010",
+    {
+      "databaseId": 119811010,
+      "nameWithOwner": "tabler/tabler",
+      "description": "Tabler is free and open-source HTML Dashboard UI Kit built on Bootstrap",
+      "stargazerCount": 40503,
+      "primaryLanguage": {
+        "name": "HTML"
+      },
+      "updatedAt": "2025-12-14T14:03:33Z",
+      "forkCount": 4314
+    }
+  ],
+  [
+    "28407613",
+    {
+      "databaseId": 28407613,
+      "nameWithOwner": "ag-grid/ag-grid",
+      "description": "The best JavaScript Data Table for building Enterprise Applications. Supports React / Angular / Vue / Plain JavaScript.",
+      "stargazerCount": 14831,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-14T16:39:30Z",
+      "forkCount": 2031
+    }
+  ],
+  [
+    "444635962",
+    {
+      "databaseId": 444635962,
+      "nameWithOwner": "KevinVandy/material-react-table",
+      "description": "A fully featured Material UI V5 implementation of TanStack React Table V8, written from the ground up in TypeScript",
+      "stargazerCount": 1767,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-13T17:08:15Z",
+      "forkCount": 522
+    }
+  ],
+  [
+    "796549977",
+    {
+      "databaseId": 796549977,
+      "nameWithOwner": "mjm918/React-Advance-Table",
+      "description": "React advance table example using TanStack React Table & React Query. A featureful example of react table. Sharing it on github so you won't have to do it from scratch",
+      "stargazerCount": 35,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-11-30T08:09:45Z",
+      "forkCount": 16
+    }
+  ],
+  [
+    "236095576",
+    {
+      "databaseId": 236095576,
+      "nameWithOwner": "backstage/backstage",
+      "description": "Backstage is an open framework for building developer portals",
+      "stargazerCount": 32095,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-14T05:13:29Z",
+      "forkCount": 6974
+    }
+  ],
+  [
+    "230594139",
+    {
+      "databaseId": 230594139,
+      "nameWithOwner": "fullstack-hy2020/fullstack-hy2020.github.io",
+      "description": null,
+      "stargazerCount": 1974,
+      "primaryLanguage": {
+        "name": "JavaScript"
+      },
+      "updatedAt": "2025-12-14T16:28:39Z",
+      "forkCount": 5119
+    }
+  ],
+  [
+    "145399427",
+    {
+      "databaseId": 145399427,
+      "nameWithOwner": "PeterCxy/Shelter",
+      "description": "This repository is a mirror of https://gitea.angry.im/PeterCxy/Shelter. For bug reports, use https://lists.sr.ht/~petercxy/shelter",
+      "stargazerCount": 3098,
+      "primaryLanguage": {
+        "name": "Java"
+      },
+      "updatedAt": "2025-12-14T05:22:02Z",
+      "forkCount": 219
+    }
+  ],
+  [
+    "942771284",
+    {
+      "databaseId": 942771284,
+      "nameWithOwner": "github/github-mcp-server",
+      "description": "GitHub's official MCP Server",
+      "stargazerCount": 25153,
+      "primaryLanguage": {
+        "name": "Go"
+      },
+      "updatedAt": "2025-12-14T15:05:37Z",
+      "forkCount": 3203
+    }
+  ],
+  [
+    "56899284",
+    {
+      "databaseId": 56899284,
+      "nameWithOwner": "Kong/insomnia",
+      "description": "The open-source, cross-platform API client for GraphQL, REST, WebSockets, SSE and gRPC. With Cloud, Local and Git storage.",
+      "stargazerCount": 37671,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-14T14:01:09Z",
+      "forkCount": 2188
+    }
+  ],
+  [
+    "191051391",
+    {
+      "databaseId": 191051391,
+      "nameWithOwner": "redwoodjs/graphql",
+      "description": "RedwoodGraphQL",
+      "stargazerCount": 17648,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-14T14:18:50Z",
+      "forkCount": 1014
+    }
+  ],
+  [
+    "28566982",
+    {
+      "databaseId": 28566982,
+      "nameWithOwner": "gpbl/react-day-picker",
+      "description": "DayPicker is a customizable date picker component for React. Add date pickers, calendars, and date inputs to your web applications.",
+      "stargazerCount": 6669,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-13T01:13:07Z",
+      "forkCount": 760
+    }
+  ],
+  [
+    "75657790",
+    {
+      "databaseId": 75657790,
+      "nameWithOwner": "dotansimha/graphql-code-generator",
+      "description": "A tool for generating code based on a GraphQL schema and GraphQL operations (query/mutation/subscription), with flexible support for custom plugins. ",
+      "stargazerCount": 11184,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-14T16:11:04Z",
+      "forkCount": 1393
+    }
+  ],
+  [
+    "90903705",
+    {
+      "databaseId": 90903705,
+      "nameWithOwner": "graffle-js/graffle",
+      "description": "Simple GraphQL Client for JavaScript. Minimal. Extensible. Type Safe. Runs everywhere.",
+      "stargazerCount": 6087,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-12T21:01:28Z",
+      "forkCount": 310
+    }
+  ],
+  [
+    "28468993",
+    {
+      "databaseId": 28468993,
+      "nameWithOwner": "curlconverter/curlconverter",
+      "description": "Transpile curl commands into Python, JavaScript and 27 other languages",
+      "stargazerCount": 8034,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-10T05:25:16Z",
+      "forkCount": 1010
+    }
+  ],
+  [
+    "60024365",
+    {
+      "databaseId": 60024365,
+      "nameWithOwner": "alshedivat/al-folio",
+      "description": "A beautiful, simple, clean, and responsive Jekyll theme for academics",
+      "stargazerCount": 14704,
+      "primaryLanguage": {
+        "name": "HTML"
+      },
+      "updatedAt": "2025-12-14T15:14:47Z",
+      "forkCount": 12602
+    }
+  ],
+  [
+    "10267810",
+    {
+      "databaseId": 10267810,
+      "nameWithOwner": "mmistakes/minimal-mistakes",
+      "description": ":triangular_ruler: Jekyll theme for building a personal site, blog, project documentation, or portfolio.",
+      "stargazerCount": 13314,
+      "primaryLanguage": {
+        "name": "HTML"
+      },
+      "updatedAt": "2025-12-14T03:56:47Z",
+      "forkCount": 27305
+    }
+  ],
+  [
+    "194216404",
+    {
+      "databaseId": 194216404,
+      "nameWithOwner": "cobiwave/simplefolio",
+      "description": "⚡️ A minimal portfolio template for Developers",
+      "stargazerCount": 14065,
+      "primaryLanguage": {
+        "name": "SCSS"
+      },
+      "updatedAt": "2025-12-14T14:00:49Z",
+      "forkCount": 6054
+    }
+  ],
+  [
+    "52630616",
+    {
+      "databaseId": 52630616,
+      "nameWithOwner": "apollographql/apollo-client",
+      "description": "The industry-leading GraphQL client for TypeScript, JavaScript, React, Vue, Angular, and more. Apollo Client delivers powerful caching, intuitive APIs, and comprehensive developer tools to accelerate your app development.",
+      "stargazerCount": 19682,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-14T09:55:52Z",
+      "forkCount": 2697
+    }
+  ],
+  [
+    "40518025",
+    {
+      "databaseId": 40518025,
+      "nameWithOwner": "graphql/graphiql",
+      "description": "GraphiQL & the GraphQL LSP Reference Ecosystem for building browser & IDE tools.",
+      "stargazerCount": 16733,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-14T14:37:47Z",
+      "forkCount": 1800
+    }
+  ],
+  [
+    "30941532",
+    {
+      "databaseId": 30941532,
+      "nameWithOwner": "intel/acat",
+      "description": "Assistive Context-Aware Toolkit (ACAT)",
+      "stargazerCount": 3222,
+      "primaryLanguage": {
+        "name": "C#"
+      },
+      "updatedAt": "2025-12-13T00:00:42Z",
+      "forkCount": 616
+    }
+  ],
+  [
+    "50683765",
+    {
+      "databaseId": 50683765,
+      "nameWithOwner": "opencollective/opencollective",
+      "description": "We're tracking all our Issues, RFCs and a few other documents in this repository.",
+      "stargazerCount": 2209,
+      "primaryLanguage": null,
+      "updatedAt": "2025-12-13T16:25:18Z",
+      "forkCount": 430
+    }
+  ],
+  [
+    "75088956",
+    {
+      "databaseId": 75088956,
+      "nameWithOwner": "APIs-guru/graphql-voyager",
+      "description": "🛰️ Represent any GraphQL API as an interactive graph",
+      "stargazerCount": 8055,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-14T10:22:16Z",
+      "forkCount": 542
+    }
+  ],
+  [
+    "137724480",
+    {
+      "databaseId": 137724480,
+      "nameWithOwner": "hasura/graphql-engine",
+      "description": "Blazing fast, instant realtime GraphQL APIs on all your data with fine grained access control, also trigger webhooks on database events.",
+      "stargazerCount": 31837,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-13T17:30:39Z",
+      "forkCount": 2854
+    }
+  ],
+  [
+    "1584707",
+    {
+      "databaseId": 1584707,
+      "nameWithOwner": "vpulim/node-soap",
+      "description": "A SOAP client and server for node.js.",
+      "stargazerCount": 3039,
+      "primaryLanguage": {
+        "name": "JavaScript"
+      },
+      "updatedAt": "2025-12-12T13:22:28Z",
+      "forkCount": 1498
+    }
+  ],
+  [
+    "14747598",
+    {
+      "databaseId": 14747598,
+      "nameWithOwner": "typicode/json-server",
+      "description": "Get a full fake REST API with zero coding in less than 30 seconds (seriously)",
+      "stargazerCount": 75449,
+      "primaryLanguage": {
+        "name": "JavaScript"
+      },
+      "updatedAt": "2025-12-14T10:01:29Z",
+      "forkCount": 7265
+    }
+  ],
+  [
+    "45821540",
+    {
+      "databaseId": 45821540,
+      "nameWithOwner": "openwrt/openwrt",
+      "description": "This repository is a mirror of https://git.openwrt.org/openwrt/openwrt.git It is for reference only and is not active for check-ins.  We will continue to accept Pull Requests here. They will be merged via staging trees then into openwrt.git.",
+      "stargazerCount": 24791,
+      "primaryLanguage": {
+        "name": "C"
+      },
+      "updatedAt": "2025-12-14T15:57:21Z",
+      "forkCount": 11823
+    }
+  ],
+  [
+    "775743011",
+    {
+      "databaseId": 775743011,
+      "nameWithOwner": "valkey-io/valkey",
+      "description": "A flexible distributed key-value database that is optimized for caching and other realtime workloads.",
+      "stargazerCount": 23936,
+      "primaryLanguage": {
+        "name": "C"
+      },
+      "updatedAt": "2025-12-14T16:18:52Z",
+      "forkCount": 965
+    }
+  ],
+  [
+    "784949119",
+    {
+      "databaseId": 784949119,
+      "nameWithOwner": "sersavan/shadcn-multi-select-component",
+      "description": "A multi-select component designed with shadcn/ui",
+      "stargazerCount": 2028,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-14T12:28:56Z",
+      "forkCount": 86
+    }
+  ],
+  [
+    "19872456",
+    {
+      "databaseId": 19872456,
+      "nameWithOwner": "remix-run/react-router",
+      "description": "Declarative routing for React",
+      "stargazerCount": 56022,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-14T13:11:46Z",
+      "forkCount": 10807
+    }
+  ],
+  [
+    "218115303",
+    {
+      "databaseId": 218115303,
+      "nameWithOwner": "vercel/swr",
+      "description": "React Hooks for Data Fetching",
+      "stargazerCount": 32208,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-14T08:41:35Z",
+      "forkCount": 1304
+    }
+  ],
+  [
+    "71939872",
+    {
+      "databaseId": 71939872,
+      "nameWithOwner": "palantir/blueprint",
+      "description": "A React-based UI toolkit for the web",
+      "stargazerCount": 21417,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-13T17:35:46Z",
+      "forkCount": 2240
+    }
+  ],
+  [
+    "220879095",
+    {
+      "databaseId": 220879095,
+      "nameWithOwner": "octokit/plugin-rest-endpoint-methods.js",
+      "description": "Octokit plugin adding one method for all of api.github.com REST API endpoints",
+      "stargazerCount": 131,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-09T13:34:54Z",
+      "forkCount": 67
+    }
+  ],
+  [
+    "438419937",
+    {
+      "databaseId": 438419937,
+      "nameWithOwner": "openai/openai-node",
+      "description": "Official JavaScript / TypeScript library for the OpenAI API",
+      "stargazerCount": 10443,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-14T15:49:17Z",
+      "forkCount": 1339
+    }
+  ],
+  [
+    "233476269",
+    {
+      "databaseId": 233476269,
+      "nameWithOwner": "acacode/swagger-typescript-api",
+      "description": "Generate the API Client for Fetch or Axios from an OpenAPI Specification",
+      "stargazerCount": 4009,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-13T02:52:30Z",
+      "forkCount": 425
+    }
+  ],
+  [
+    "216109757",
+    {
+      "databaseId": 216109757,
+      "nameWithOwner": "octokit/types.ts",
+      "description": "Shared TypeScript definitions for Octokit projects",
+      "stargazerCount": 148,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-09T13:34:33Z",
+      "forkCount": 33
+    }
+  ],
+  [
+    "21737266",
+    {
+      "databaseId": 21737266,
+      "nameWithOwner": "sindresorhus/awesome-nodejs",
+      "description": ":zap: Delightful Node.js packages and resources",
+      "stargazerCount": 64063,
+      "primaryLanguage": null,
+      "updatedAt": "2025-12-14T15:18:02Z",
+      "forkCount": 6123
+    }
+  ],
+  [
+    "175398594",
+    {
+      "databaseId": 175398594,
+      "nameWithOwner": "sindresorhus/type-fest",
+      "description": "A collection of essential TypeScript types",
+      "stargazerCount": 16611,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-14T11:38:43Z",
+      "forkCount": 660
+    }
+  ],
+  [
+    "21737465",
+    {
+      "databaseId": 21737465,
+      "nameWithOwner": "sindresorhus/awesome",
+      "description": "😎 Awesome lists about all kinds of interesting topics",
+      "stargazerCount": 422292,
+      "primaryLanguage": null,
+      "updatedAt": "2025-12-14T16:39:43Z",
+      "forkCount": 32578
+    }
+  ],
+  [
+    "79723839",
+    {
+      "databaseId": 79723839,
+      "nameWithOwner": "teambit/bit",
+      "description": "AI-powered development workspaces with reusable components, architectural clarity and zero overhead.",
+      "stargazerCount": 18314,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-14T12:06:51Z",
+      "forkCount": 945
+    }
+  ],
+  [
+    "753271457",
+    {
+      "databaseId": 753271457,
+      "nameWithOwner": "birobirobiro/awesome-shadcn-ui",
+      "description": "A curated list of awesome things related to shadcn/ui.",
+      "stargazerCount": 18401,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-14T16:23:10Z",
+      "forkCount": 1092
+    }
+  ],
+  [
+    "32247847",
+    {
+      "databaseId": 32247847,
+      "nameWithOwner": "ReactiveX/rxjs",
+      "description": "A reactive programming library for JavaScript",
+      "stargazerCount": 31580,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-14T12:39:41Z",
+      "forkCount": 3004
+    }
+  ],
+  [
+    "860100131",
+    {
+      "databaseId": 860100131,
+      "nameWithOwner": "microsoft/typescript-go",
+      "description": "Staging repo for development of native port of TypeScript",
+      "stargazerCount": 23354,
+      "primaryLanguage": {
+        "name": "Go"
+      },
+      "updatedAt": "2025-12-14T16:09:33Z",
+      "forkCount": 763
+    }
+  ],
+  [
+    "20929025",
+    {
+      "databaseId": 20929025,
+      "nameWithOwner": "microsoft/TypeScript",
+      "description": "TypeScript is a superset of JavaScript that compiles to clean JavaScript output.",
+      "stargazerCount": 107086,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-14T15:14:13Z",
+      "forkCount": 13163
+    }
+  ],
+  [
+    "863811008",
+    {
+      "databaseId": 863811008,
+      "nameWithOwner": "unnoq/orpc",
+      "description": "Typesafe APIs Made Simple 🪄",
+      "stargazerCount": 4423,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-14T11:59:11Z",
+      "forkCount": 111
+    }
+  ],
+  [
+    "492526669",
+    {
+      "databaseId": 492526669,
+      "nameWithOwner": "htmlstreamofficial/preline",
+      "description": "Preline UI is an open-source set of prebuilt UI components based on the utility-first Tailwind CSS framework.",
+      "stargazerCount": 6166,
+      "primaryLanguage": {
+        "name": "HTML"
+      },
+      "updatedAt": "2025-12-14T11:22:08Z",
+      "forkCount": 394
+    }
+  ],
+  [
+    "639142544",
+    {
+      "databaseId": 639142544,
+      "nameWithOwner": "mxkaske/mxkaske.dev",
+      "description": "Build. Craft. Brew.",
+      "stargazerCount": 963,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-12T08:03:08Z",
+      "forkCount": 44
+    }
+  ],
+  [
+    "749538412",
+    {
+      "databaseId": 749538412,
+      "nameWithOwner": "BelkacemYerfa/shadcn-extension",
+      "description": "An open source component collection , that extends your ui library , built using shadcn component",
+      "stargazerCount": 1324,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-11T08:45:46Z",
+      "forkCount": 60
+    }
+  ],
+  [
+    "514395914",
+    {
+      "databaseId": 514395914,
+      "nameWithOwner": "dip/cmdk",
+      "description": "Fast, unstyled command menu React component.",
+      "stargazerCount": 12023,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-14T13:14:53Z",
+      "forkCount": 355
+    }
+  ],
+  [
+    "862289957",
+    {
+      "databaseId": 862289957,
+      "nameWithOwner": "hasanharman/form-builder",
+      "description": "A dynamic form-building tool that allows users to create, customize, and validate forms seamlessly within web applications.",
+      "stargazerCount": 2616,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-13T01:18:48Z",
+      "forkCount": 260
+    }
+  ],
+  [
+    "19747256",
+    {
+      "databaseId": 19747256,
+      "nameWithOwner": "ozh/github-colors",
+      "description": "🌈 Github colors for all the languages",
+      "stargazerCount": 752,
+      "primaryLanguage": {
+        "name": "Python"
+      },
+      "updatedAt": "2025-12-09T20:02:22Z",
+      "forkCount": 167
+    }
+  ],
+  [
+    "1725199",
+    {
+      "databaseId": 1725199,
+      "nameWithOwner": "github-linguist/linguist",
+      "description": "Language Savant. If your repository's language is being reported incorrectly, send us a pull request!",
+      "stargazerCount": 13187,
+      "primaryLanguage": {
+        "name": "Ruby"
+      },
+      "updatedAt": "2025-12-14T16:42:32Z",
+      "forkCount": 4882
+    }
+  ],
+  [
+    "896042113",
+    {
+      "databaseId": 896042113,
+      "nameWithOwner": "adityasinghcodes/better-auth-nextjs",
+      "description": null,
+      "stargazerCount": 73,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-01T11:46:12Z",
+      "forkCount": 26
+    }
+  ],
+  [
+    "730534580",
+    {
+      "databaseId": 730534580,
+      "nameWithOwner": "infiniflow/ragflow",
+      "description": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
+      "stargazerCount": 69797,
+      "primaryLanguage": {
+        "name": "Python"
+      },
+      "updatedAt": "2025-12-14T15:59:47Z",
+      "forkCount": 7565
+    }
+  ],
+  [
+    "826168160",
+    {
+      "databaseId": 826168160,
+      "nameWithOwner": "docling-project/docling",
+      "description": "Get your documents ready for gen AI",
+      "stargazerCount": 46695,
+      "primaryLanguage": {
+        "name": "Python"
+      },
+      "updatedAt": "2025-12-14T16:02:56Z",
+      "forkCount": 3303
+    }
+  ],
+  [
+    "341139727",
+    {
+      "databaseId": 341139727,
+      "nameWithOwner": "kysely-org/kysely",
+      "description": "A type-safe TypeScript SQL query builder",
+      "stargazerCount": 13117,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-14T12:11:22Z",
+      "forkCount": 359
+    }
+  ],
+  [
+    "475553026",
+    {
+      "databaseId": 475553026,
+      "nameWithOwner": "ghostty-org/ghostty",
+      "description": "👻 Ghostty is a fast, feature-rich, and cross-platform terminal emulator that uses platform-native UI and GPU acceleration.",
+      "stargazerCount": 39501,
+      "primaryLanguage": {
+        "name": "Zig"
+      },
+      "updatedAt": "2025-12-14T16:27:48Z",
+      "forkCount": 1307
+    }
+  ],
+  [
+    "803014189",
+    {
+      "databaseId": 803014189,
+      "nameWithOwner": "better-auth/better-auth",
+      "description": "The most comprehensive authentication framework for TypeScript",
+      "stargazerCount": 24103,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-14T16:23:56Z",
+      "forkCount": 2044
+    }
+  ],
+  [
+    "515227801",
+    {
+      "databaseId": 515227801,
+      "nameWithOwner": "lucia-auth/lucia",
+      "description": "Authentication, simple and clean",
+      "stargazerCount": 10413,
+      "primaryLanguage": null,
+      "updatedAt": "2025-12-14T11:46:18Z",
+      "forkCount": 529
+    }
+  ],
+  [
+    "789649478",
+    {
+      "databaseId": 789649478,
+      "nameWithOwner": "codinginflow/next-auth-v5",
+      "description": null,
+      "stargazerCount": 81,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-10-20T17:20:01Z",
+      "forkCount": 47
+    }
+  ],
+  [
+    "262579731",
+    {
+      "databaseId": 262579731,
+      "nameWithOwner": "nextauthjs/next-auth-example",
+      "description": "Example showing how to use NextAuth.js with Next.js",
+      "stargazerCount": 4023,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-14T12:45:18Z",
+      "forkCount": 1261
+    }
+  ],
+  [
+    "54346799",
+    {
+      "databaseId": 54346799,
+      "nameWithOwner": "public-apis/public-apis",
+      "description": "A collective list of free APIs",
+      "stargazerCount": 384134,
+      "primaryLanguage": {
+        "name": "Python"
+      },
+      "updatedAt": "2025-12-14T16:43:51Z",
+      "forkCount": 40990
+    }
+  ],
+  [
+    "559119124",
+    {
+      "databaseId": 559119124,
+      "nameWithOwner": "ajayyy/DeArrow",
+      "description": "Crowdsourcing better titles and thumbnails on YouTube",
+      "stargazerCount": 1959,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-14T14:20:55Z",
+      "forkCount": 63
+    }
+  ],
+  [
+    "619143361",
+    {
+      "databaseId": 619143361,
+      "nameWithOwner": "elevenlabs/elevenlabs-python",
+      "description": "The official Python SDK for the ElevenLabs API.",
+      "stargazerCount": 2808,
+      "primaryLanguage": {
+        "name": "Python"
+      },
+      "updatedAt": "2025-12-11T21:36:55Z",
+      "forkCount": 393
+    }
+  ],
+  [
+    "339786950",
+    {
+      "databaseId": 339786950,
+      "nameWithOwner": "encoredev/encore",
+      "description": "Open source framework for building robust type-safe distributed systems with declarative infrastructure",
+      "stargazerCount": 11202,
+      "primaryLanguage": {
+        "name": "Go"
+      },
+      "updatedAt": "2025-12-14T08:57:41Z",
+      "forkCount": 553
+    }
+  ],
+  [
+    "793038573",
+    {
+      "databaseId": 793038573,
+      "nameWithOwner": "tuono-labs/tuono",
+      "description": "⚡ Modern fullstack web framework based on Rust and React",
+      "stargazerCount": 1080,
+      "primaryLanguage": {
+        "name": "Rust"
+      },
+      "updatedAt": "2025-12-12T13:25:07Z",
+      "forkCount": 55
+    }
+  ],
+  [
+    "23088740",
+    {
+      "databaseId": 23088740,
+      "nameWithOwner": "axios/axios",
+      "description": "Promise based HTTP client for the browser and node.js",
+      "stargazerCount": 108362,
+      "primaryLanguage": {
+        "name": "JavaScript"
+      },
+      "updatedAt": "2025-12-14T08:28:37Z",
+      "forkCount": 11466
+    }
+  ],
+  [
+    "873328",
+    {
+      "databaseId": 873328,
+      "nameWithOwner": "getsentry/sentry",
+      "description": "Developer-first error tracking and performance monitoring",
+      "stargazerCount": 42683,
+      "primaryLanguage": {
+        "name": "Python"
+      },
+      "updatedAt": "2025-12-14T10:25:38Z",
+      "forkCount": 4535
+    }
+  ],
+  [
+    "348060227",
+    {
+      "databaseId": 348060227,
+      "nameWithOwner": "withastro/astro",
+      "description": "The web framework for content-driven websites. ⭐️ Star to support our work!",
+      "stargazerCount": 54924,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-14T16:27:20Z",
+      "forkCount": 3031
+    }
+  ],
+  [
+    "174038031",
+    {
+      "databaseId": 174038031,
+      "nameWithOwner": "react-hook-form/react-hook-form",
+      "description": "📋 React Hooks for form state management and validation (Web + React Native)",
+      "stargazerCount": 44298,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-14T12:58:35Z",
+      "forkCount": 2331
+    }
+  ],
+  [
+    "23141830",
+    {
+      "databaseId": 23141830,
+      "nameWithOwner": "paularmstrong/normalizr",
+      "description": "Normalizes nested JSON according to a schema",
+      "stargazerCount": 20901,
+      "primaryLanguage": {
+        "name": "JavaScript"
+      },
+      "updatedAt": "2025-12-13T13:00:54Z",
+      "forkCount": 868
+    }
+  ],
+  [
+    "654870350",
+    {
+      "databaseId": 654870350,
+      "nameWithOwner": "clockworklabs/SpacetimeDB",
+      "description": "Multiplayer at the speed of light",
+      "stargazerCount": 18729,
+      "primaryLanguage": {
+        "name": "Rust"
+      },
+      "updatedAt": "2025-12-14T13:18:48Z",
+      "forkCount": 654
+    }
+  ],
+  [
+    "130884470",
+    {
+      "databaseId": 130884470,
+      "nameWithOwner": "solidjs/solid",
+      "description": "A declarative, efficient, and flexible JavaScript library for building user interfaces.",
+      "stargazerCount": 34726,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-14T12:04:03Z",
+      "forkCount": 1022
+    }
+  ],
+  [
+    "903700733",
+    {
+      "databaseId": 903700733,
+      "nameWithOwner": "ahmedkhaleel2004/gitdiagram",
+      "description": "Free, simple, fast interactive diagrams for any GitHub repository",
+      "stargazerCount": 14999,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-14T10:50:13Z",
+      "forkCount": 1137
+    }
+  ],
+  [
+    "663456281",
+    {
+      "databaseId": 663456281,
+      "nameWithOwner": "open-circle/valibot",
+      "description": "The modular and type safe schema library for validating structural data 🤖",
+      "stargazerCount": 8255,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-14T07:31:29Z",
+      "forkCount": 293
+    }
+  ],
+  [
+    "984382901",
+    {
+      "databaseId": 984382901,
+      "nameWithOwner": "xai-org/grok-prompts",
+      "description": "Prompts for our Grok chat assistant and the `@grok` bot on X.",
+      "stargazerCount": 3720,
+      "primaryLanguage": {
+        "name": "Jinja"
+      },
+      "updatedAt": "2025-12-14T15:24:15Z",
+      "forkCount": 383
+    }
+  ],
+  [
+    "11061773",
+    {
+      "databaseId": 11061773,
+      "nameWithOwner": "eslint/eslint",
+      "description": "Find and fix problems in your JavaScript code.",
+      "stargazerCount": 26703,
+      "primaryLanguage": {
+        "name": "JavaScript"
+      },
+      "updatedAt": "2025-12-14T14:06:30Z",
+      "forkCount": 4864
+    }
+  ],
+  [
+    "946895816",
+    {
+      "databaseId": 946895816,
+      "nameWithOwner": "TanStack/db",
+      "description": "The reactive client store for your API.",
+      "stargazerCount": 3428,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-14T01:05:12Z",
+      "forkCount": 138
+    }
+  ],
+  [
+    "983002845",
+    {
+      "databaseId": 983002845,
+      "nameWithOwner": "InterviewReady/ai-engineering-resources",
+      "description": "Research papers and blogs to transition to AI Engineering",
+      "stargazerCount": 1993,
+      "primaryLanguage": null,
+      "updatedAt": "2025-12-13T06:47:35Z",
+      "forkCount": 271
+    }
+  ],
+  [
+    "495836457",
+    {
+      "databaseId": 495836457,
+      "nameWithOwner": "t3-oss/create-t3-app",
+      "description": "The best way to start a full-stack, typesafe Next.js app ",
+      "stargazerCount": 28331,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-14T13:39:36Z",
+      "forkCount": 1420
+    }
+  ],
+  [
+    "943398999",
+    {
+      "databaseId": 943398999,
+      "nameWithOwner": "x1xhlol/system-prompts-and-models-of-ai-tools",
+      "description": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models",
+      "stargazerCount": 100560,
+      "primaryLanguage": null,
+      "updatedAt": "2025-12-14T16:37:35Z",
+      "forkCount": 26888
+    }
+  ],
+  [
+    "664669687",
+    {
+      "databaseId": 664669687,
+      "nameWithOwner": "sadmann7/tablecn",
+      "description": "Shadcn table with server-side sorting, filtering, and pagination.",
+      "stargazerCount": 5741,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-14T11:12:50Z",
+      "forkCount": 530
+    }
+  ],
+  [
+    "254327261",
+    {
+      "databaseId": 254327261,
+      "nameWithOwner": "sandboxie-plus/Sandboxie",
+      "description": "Sandboxie Plus & Classic",
+      "stargazerCount": 16515,
+      "primaryLanguage": {
+        "name": "C"
+      },
+      "updatedAt": "2025-12-14T16:14:03Z",
+      "forkCount": 1853
+    }
+  ],
+  [
+    "790359",
+    {
+      "databaseId": 790359,
+      "nameWithOwner": "sequelize/sequelize",
+      "description": "Feature-rich ORM for modern Node.js and TypeScript, it supports PostgreSQL (with JSON and JSONB support), MySQL, MariaDB, SQLite, MS SQL Server, Snowflake, Oracle DB (v6), DB2 and DB2 for IBM i.",
+      "stargazerCount": 30275,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-13T00:38:17Z",
+      "forkCount": 4311
+    }
+  ],
+  [
+    "17203748",
+    {
+      "databaseId": 17203748,
+      "nameWithOwner": "dexie/Dexie.js",
+      "description": "A Minimalistic Wrapper for IndexedDB",
+      "stargazerCount": 13832,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-14T15:45:58Z",
+      "forkCount": 683
+    }
+  ],
+  [
+    "334777857",
+    {
+      "databaseId": 334777857,
+      "nameWithOwner": "ravynsoft/ravynos",
+      "description": "An open-source OS project that aims to provide source and binary compatibility with macOS® and a similar user experience.",
+      "stargazerCount": 6534,
+      "primaryLanguage": {
+        "name": "C"
+      },
+      "updatedAt": "2025-12-14T13:20:40Z",
+      "forkCount": 224
+    }
+  ],
+  [
+    "914106954",
+    {
+      "databaseId": 914106954,
+      "nameWithOwner": "machadop1407/nextjs-15-authentication-next-auth",
+      "description": null,
+      "stargazerCount": 34,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-10-31T14:26:44Z",
+      "forkCount": 21
+    }
+  ],
+  [
+    "193215554",
+    {
+      "databaseId": 193215554,
+      "nameWithOwner": "n8n-io/n8n",
+      "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+      "stargazerCount": 162595,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-14T16:42:59Z",
+      "forkCount": 52024
+    }
+  ],
+  [
+    "386099597",
+    {
+      "databaseId": 386099597,
+      "nameWithOwner": "octokit/octokit-next.js",
+      "description": null,
+      "stargazerCount": 23,
+      "primaryLanguage": {
+        "name": "JavaScript"
+      },
+      "updatedAt": "2025-12-09T13:46:36Z",
+      "forkCount": 3
+    }
+  ],
+  [
+    "400148747",
+    {
+      "databaseId": 400148747,
+      "nameWithOwner": "tailwindlabs/prettier-plugin-tailwindcss",
+      "description": "A Prettier plugin for Tailwind CSS that automatically sorts classes based on our recommended class order.",
+      "stargazerCount": 6885,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-14T13:32:55Z",
+      "forkCount": 172
+    }
+  ],
+  [
+    "5905330",
+    {
+      "databaseId": 5905330,
+      "nameWithOwner": "greensock/GSAP",
+      "description": "GSAP (GreenSock Animation Platform), a JavaScript animation library for the modern web",
+      "stargazerCount": 23426,
+      "primaryLanguage": {
+        "name": "JavaScript"
+      },
+      "updatedAt": "2025-12-14T14:50:52Z",
+      "forkCount": 1899
+    }
+  ],
+  [
+    "51954402",
+    {
+      "databaseId": 51954402,
+      "nameWithOwner": "jsx-eslint/eslint-plugin-jsx-a11y",
+      "description": "Static AST checker for a11y rules on JSX elements.",
+      "stargazerCount": 3557,
+      "primaryLanguage": {
+        "name": "JavaScript"
+      },
+      "updatedAt": "2025-12-12T23:08:41Z",
+      "forkCount": 640
+    }
+  ],
+  [
+    "41881900",
+    {
+      "databaseId": 41881900,
+      "nameWithOwner": "microsoft/vscode",
+      "description": "Visual Studio Code",
+      "stargazerCount": 179611,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-14T16:42:50Z",
+      "forkCount": 36850
+    }
+  ],
+  [
+    "954873280",
+    {
+      "databaseId": 954873280,
+      "nameWithOwner": "a2aproject/A2A",
+      "description": "An open protocol enabling communication and interoperability between opaque agentic applications.",
+      "stargazerCount": 21004,
+      "primaryLanguage": {
+        "name": "Shell"
+      },
+      "updatedAt": "2025-12-14T15:18:21Z",
+      "forkCount": 2153
+    }
+  ],
+  [
+    "699532645",
+    {
+      "databaseId": 699532645,
+      "nameWithOwner": "astral-sh/uv",
+      "description": "An extremely fast Python package and project manager, written in Rust.",
+      "stargazerCount": 74857,
+      "primaryLanguage": {
+        "name": "Rust"
+      },
+      "updatedAt": "2025-12-14T16:22:21Z",
+      "forkCount": 2336
+    }
+  ],
+  [
+    "5133949",
+    {
+      "databaseId": 5133949,
+      "nameWithOwner": "swoole/swoole-src",
+      "description": "🚀 Coroutine-based concurrency library for PHP",
+      "stargazerCount": 18810,
+      "primaryLanguage": {
+        "name": "C++"
+      },
+      "updatedAt": "2025-12-14T15:12:33Z",
+      "forkCount": 3158
+    }
+  ],
+  [
+    "434708679",
+    {
+      "databaseId": 434708679,
+      "nameWithOwner": "vitest-dev/vitest",
+      "description": "Next generation testing framework powered by Vite.",
+      "stargazerCount": 15554,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-14T13:22:00Z",
+      "forkCount": 1554
+    }
+  ],
+  [
+    "31629751",
+    {
+      "databaseId": 31629751,
+      "nameWithOwner": "cypress-io/cypress",
+      "description": "Fast, easy and reliable testing for anything that runs in a browser.",
+      "stargazerCount": 49469,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-14T10:23:26Z",
+      "forkCount": 3384
+    }
+  ],
+  [
+    "157397583",
+    {
+      "databaseId": 157397583,
+      "nameWithOwner": "mswjs/msw",
+      "description": "Industry standard API mocking for JavaScript.",
+      "stargazerCount": 17403,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-14T11:37:49Z",
+      "forkCount": 573
+    }
+  ],
+  [
+    "280557054",
+    {
+      "databaseId": 280557054,
+      "nameWithOwner": "trpc/trpc",
+      "description": "🧙‍♀️  Move Fast and Break Nothing. End-to-end typesafe APIs made easy. ",
+      "stargazerCount": 39115,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-14T11:04:10Z",
+      "forkCount": 1450
+    }
+  ],
+  [
+    "38307428",
+    {
+      "databaseId": 38307428,
+      "nameWithOwner": "graphql/graphql-js",
+      "description": "A reference implementation of GraphQL for JavaScript",
+      "stargazerCount": 20290,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-12T09:07:22Z",
+      "forkCount": 2057
+    }
+  ],
+  [
+    "68414068",
+    {
+      "databaseId": 68414068,
+      "nameWithOwner": "probot/probot",
+      "description": "🤖 A framework for building GitHub Apps to automate and improve your workflow",
+      "stargazerCount": 9388,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-14T14:03:09Z",
+      "forkCount": 1016
+    }
+  ],
+  [
+    "71293321",
+    {
+      "databaseId": 71293321,
+      "nameWithOwner": "diegomura/react-pdf",
+      "description": "📄  Create PDF files using React",
+      "stargazerCount": 16222,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-14T10:43:13Z",
+      "forkCount": 1290
+    }
+  ],
+  [
+    "5022564",
+    {
+      "databaseId": 5022564,
+      "nameWithOwner": "jsdelivr/jsdelivr",
+      "description": "A free, fast, and reliable Open Source CDN for npm, GitHub, Javascript, and ESM",
+      "stargazerCount": 6089,
+      "primaryLanguage": {
+        "name": "JavaScript"
+      },
+      "updatedAt": "2025-12-13T17:23:47Z",
+      "forkCount": 2108
+    }
+  ],
+  [
+    "202890778",
+    {
+      "databaseId": 202890778,
+      "nameWithOwner": "chakra-ui/chakra-ui",
+      "description": "Chakra UI is a component system for building SaaS products with speed ⚡️",
+      "stargazerCount": 40052,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-14T13:41:20Z",
+      "forkCount": 3551
+    }
+  ],
+  [
+    "270722949",
+    {
+      "databaseId": 270722949,
+      "nameWithOwner": "lucide-icons/lucide",
+      "description": "Beautiful & consistent icon toolkit made by the community. Open-source project and a fork of Feather Icons.",
+      "stargazerCount": 20151,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-14T15:59:39Z",
+      "forkCount": 1099
+    }
+  ],
+  [
+    "327628682",
+    {
+      "databaseId": 327628682,
+      "nameWithOwner": "mantinedev/mantine",
+      "description": "A fully featured React components library",
+      "stargazerCount": 30210,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-14T07:03:58Z",
+      "forkCount": 2200
+    }
+  ],
+  [
+    "293257779",
+    {
+      "databaseId": 293257779,
+      "nameWithOwner": "esm-dev/esm.sh",
+      "description": "A no-build JavaScript CDN for modern web development.",
+      "stargazerCount": 3931,
+      "primaryLanguage": {
+        "name": "Go"
+      },
+      "updatedAt": "2025-12-14T10:25:58Z",
+      "forkCount": 196
+    }
+  ],
+  [
+    "85077558",
+    {
+      "databaseId": 85077558,
+      "nameWithOwner": "kamranahmedse/developer-roadmap",
+      "description": "Interactive roadmaps, guides and other educational content to help developers grow in their careers.",
+      "stargazerCount": 345350,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-14T16:18:08Z",
+      "forkCount": 43498
+    }
+  ],
+  [
+    "92162696",
+    {
+      "databaseId": 92162696,
+      "nameWithOwner": "lorey/github-stars-by-topic",
+      "description": ":star: Generate a list of your GitHub stars by topic - automatically!",
+      "stargazerCount": 101,
+      "primaryLanguage": {
+        "name": "Python"
+      },
+      "updatedAt": "2025-11-08T04:16:35Z",
+      "forkCount": 5
+    }
+  ],
+  [
+    "711976",
+    {
+      "databaseId": 711976,
+      "nameWithOwner": "octokit/octokit.js",
+      "description": "The all-batteries-included GitHub SDK for Browsers, Node.js, and Deno.",
+      "stargazerCount": 7624,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-12T09:28:55Z",
+      "forkCount": 1187
+    }
+  ],
+  [
+    "257485422",
+    {
+      "databaseId": 257485422,
+      "nameWithOwner": "vitejs/vite",
+      "description": "Next generation frontend tooling. It's fast!",
+      "stargazerCount": 77073,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-14T16:19:34Z",
+      "forkCount": 7618
+    }
+  ],
+  [
+    "833582679",
+    {
+      "databaseId": 833582679,
+      "nameWithOwner": "burakorkmez/mern-crash-course",
+      "description": null,
+      "stargazerCount": 267,
+      "primaryLanguage": {
+        "name": "JavaScript"
+      },
+      "updatedAt": "2025-12-11T23:18:37Z",
+      "forkCount": 115
+    }
+  ],
+  [
+    "28671602",
+    {
+      "databaseId": 28671602,
+      "nameWithOwner": "mde/ejs",
+      "description": "Embedded JavaScript templates -- http://ejs.co",
+      "stargazerCount": 8061,
+      "primaryLanguage": {
+        "name": "JavaScript"
+      },
+      "updatedAt": "2025-12-14T14:12:46Z",
+      "forkCount": 853
+    }
+  ],
+  [
+    "662735800",
+    {
+      "databaseId": 662735800,
+      "nameWithOwner": "HuXn-WebDev/MERN-Stack-Course",
+      "description": "This is all the code for my MERN Stack course on YouTube 🥂",
+      "stargazerCount": 106,
+      "primaryLanguage": {
+        "name": "JavaScript"
+      },
+      "updatedAt": "2025-11-27T12:29:43Z",
+      "forkCount": 22
+    }
+  ],
+  [
+    "805507107",
+    {
+      "databaseId": 805507107,
+      "nameWithOwner": "mistralai/mistral-finetune",
+      "description": null,
+      "stargazerCount": 3048,
+      "primaryLanguage": {
+        "name": "Python"
+      },
+      "updatedAt": "2025-12-14T10:47:27Z",
+      "forkCount": 302
+    }
+  ],
+  [
+    "678531456",
+    {
+      "databaseId": 678531456,
+      "nameWithOwner": "brevdev/launchables",
+      "description": "Collection of notebook guides created by the Brev.dev team!",
+      "stargazerCount": 1805,
+      "primaryLanguage": {
+        "name": "Jupyter Notebook"
+      },
+      "updatedAt": "2025-12-14T15:51:14Z",
+      "forkCount": 317
+    }
+  ],
+  [
+    "160919119",
+    {
+      "databaseId": 160919119,
+      "nameWithOwner": "fastapi/fastapi",
+      "description": "FastAPI framework, high performance, easy to learn, fast to code, ready for production",
+      "stargazerCount": 93056,
+      "primaryLanguage": {
+        "name": "Python"
+      },
+      "updatedAt": "2025-12-14T16:29:26Z",
+      "forkCount": 8364
+    }
+  ],
+  [
+    "201147574",
+    {
+      "databaseId": 201147574,
+      "nameWithOwner": "octokit/core.js",
+      "description": "Extendable client for GitHub's REST & GraphQL APIs",
+      "stargazerCount": 1259,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-12T13:54:08Z",
+      "forkCount": 330
+    }
+  ],
+  [
+    "6296790",
+    {
+      "databaseId": 6296790,
+      "nameWithOwner": "spring-projects/spring-boot",
+      "description": "Spring Boot helps you to create Spring-powered, production-grade applications and services with absolute minimum fuss.",
+      "stargazerCount": 79360,
+      "primaryLanguage": {
+        "name": "Java"
+      },
+      "updatedAt": "2025-12-14T14:10:39Z",
+      "forkCount": 41724
+    }
+  ],
+  [
+    "111241370",
+    {
+      "databaseId": 111241370,
+      "nameWithOwner": "ionic-team/capacitor",
+      "description": "Build cross-platform Native Progressive Web Apps for iOS, Android, and the Web ⚡️",
+      "stargazerCount": 14515,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-14T13:14:09Z",
+      "forkCount": 1132
+    }
+  ],
+  [
+    "31285942",
+    {
+      "databaseId": 31285942,
+      "nameWithOwner": "ros2/ros2",
+      "description": "The Robot Operating System, is a meta operating system for robots.",
+      "stargazerCount": 4844,
+      "primaryLanguage": null,
+      "updatedAt": "2025-12-14T15:26:08Z",
+      "forkCount": 815
+    }
+  ],
+  [
+    "2165383",
+    {
+      "databaseId": 2165383,
+      "nameWithOwner": "sunpy/sunpy",
+      "description": "SunPy - Python for Solar Physics",
+      "stargazerCount": 988,
+      "primaryLanguage": {
+        "name": "Python"
+      },
+      "updatedAt": "2025-12-12T17:39:09Z",
+      "forkCount": 642
+    }
+  ],
+  [
+    "88776493",
+    {
+      "databaseId": 88776493,
+      "nameWithOwner": "yt-project/yt",
+      "description": "Main yt repository",
+      "stargazerCount": 531,
+      "primaryLanguage": {
+        "name": "Python"
+      },
+      "updatedAt": "2025-12-10T22:30:36Z",
+      "forkCount": 301
+    }
+  ],
+  [
+    "2081289",
+    {
+      "databaseId": 2081289,
+      "nameWithOwner": "astropy/astropy",
+      "description": "Astronomy and astrophysics core library",
+      "stargazerCount": 4970,
+      "primaryLanguage": {
+        "name": "Python"
+      },
+      "updatedAt": "2025-12-12T12:20:37Z",
+      "forkCount": 1984
+    }
+  ],
+  [
+    "7716883",
+    {
+      "databaseId": 7716883,
+      "nameWithOwner": "ankidroid/Anki-Android",
+      "description": "AnkiDroid: Anki flashcards on Android. Your secret trick to achieve superhuman information retention.",
+      "stargazerCount": 10366,
+      "primaryLanguage": {
+        "name": "Kotlin"
+      },
+      "updatedAt": "2025-12-14T14:07:08Z",
+      "forkCount": 2566
+    }
+  ],
+  [
+    "70107786",
+    {
+      "databaseId": 70107786,
+      "nameWithOwner": "vercel/next.js",
+      "description": "The React Framework",
+      "stargazerCount": 136522,
+      "primaryLanguage": {
+        "name": "JavaScript"
+      },
+      "updatedAt": "2025-12-14T16:40:58Z",
+      "forkCount": 30046
+    }
+  ],
+  [
+    "207645083",
+    {
+      "databaseId": 207645083,
+      "nameWithOwner": "TanStack/query",
+      "description": "🤖 Powerful asynchronous state management, server-state utilities and data fetching for the web. TS/JS, React Query, Solid Query, Svelte Query and Vue Query.",
+      "stargazerCount": 47791,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-14T15:59:32Z",
+      "forkCount": 3601
+    }
+  ],
+  [
+    "638629097",
+    {
+      "databaseId": 638629097,
+      "nameWithOwner": "Aider-AI/aider",
+      "description": "aider is AI pair programming in your terminal",
+      "stargazerCount": 38946,
+      "primaryLanguage": {
+        "name": "Python"
+      },
+      "updatedAt": "2025-12-14T13:51:56Z",
+      "forkCount": 3726
+    }
+  ],
+  [
+    "155220641",
+    {
+      "databaseId": 155220641,
+      "nameWithOwner": "huggingface/transformers",
+      "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
+      "stargazerCount": 153842,
+      "primaryLanguage": {
+        "name": "Python"
+      },
+      "updatedAt": "2025-12-14T16:41:44Z",
+      "forkCount": 31421
+    }
+  ],
+  [
+    "718600208",
+    {
+      "databaseId": 718600208,
+      "nameWithOwner": "HuXn-WebDev/Next.js-15-Masterclass",
+      "description": "Everything you need to become a Full Stack Next.js 15 MONSTER 💚",
+      "stargazerCount": 304,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-12T00:21:13Z",
+      "forkCount": 81
+    }
+  ],
+  [
+    "896335270",
+    {
+      "databaseId": 896335270,
+      "nameWithOwner": "punkpeye/awesome-mcp-servers",
+      "description": "A collection of MCP servers.",
+      "stargazerCount": 76615,
+      "primaryLanguage": null,
+      "updatedAt": "2025-12-14T16:37:49Z",
+      "forkCount": 6500
+    }
+  ],
+  [
+    "890668799",
+    {
+      "databaseId": 890668799,
+      "nameWithOwner": "modelcontextprotocol/servers",
+      "description": "Model Context Protocol Servers",
+      "stargazerCount": 74398,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-14T16:40:14Z",
+      "forkCount": 9024
+    }
+  ],
+  [
+    "212613049",
+    {
+      "databaseId": 212613049,
+      "nameWithOwner": "cli/cli",
+      "description": "GitHub’s official command line tool",
+      "stargazerCount": 41648,
+      "primaryLanguage": {
+        "name": "Go"
+      },
+      "updatedAt": "2025-12-14T15:17:11Z",
+      "forkCount": 7590
+    }
+  ],
+  [
+    "873215281",
+    {
+      "databaseId": 873215281,
+      "nameWithOwner": "adrianhajdin/yc_directory",
+      "description": "This project showcases the latest features of Next.js 15, including Next.js Form for seamless client-side form submissions, Unstable After for background tasks, Server Component HMR Cache for faster development, and Partial Prerendering for performance optimization.",
+      "stargazerCount": 949,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-11T16:56:18Z",
+      "forkCount": 205
+    }
+  ],
+  [
+    "245704608",
+    {
+      "databaseId": 245704608,
+      "nameWithOwner": "colinhacks/zod",
+      "description": "TypeScript-first schema validation with static type inference",
+      "stargazerCount": 41048,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-14T10:22:21Z",
+      "forkCount": 1726
+    }
+  ],
+  [
+    "585146387",
+    {
+      "databaseId": 585146387,
+      "nameWithOwner": "shadcn-ui/ui",
+      "description": "A set of beautifully-designed, accessible components and a code distribution platform. Works with your favorite frameworks. Open Source. Open Code.",
+      "stargazerCount": 102232,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-14T16:44:26Z",
+      "forkCount": 7437
+    }
+  ],
+  [
+    "119162419",
+    {
+      "databaseId": 119162419,
+      "nameWithOwner": "nextauthjs/next-auth",
+      "description": "Authentication for the Web.",
+      "stargazerCount": 27882,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-14T12:19:33Z",
+      "forkCount": 4021
+    }
+  ],
+  [
+    "612781022",
+    {
+      "databaseId": 612781022,
+      "nameWithOwner": "cursor/cursor",
+      "description": "The AI Code Editor",
+      "stargazerCount": 31848,
+      "primaryLanguage": null,
+      "updatedAt": "2025-12-14T15:40:22Z",
+      "forkCount": 2150
+    }
+  ],
+  [
+    "12973222",
+    {
+      "databaseId": 12973222,
+      "nameWithOwner": "depcheck/depcheck",
+      "description": "Check your npm module for unused dependencies",
+      "stargazerCount": 4940,
+      "primaryLanguage": {
+        "name": "JavaScript"
+      },
+      "updatedAt": "2025-12-09T14:41:18Z",
+      "forkCount": 220
+    }
+  ],
+  [
+    "766341786",
+    {
+      "databaseId": 766341786,
+      "nameWithOwner": "HeyPuter/puter",
+      "description": "🌐 The Internet Computer! Free, Open-Source, and Self-Hostable.",
+      "stargazerCount": 37902,
+      "primaryLanguage": {
+        "name": "JavaScript"
+      },
+      "updatedAt": "2025-12-14T16:30:31Z",
+      "forkCount": 3292
+    }
+  ],
+  [
+    "163027171",
+    {
+      "databaseId": 163027171,
+      "nameWithOwner": "lukeed/clsx",
+      "description": "A tiny (239B) utility for constructing `className` strings conditionally.",
+      "stargazerCount": 9564,
+      "primaryLanguage": {
+        "name": "JavaScript"
+      },
+      "updatedAt": "2025-12-14T09:14:43Z",
+      "forkCount": 161
+    }
+  ],
+  [
+    "379865325",
+    {
+      "databaseId": 379865325,
+      "nameWithOwner": "drizzle-team/drizzle-orm",
+      "description": "ORM",
+      "stargazerCount": 31823,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-14T15:56:19Z",
+      "forkCount": 1117
+    }
+  ],
+  [
+    "192925833",
+    {
+      "databaseId": 192925833,
+      "nameWithOwner": "prisma/prisma",
+      "description": "Next-generation ORM for Node.js & TypeScript | PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB",
+      "stargazerCount": 44768,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-14T10:25:11Z",
+      "forkCount": 2001
+    }
+  ],
+  [
+    "712111618",
+    {
+      "databaseId": 712111618,
+      "nameWithOwner": "datalab-to/marker",
+      "description": "Convert PDF to markdown + JSON quickly with high accuracy",
+      "stargazerCount": 30342,
+      "primaryLanguage": {
+        "name": "Python"
+      },
+      "updatedAt": "2025-12-14T11:40:01Z",
+      "forkCount": 2059
+    }
+  ],
+  [
+    "80395175",
+    {
+      "databaseId": 80395175,
+      "nameWithOwner": "christianloopp/komorebi",
+      "description": "A beautiful and customizable wallpapers manager for Linux",
+      "stargazerCount": 3666,
+      "primaryLanguage": {
+        "name": "Vala"
+      },
+      "updatedAt": "2025-12-14T06:57:43Z",
+      "forkCount": 254
+    }
+  ],
+  [
+    "534559195",
+    {
+      "databaseId": 534559195,
+      "nameWithOwner": "D3Ext/aesthetic-wallpapers",
+      "description": "An awesome collection of aesthetic wallpapers ",
+      "stargazerCount": 2615,
+      "primaryLanguage": null,
+      "updatedAt": "2025-12-14T16:29:02Z",
+      "forkCount": 130
+    }
+  ],
+  [
+    "9384267",
+    {
+      "databaseId": 9384267,
+      "nameWithOwner": "electron/electron",
+      "description": ":electron: Build cross-platform desktop apps with JavaScript, HTML, and CSS",
+      "stargazerCount": 119385,
+      "primaryLanguage": {
+        "name": "C++"
+      },
+      "updatedAt": "2025-12-14T16:19:18Z",
+      "forkCount": 16797
+    }
+  ],
+  [
+    "58566630",
+    {
+      "databaseId": 58566630,
+      "nameWithOwner": "firebase/firebaseui-web",
+      "description": "FirebaseUI is an open-source JavaScript library for Web that provides simple, customizable UI bindings on top of Firebase SDKs to eliminate boilerplate code and promote best practices.",
+      "stargazerCount": 4819,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-10T19:59:14Z",
+      "forkCount": 1116
+    }
+  ],
+  [
+    "307489284",
+    {
+      "databaseId": 307489284,
+      "nameWithOwner": "remix-run/remix",
+      "description": "Build Better Websites. Create modern, resilient user experiences with web fundamentals.",
+      "stargazerCount": 32064,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-14T13:16:36Z",
+      "forkCount": 2721
+    }
+  ],
+  [
+    "441309053",
+    {
+      "databaseId": 441309053,
+      "nameWithOwner": "nandorojo/solito",
+      "description": "🧍‍♂️ React Native + Next.js, unified.",
+      "stargazerCount": 4016,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-14T06:24:15Z",
+      "forkCount": 190
+    }
+  ],
+  [
+    "83222441",
+    {
+      "databaseId": 83222441,
+      "nameWithOwner": "donnemartin/system-design-primer",
+      "description": "Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.",
+      "stargazerCount": 329343,
+      "primaryLanguage": {
+        "name": "Python"
+      },
+      "updatedAt": "2025-12-14T16:36:26Z",
+      "forkCount": 53627
+    }
+  ],
+  [
+    "156018",
+    {
+      "databaseId": 156018,
+      "nameWithOwner": "redis/redis",
+      "description": "For developers, who are building real-time data-driven applications, Redis is the preferred, fastest, and most feature-rich cache, data structure server, and document and vector query engine.",
+      "stargazerCount": 72128,
+      "primaryLanguage": {
+        "name": "C"
+      },
+      "updatedAt": "2025-12-14T10:58:37Z",
+      "forkCount": 24384
+    }
+  ],
+  [
+    "100061716",
+    {
+      "databaseId": 100061716,
+      "nameWithOwner": "nrwl/nx",
+      "description": "Get to green PRs in half the time. Nx optimizes your builds, scales your CI, and fixes failed PRs. Built for developers and AI agents.",
+      "stargazerCount": 27711,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-14T16:24:26Z",
+      "forkCount": 2640
+    }
+  ],
+  [
+    "50565430",
+    {
+      "databaseId": 50565430,
+      "nameWithOwner": "pnpm/pnpm",
+      "description": "Fast, disk space efficient package manager",
+      "stargazerCount": 33429,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-14T16:33:37Z",
+      "forkCount": 1263
+    }
+  ],
+  [
+    "734828291",
+    {
+      "databaseId": 734828291,
+      "nameWithOwner": "socketio/socket.io-chat-platform",
+      "description": "A basic chat platform based on Socket.IO",
+      "stargazerCount": 152,
+      "primaryLanguage": {
+        "name": "JavaScript"
+      },
+      "updatedAt": "2025-12-07T09:02:23Z",
+      "forkCount": 50
+    }
+  ],
+  [
+    "30638861",
+    {
+      "databaseId": 30638861,
+      "nameWithOwner": "fingerprintjs/fingerprintjs",
+      "description": "The most advanced open-source browser fingerprinting library",
+      "stargazerCount": 26088,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-14T12:19:31Z",
+      "forkCount": 2467
+    }
+  ],
+  [
+    "42590985",
+    {
+      "databaseId": 42590985,
+      "nameWithOwner": "react-native-device-info/react-native-device-info",
+      "description": "Device Information for React Native iOS and Android",
+      "stargazerCount": 6645,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-13T10:41:25Z",
+      "forkCount": 1475
+    }
+  ],
+  [
+    "14057721",
+    {
+      "databaseId": 14057721,
+      "nameWithOwner": "jackspirou/clientjs",
+      "description": "Device information and digital fingerprinting written in pure JavaScript.",
+      "stargazerCount": 2213,
+      "primaryLanguage": {
+        "name": "JavaScript"
+      },
+      "updatedAt": "2025-12-12T01:02:16Z",
+      "forkCount": 340
+    }
+  ],
+  [
+    "22738546",
+    {
+      "databaseId": 22738546,
+      "nameWithOwner": "WebBluetoothCG/web-bluetooth",
+      "description": "Bluetooth support for the Web.",
+      "stargazerCount": 1427,
+      "primaryLanguage": {
+        "name": "Bikeshed"
+      },
+      "updatedAt": "2025-12-11T01:13:20Z",
+      "forkCount": 195
+    }
+  ],
+  [
+    "89290483",
+    {
+      "databaseId": 89290483,
+      "nameWithOwner": "firebase/firebase-js-sdk",
+      "description": "Firebase Javascript SDK",
+      "stargazerCount": 5046,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-13T11:52:04Z",
+      "forkCount": 991
+    }
+  ],
+  [
+    "863717537",
+    {
+      "databaseId": 863717537,
+      "nameWithOwner": "kavishdevar/librepods",
+      "description": "AirPods liberated from Apple's ecosystem.",
+      "stargazerCount": 22010,
+      "primaryLanguage": {
+        "name": "Kotlin"
+      },
+      "updatedAt": "2025-12-14T16:40:44Z",
+      "forkCount": 1118
+    }
+  ],
+  [
+    "30200039",
+    {
+      "databaseId": 30200039,
+      "nameWithOwner": "osano/cookieconsent",
+      "description": "A free solution to the EU, GDPR, and California Cookie Laws",
+      "stargazerCount": 3508,
+      "primaryLanguage": {
+        "name": "JavaScript"
+      },
+      "updatedAt": "2025-12-14T11:12:51Z",
+      "forkCount": 576
+    }
+  ],
+  [
+    "293498508",
+    {
+      "databaseId": 293498508,
+      "nameWithOwner": "JetBrains/compose-multiplatform",
+      "description": "Compose Multiplatform, a modern UI framework for Kotlin that makes building performant and beautiful user interfaces easy and enjoyable.",
+      "stargazerCount": 18599,
+      "primaryLanguage": {
+        "name": "Kotlin"
+      },
+      "updatedAt": "2025-12-14T12:08:25Z",
+      "forkCount": 1352
+    }
+  ],
+  [
+    "121622800",
+    {
+      "databaseId": 121622800,
+      "nameWithOwner": "dotintent/FlutterBleLib",
+      "description": "Bluetooth Low Energy library for Flutter with support for simulating peripherals",
+      "stargazerCount": 547,
+      "primaryLanguage": {
+        "name": "Dart"
+      },
+      "updatedAt": "2025-12-04T09:06:54Z",
+      "forkCount": 198
+    }
+  ],
+  [
+    "901015913",
+    {
+      "databaseId": 901015913,
+      "nameWithOwner": "WilliamKarolDiCioccio/fl_nodes",
+      "description": "A modular, scalable ecosystem for building sophisticated node-based applications in Flutter.",
+      "stargazerCount": 163,
+      "primaryLanguage": {
+        "name": "Dart"
+      },
+      "updatedAt": "2025-12-07T12:03:26Z",
+      "forkCount": 33
+    }
+  ],
+  [
+    "151977818",
+    {
+      "databaseId": 151977818,
+      "nameWithOwner": "felangel/bloc",
+      "description": "A predictable state management library that helps implement the BLoC design pattern",
+      "stargazerCount": 12354,
+      "primaryLanguage": {
+        "name": "Dart"
+      },
+      "updatedAt": "2025-12-12T22:36:57Z",
+      "forkCount": 3423
+    }
+  ],
+  [
+    "24953448",
+    {
+      "databaseId": 24953448,
+      "nameWithOwner": "google/material-design-icons",
+      "description": "Material Design icons by Google (Material Symbols)",
+      "stargazerCount": 52637,
+      "primaryLanguage": null,
+      "updatedAt": "2025-12-14T14:22:50Z",
+      "forkCount": 9710
+    }
+  ],
+  [
+    "172011048",
+    {
+      "databaseId": 172011048,
+      "nameWithOwner": "leoafarias/fvm",
+      "description": "Flutter Version Management: A simple CLI to manage Flutter SDK versions.",
+      "stargazerCount": 5270,
+      "primaryLanguage": {
+        "name": "Dart"
+      },
+      "updatedAt": "2025-12-14T14:33:12Z",
+      "forkCount": 269
+    }
+  ],
+  [
+    "81887991",
+    {
+      "databaseId": 81887991,
+      "nameWithOwner": "microsoft/AirSim",
+      "description": "Open source simulator for autonomous vehicles built on Unreal Engine / Unity, from Microsoft AI & Research",
+      "stargazerCount": 17768,
+      "primaryLanguage": {
+        "name": "C++"
+      },
+      "updatedAt": "2025-12-14T15:30:12Z",
+      "forkCount": 4821
+    }
+  ],
+  [
+    "216583168",
+    {
+      "databaseId": 216583168,
+      "nameWithOwner": "PhilipsHue/flutter_reactive_ble",
+      "description": "Flutter library that handles BLE operations for multiple devices.",
+      "stargazerCount": 713,
+      "primaryLanguage": {
+        "name": "Dart"
+      },
+      "updatedAt": "2025-12-10T04:07:37Z",
+      "forkCount": 365
+    }
+  ],
+  [
+    "93369312",
+    {
+      "databaseId": 93369312,
+      "nameWithOwner": "pauldemarco/flutter_blue",
+      "description": "Bluetooth plugin for Flutter",
+      "stargazerCount": 2433,
+      "primaryLanguage": {
+        "name": "Dart"
+      },
+      "updatedAt": "2025-12-05T12:54:07Z",
+      "forkCount": 1251
+    }
+  ],
+  [
+    "368290594",
+    {
+      "databaseId": 368290594,
+      "nameWithOwner": "jeroen1602/flutter_web_bluetooth",
+      "description": "A dart library to use the web bluetooth api.",
+      "stargazerCount": 22,
+      "primaryLanguage": {
+        "name": "Dart"
+      },
+      "updatedAt": "2025-10-17T15:23:41Z",
+      "forkCount": 16
+    }
+  ],
+  [
+    "747702643",
+    {
+      "databaseId": 747702643,
+      "nameWithOwner": "Navideck/universal_ble",
+      "description": "A cross-platform Android/iOS/macOS/Windows/Linux/Web Bluetooth Low Energy (BLE) plugin for Flutter",
+      "stargazerCount": 115,
+      "primaryLanguage": {
+        "name": "Dart"
+      },
+      "updatedAt": "2025-12-14T11:22:57Z",
+      "forkCount": 34
+    }
+  ],
+  [
+    "453740140",
+    {
+      "databaseId": 453740140,
+      "nameWithOwner": "chipweinberger/flutter_blue_plus",
+      "description": "Flutter plugin for connecting and communicationg with Bluetooth Low Energy devices, on Android, iOS, macOS, Web, Linux, Windows.",
+      "stargazerCount": 963,
+      "primaryLanguage": {
+        "name": "Dart"
+      },
+      "updatedAt": "2025-12-09T16:29:19Z",
+      "forkCount": 591
+    }
+  ],
+  [
+    "48009214",
+    {
+      "databaseId": 48009214,
+      "nameWithOwner": "microsoft/react-native-windows",
+      "description": "A framework for building native Windows apps with React.",
+      "stargazerCount": 17106,
+      "primaryLanguage": {
+        "name": "C++"
+      },
+      "updatedAt": "2025-12-14T16:19:17Z",
+      "forkCount": 1181
+    }
+  ],
+  [
+    "958314",
+    {
+      "databaseId": 958314,
+      "nameWithOwner": "remy/nodemon",
+      "description": "Monitor for any changes in your node.js application and automatically restart the server - perfect for development",
+      "stargazerCount": 26678,
+      "primaryLanguage": {
+        "name": "JavaScript"
+      },
+      "updatedAt": "2025-12-12T21:29:52Z",
+      "forkCount": 1744
+    }
+  ],
+  [
+    "341816758",
+    {
+      "databaseId": 341816758,
+      "nameWithOwner": "mrousavy/react-native-mmkv",
+      "description": "⚡️ The fastest key/value storage for React Native. ~30x faster than AsyncStorage!",
+      "stargazerCount": 7905,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-14T14:41:57Z",
+      "forkCount": 323
+    }
+  ],
+  [
+    "180328715",
+    {
+      "databaseId": 180328715,
+      "nameWithOwner": "pmndrs/zustand",
+      "description": "🐻 Bear necessities for state management in React",
+      "stargazerCount": 56119,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-14T16:19:31Z",
+      "forkCount": 1894
+    }
+  ],
+  [
+    "2744972",
+    {
+      "databaseId": 2744972,
+      "nameWithOwner": "websockets/ws",
+      "description": "Simple to use, blazing fast and thoroughly tested WebSocket client and server for Node.js",
+      "stargazerCount": 22551,
+      "primaryLanguage": {
+        "name": "JavaScript"
+      },
+      "updatedAt": "2025-12-14T14:41:26Z",
+      "forkCount": 2507
+    }
+  ],
+  [
+    "1569980",
+    {
+      "databaseId": 1569980,
+      "nameWithOwner": "mqttjs/MQTT.js",
+      "description": "The MQTT client for Node.js and the browser",
+      "stargazerCount": 8979,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-13T23:02:20Z",
+      "forkCount": 1439
+    }
+  ],
+  [
+    "924551",
+    {
+      "databaseId": 924551,
+      "nameWithOwner": "rabbitmq/rabbitmq-server",
+      "description": "Open source RabbitMQ: core server and tier 1 (built-in) plugins",
+      "stargazerCount": 13333,
+      "primaryLanguage": {
+        "name": "JavaScript"
+      },
+      "updatedAt": "2025-12-14T14:52:20Z",
+      "forkCount": 3982
+    }
+  ],
+  [
+    "80616041",
+    {
+      "databaseId": 80616041,
+      "nameWithOwner": "invertase/react-native-firebase",
+      "description": "🔥 A well-tested feature-rich modular Firebase implementation for React Native. Supports both iOS & Android platforms for all Firebase services.",
+      "stargazerCount": 12155,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-11T12:02:18Z",
+      "forkCount": 2308
+    }
+  ],
+  [
+    "53614190",
+    {
+      "databaseId": 53614190,
+      "nameWithOwner": "eclipse-mosquitto/mosquitto",
+      "description": "Eclipse Mosquitto - An open source MQTT broker",
+      "stargazerCount": 10417,
+      "primaryLanguage": {
+        "name": "C"
+      },
+      "updatedAt": "2025-12-14T00:16:17Z",
+      "forkCount": 2559
+    }
+  ],
+  [
+    "48129898",
+    {
+      "databaseId": 48129898,
+      "nameWithOwner": "eclipse-paho/paho.mqtt.javascript",
+      "description": "paho.mqtt.javascript",
+      "stargazerCount": 1187,
+      "primaryLanguage": {
+        "name": "JavaScript"
+      },
+      "updatedAt": "2025-12-12T09:33:53Z",
+      "forkCount": 465
+    }
+  ],
+  [
+    "75164823",
+    {
+      "databaseId": 75164823,
+      "nameWithOwner": "apache/rocketmq",
+      "description": "Apache RocketMQ is a cloud native messaging and streaming platform, making it simple to build event-driven applications.",
+      "stargazerCount": 22239,
+      "primaryLanguage": {
+        "name": "Java"
+      },
+      "updatedAt": "2025-12-14T05:03:58Z",
+      "forkCount": 11989
+    }
+  ],
+  [
+    "8843388",
+    {
+      "databaseId": 8843388,
+      "nameWithOwner": "FFTW/fftw3",
+      "description": "DO NOT CHECK OUT THESE FILES FROM GITHUB UNLESS YOU KNOW WHAT YOU ARE DOING. (See below.)",
+      "stargazerCount": 2985,
+      "primaryLanguage": {
+        "name": "C"
+      },
+      "updatedAt": "2025-12-14T13:42:23Z",
+      "forkCount": 695
+    }
+  ],
+  [
+    "6443435",
+    {
+      "databaseId": 6443435,
+      "nameWithOwner": "nats-io/nats-server",
+      "description": "High-Performance server for NATS.io, the cloud and edge native messaging system.",
+      "stargazerCount": 18792,
+      "primaryLanguage": {
+        "name": "Go"
+      },
+      "updatedAt": "2025-12-14T15:27:09Z",
+      "forkCount": 1706
+    }
+  ],
+  [
+    "12618379",
+    {
+      "databaseId": 12618379,
+      "nameWithOwner": "node-red/node-red",
+      "description": "Low-code programming for event-driven applications",
+      "stargazerCount": 22445,
+      "primaryLanguage": {
+        "name": "JavaScript"
+      },
+      "updatedAt": "2025-12-14T15:43:23Z",
+      "forkCount": 3764
+    }
+  ],
+  [
+    "557980",
+    {
+      "databaseId": 557980,
+      "nameWithOwner": "socketio/socket.io",
+      "description": "Realtime application framework (Node.JS server)",
+      "stargazerCount": 62683,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-14T04:50:37Z",
+      "forkCount": 10142
+    }
+  ],
+  [
+    "20787122",
+    {
+      "databaseId": 20787122,
+      "nameWithOwner": "PostgREST/postgrest",
+      "description": "REST API for any Postgres database",
+      "stargazerCount": 26242,
+      "primaryLanguage": {
+        "name": "Haskell"
+      },
+      "updatedAt": "2025-12-14T16:21:21Z",
+      "forkCount": 1138
+    }
+  ],
+  [
+    "2293158",
+    {
+      "databaseId": 2293158,
+      "nameWithOwner": "rapid7/metasploit-framework",
+      "description": "Metasploit Framework",
+      "stargazerCount": 37070,
+      "primaryLanguage": {
+        "name": "Ruby"
+      },
+      "updatedAt": "2025-12-14T15:25:04Z",
+      "forkCount": 14663
+    }
+  ],
+  [
+    "477048503",
+    {
+      "databaseId": 477048503,
+      "nameWithOwner": "nativewind/nativewind",
+      "description": "The utility-first workflow you love from Tailwind CSS in your React Native applications.",
+      "stargazerCount": 7386,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-14T16:19:14Z",
+      "forkCount": 366
+    }
+  ],
+  [
+    "214587193",
+    {
+      "databaseId": 214587193,
+      "nameWithOwner": "supabase/supabase",
+      "description": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
+      "stargazerCount": 94634,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-14T16:22:23Z",
+      "forkCount": 10995
+    }
+  ],
+  [
+    "59771425",
+    {
+      "databaseId": 59771425,
+      "nameWithOwner": "zephyrproject-rtos/zephyr",
+      "description": "Primary Git Repository for the Zephyr Project. Zephyr is a new generation, scalable, optimized, secure RTOS for multiple hardware architectures.",
+      "stargazerCount": 13913,
+      "primaryLanguage": {
+        "name": "C"
+      },
+      "updatedAt": "2025-12-14T13:24:19Z",
+      "forkCount": 8370
+    }
+  ],
+  [
+    "64301246",
+    {
+      "databaseId": 64301246,
+      "nameWithOwner": "dotintent/react-native-ble-plx",
+      "description": "React Native BLE library",
+      "stargazerCount": 3334,
+      "primaryLanguage": {
+        "name": "Java"
+      },
+      "updatedAt": "2025-12-12T14:07:40Z",
+      "forkCount": 547
+    }
+  ],
+  [
+    "4164482",
+    {
+      "databaseId": 4164482,
+      "nameWithOwner": "django/django",
+      "description": "The Web framework for perfectionists with deadlines.",
+      "stargazerCount": 86147,
+      "primaryLanguage": {
+        "name": "Python"
+      },
+      "updatedAt": "2025-12-14T14:51:25Z",
+      "forkCount": 33331
+    }
+  ],
+  [
+    "235600443",
+    {
+      "databaseId": 235600443,
+      "nameWithOwner": "storybookjs/react-native",
+      "description": "📓 Storybook for React Native!",
+      "stargazerCount": 1241,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-13T07:50:16Z",
+      "forkCount": 176
+    }
+  ],
+  [
+    "3880513",
+    {
+      "databaseId": 3880513,
+      "nameWithOwner": "rwaldron/johnny-five",
+      "description": "JavaScript Robotics and IoT programming framework, developed at Bocoup.",
+      "stargazerCount": 13403,
+      "primaryLanguage": {
+        "name": "JavaScript"
+      },
+      "updatedAt": "2025-12-12T00:40:01Z",
+      "forkCount": 1745
+    }
+  ],
+  [
+    "7331227",
+    {
+      "databaseId": 7331227,
+      "nameWithOwner": "brndnmtthws/conky",
+      "description": "Light-weight system monitor for X, Wayland, and other things, too",
+      "stargazerCount": 8049,
+      "primaryLanguage": {
+        "name": "C++"
+      },
+      "updatedAt": "2025-12-14T15:24:04Z",
+      "forkCount": 647
+    }
+  ],
+  [
+    "201188122",
+    {
+      "databaseId": 201188122,
+      "nameWithOwner": "rocksdanister/lively",
+      "description": "Free and open-source software that allows users to set animated desktop wallpapers and screensavers powered by WinUI 3.",
+      "stargazerCount": 17755,
+      "primaryLanguage": {
+        "name": "C#"
+      },
+      "updatedAt": "2025-12-14T15:32:41Z",
+      "forkCount": 1210
+    }
+  ],
+  [
+    "656662968",
+    {
+      "databaseId": 656662968,
+      "nameWithOwner": "PacktPublishing/React-and-React-Native-5E",
+      "description": "React and React Native, 5E_published by Packt",
+      "stargazerCount": 86,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-04T07:15:21Z",
+      "forkCount": 42
+    }
+  ],
+  [
+    "65750241",
+    {
+      "databaseId": 65750241,
+      "nameWithOwner": "expo/expo",
+      "description": "An open-source framework for making universal native apps with React. Expo runs on Android, iOS, and the web.",
+      "stargazerCount": 45582,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-14T16:19:10Z",
+      "forkCount": 10268
+    }
+  ],
+  [
+    "59281618",
+    {
+      "databaseId": 59281618,
+      "nameWithOwner": "innoveit/react-native-ble-manager",
+      "description": "React Native BLE communication module",
+      "stargazerCount": 2276,
+      "primaryLanguage": {
+        "name": "Java"
+      },
+      "updatedAt": "2025-12-08T18:43:10Z",
+      "forkCount": 794
+    }
+  ],
+  [
+    "116576783",
+    {
+      "databaseId": 116576783,
+      "nameWithOwner": "bettercap/bettercap",
+      "description": "The Swiss Army knife for 802.11, BLE, HID, CAN-bus, IPv4 and IPv6 networks reconnaissance and MITM attacks.",
+      "stargazerCount": 18598,
+      "primaryLanguage": {
+        "name": "Go"
+      },
+      "updatedAt": "2025-12-14T16:20:00Z",
+      "forkCount": 1604
+    }
+  ],
+  [
+    "66323960",
+    {
+      "databaseId": 66323960,
+      "nameWithOwner": "Jasonchenlijian/FastBle",
+      "description": "Android Bluetooth Low Energy (BLE) Fast Development Framework. It uses simple ways to filter, scan, connect, read ,write, notify, readRssi, setMTU, and multiConnection.",
+      "stargazerCount": 5466,
+      "primaryLanguage": {
+        "name": "Java"
+      },
+      "updatedAt": "2025-12-13T14:04:51Z",
+      "forkCount": 1244
+    }
+  ],
+  [
+    "284134871",
+    {
+      "databaseId": 284134871,
+      "nameWithOwner": "flipperdevices/flipperzero-firmware",
+      "description": "Flipper Zero firmware source code",
+      "stargazerCount": 15230,
+      "primaryLanguage": {
+        "name": "C"
+      },
+      "updatedAt": "2025-12-14T09:53:06Z",
+      "forkCount": 3195
+    }
+  ],
+  [
+    "596892",
+    {
+      "databaseId": 596892,
+      "nameWithOwner": "pallets/flask",
+      "description": "The Python micro framework for building web applications.",
+      "stargazerCount": 70920,
+      "primaryLanguage": {
+        "name": "Python"
+      },
+      "updatedAt": "2025-12-14T13:35:34Z",
+      "forkCount": 16650
+    }
+  ],
+  [
+    "353775942",
+    {
+      "databaseId": 353775942,
+      "nameWithOwner": "streetwriters/notesnook",
+      "description": "A fully open source & end-to-end encrypted note taking alternative to Evernote.",
+      "stargazerCount": 13288,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-14T14:01:29Z",
+      "forkCount": 877
+    }
+  ],
+  [
+    "4793392",
+    {
+      "databaseId": 4793392,
+      "nameWithOwner": "sqlmapproject/sqlmap",
+      "description": "Automatic SQL injection and database takeover tool",
+      "stargazerCount": 36093,
+      "primaryLanguage": {
+        "name": "Python"
+      },
+      "updatedAt": "2025-12-14T12:41:31Z",
+      "forkCount": 6138
+    }
+  ],
+  [
+    "162723104",
+    {
+      "databaseId": 162723104,
+      "nameWithOwner": "OWASP/CheatSheetSeries",
+      "description": "The OWASP Cheat Sheet Series was created to provide a concise collection of high value information on specific application security topics.",
+      "stargazerCount": 30896,
+      "primaryLanguage": {
+        "name": "Python"
+      },
+      "updatedAt": "2025-12-14T02:24:54Z",
+      "forkCount": 4305
+    }
+  ],
+  [
+    "247266215",
+    {
+      "databaseId": 247266215,
+      "nameWithOwner": "JaidedAI/EasyOCR",
+      "description": "Ready-to-use OCR with 80+ supported languages and all popular writing scripts including Latin, Chinese, Arabic, Devanagari, Cyrillic and etc.",
+      "stargazerCount": 28559,
+      "primaryLanguage": {
+        "name": "Python"
+      },
+      "updatedAt": "2025-12-14T12:26:55Z",
+      "forkCount": 3511
+    }
+  ],
+  [
+    "127769231",
+    {
+      "databaseId": 127769231,
+      "nameWithOwner": "DIYgod/RSSHub",
+      "description": "🧡 Everything is RSSible",
+      "stargazerCount": 40429,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-14T16:43:40Z",
+      "forkCount": 8858
+    }
+  ],
+  [
+    "338719962",
+    {
+      "databaseId": 338719962,
+      "nameWithOwner": "KRTirtho/spotube",
+      "description": "🎧 Open source music streaming app! Available for both desktop & mobile!",
+      "stargazerCount": 43030,
+      "primaryLanguage": {
+        "name": "Dart"
+      },
+      "updatedAt": "2025-12-14T16:26:33Z",
+      "forkCount": 1918
+    }
+  ],
+  [
+    "41889031",
+    {
+      "databaseId": 41889031,
+      "nameWithOwner": "TeamNewPipe/NewPipe",
+      "description": "A libre lightweight streaming front-end for Android.",
+      "stargazerCount": 35908,
+      "primaryLanguage": {
+        "name": "Java"
+      },
+      "updatedAt": "2025-12-14T16:31:32Z",
+      "forkCount": 3338
+    }
+  ],
+  [
+    "337054443",
+    {
+      "databaseId": 337054443,
+      "nameWithOwner": "Team-xManager/xManager",
+      "description": "Ad-Free, New Features & Freedom",
+      "stargazerCount": 12046,
+      "primaryLanguage": {
+        "name": "Java"
+      },
+      "updatedAt": "2025-12-14T14:58:18Z",
+      "forkCount": 315
+    }
+  ],
+  [
+    "533498608",
+    {
+      "databaseId": 533498608,
+      "nameWithOwner": "KenWuqianghao/iBeats",
+      "description": "Apple Watch 心率数据采集 - Your Soul, Your Beats!",
+      "stargazerCount": 1,
+      "primaryLanguage": {
+        "name": "Python"
+      },
+      "updatedAt": "2025-11-08T16:32:19Z",
+      "forkCount": 0
+    }
+  ],
+  [
+    "125836961",
+    {
+      "databaseId": 125836961,
+      "nameWithOwner": "sanattaori/techdot",
+      "description": "Aadhaar Based voting system",
+      "stargazerCount": 184,
+      "primaryLanguage": {
+        "name": "CSS"
+      },
+      "updatedAt": "2025-09-01T20:34:46Z",
+      "forkCount": 134
+    }
+  ],
+  [
+    "132750724",
+    {
+      "databaseId": 132750724,
+      "nameWithOwner": "codecrafters-io/build-your-own-x",
+      "description": "Master programming by recreating your favorite technologies from scratch.",
+      "stargazerCount": 448949,
+      "primaryLanguage": {
+        "name": "Markdown"
+      },
+      "updatedAt": "2025-12-14T16:44:10Z",
+      "forkCount": 42104
+    }
+  ],
+  [
+    "40276274",
+    {
+      "databaseId": 40276274,
+      "nameWithOwner": "ziglang/zig",
+      "description": "Moved to Codeberg",
+      "stargazerCount": 42591,
+      "primaryLanguage": {
+        "name": "Zig"
+      },
+      "updatedAt": "2025-12-14T16:17:41Z",
+      "forkCount": 3116
+    }
+  ],
+  [
+    "130879558",
+    {
+      "databaseId": 130879558,
+      "nameWithOwner": "gitpod-io/gitpod",
+      "description": "The developer platform for on-demand cloud development environments to create software faster and more securely.",
+      "stargazerCount": 13552,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "updatedAt": "2025-12-14T14:42:16Z",
+      "forkCount": 1354
+    }
+  ],
+  [
+    "49077471",
+    {
+      "databaseId": 49077471,
+      "nameWithOwner": "phyphox/phyphox-android",
+      "description": "Physical Phone Experiments",
+      "stargazerCount": 528,
+      "primaryLanguage": {
+        "name": "C"
+      },
+      "updatedAt": "2025-12-14T06:42:01Z",
+      "forkCount": 63
+    }
+  ],
+  [
+    "180987254",
+    {
+      "databaseId": 180987254,
+      "nameWithOwner": "onlaj/Piano-LED-Visualizer",
+      "description": "Piano LED Visualizer: Connect an LED strip to your Raspberry Pi and create an immersive visual experience for your piano playing",
+      "stargazerCount": 674,
+      "primaryLanguage": {
+        "name": "Python"
+      },
+      "updatedAt": "2025-12-14T16:22:36Z",
+      "forkCount": 142
+    }
+  ]
+]
