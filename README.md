@@ -62,15 +62,11 @@ This project was inspired by the need for a **personal, customizable way to orga
 3. **Create a GitHub Personal Access Token(PAT)**
 
    * Go to [GitHub Developer Settings](https://github.com/settings/personal-access-tokens) → Generate New Token.
+   * Under Account Permissions, Select "Starring".
    * Copy the **Token**.
 
-4. **Add your next-auth secret:**
    
-   ```env
-   npx auth secret
-   ```
-   
-5. **Add your OAuth credentials:**
+4. **Add your OAuth credentials:**
    On `.env.local` file:
 
    ```env
@@ -78,7 +74,7 @@ This project was inspired by the need for a **personal, customizable way to orga
    NEXTAUTH_URL=http://localhost:3000
    ```
 
-6. **Run the app:**
+5. **Run the app:**
 
    ```bash
    npm run dev
