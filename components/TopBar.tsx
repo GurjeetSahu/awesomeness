@@ -29,19 +29,21 @@ export default function TopBar() {
 
   return (
     <div className="flex items-center justify-between bg-gray-800 p-4">
-      <div className="text-white text-lg font-bold">Awesomeness</div>
+      <div className="text-white text-lg font-bold">StarVault</div>
       <div className="flex space-x-4"></div>
       <div className="flex space-x-4">
         {/* Work in Progress */}
         {/* <Ai /> */}
         <ThemeChanger />
-        <User />
+        {/* <User /> */}
         <Button
           className="ml-3"
           onClick={() => {
             queryClient.invalidateQueries({ queryKey: ["all-stars"] });
           }}
-        ></Button>
+        >
+          Fetch Stars
+        </Button>
       </div>
     </div>
   );

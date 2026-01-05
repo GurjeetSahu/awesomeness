@@ -62,7 +62,7 @@ const MultipleSelectorWithDisabledOption = () => {
         <DialogTrigger asChild>
           <Button className=" w-full mb-2 bg-green-500">
             <Plus />
-            Add Club
+            Add Category
           </Button>
         </DialogTrigger>
         <DialogContent className="sm:max-w-[425px]">
