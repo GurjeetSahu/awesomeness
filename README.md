@@ -1,5 +1,6 @@
 ---
-<img width="1846" height="925" alt="Screenshot" src="https://github.com/user-attachments/assets/42254aa6-315a-4c61-aa9a-1872a54ec41f" />
+<img width="1846" height="925" alt="Screenshot" src="https://github.com/user-attachments/assets/24058082-3493-4878-a552-768ae9a8e80f" />
+
 
 # Awesomeness
 
