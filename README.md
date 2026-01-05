@@ -73,7 +73,6 @@ This project was inspired by the need for a **personal, customizable way to orga
 
    ```env
    PAT=your_token
-   NEXTAUTH_URL=http://localhost:3000
    ```
 
 5. **Run the app:**
