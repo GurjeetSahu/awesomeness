@@ -32,20 +32,6 @@ USE RESPONSIBLY.
 
 ---
 
-## Why I Built This
-
-This project was inspired by the need for a **personal, customizable way to organize starred repositories**. It is meant for **local use only**, and does not replace GitHub’s platform or interfere with its services.
-
----
-
-## Tech Stack
-
-* **React + Next.js** – UI and app logic
-* **Dexie.js** – Local IndexedDB management
-* **shadcn/ui** – Accessible, modern components
-
----
-
 ## Getting Started
 
 1. **Clone the repository:**
@@ -85,16 +71,13 @@ This project was inspired by the need for a **personal, customizable way to orga
 
 ---
 
-## Usage
+## Tech Stack
 
-* Sign in with your GitHub account via OAuth.
-* Click refresh button to fetch all your starred repositories from github.
-* Browse your starred repositories locally.
-* Organize them into categories or create new ones.
-* All data is stored **locally on your machine**.
+* **React + Next.js** – UI and app logic
+* **Dexie.js** – Local IndexedDB management
+* **shadcn/ui** – Accessible, modern components
 
 ---
-
 
 ## Acknowledgements
 
