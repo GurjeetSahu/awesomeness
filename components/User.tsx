@@ -16,20 +16,13 @@ import useStars from "@/lib/useStars";
 export function User() {
   const { isFetching } = useStars();
   const queryClient = useQueryClient();
-  const { data: session } = useSession();
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
         <div className="data-[state=open]:bg-sidebar-accent data-[state=open]:text-sidebar-accent-foreground">
           <Avatar>
-            <AvatarImage src={session?.user?.image || ""} alt="Avatar" />
             <AvatarFallback>Avatar</AvatarFallback>
           </Avatar>
-          <div className="grid flex-1 text-left text-sm leading-tight">
-            <span className="truncate font-semibold">
-              {session?.user?.name}
-            </span>
-          </div>
           <ChevronsDown className="ml-auto size-4" />
         </div>
       </DropdownMenuTrigger>
