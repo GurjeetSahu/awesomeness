@@ -78,9 +78,16 @@ export default function CategoryTree() {
   const { setRepos } = useRepoStore();
   const [repoManager] = useState(() => new RepoManager());
   const [categories, setCategories] = useState<CategoryNode[]>([]);
-
   const handleCategoryClick = async (cat: CategoryNode) => {
     setRepos(await repoManager.getReposByCategory(cat.id));
+  };
+
+  const hcc = async (category: string | number) => {
+    if (category === "Uncategorized") {
+      setRepos(await repoManager.getAllRepos());
+    } else {
+      setRepos(await repoManager.getReposByCategory(category));
+    }
   };
 
   // Fetch categories on mount
@@ -97,6 +104,9 @@ export default function CategoryTree() {
   return (
     <div className="p-4 space-y-2 w-full bg-card border rounded-lg shadow-sm">
       <div className="space-y-1">
+        <Button className="bg-green-500" onClick={() => hcc("Uncategorized")}>
+          All Stars
+        </Button>
         {categories.map((cat) => (
           <CategoryItem
             key={cat.id}

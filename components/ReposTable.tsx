@@ -96,13 +96,6 @@ export default function ReposTable() {
   return (
     <div className="">
       <div className="mb-4 flex flex-column gap-2 ">
-        <div></div>
-        <Button
-          className="bg-green-500"
-          onClick={() => handleCategoryClick("Uncategorized")}
-        >
-          All
-        </Button>
         {table.getAllColumns().map((col) => {
           const sortState = col.getIsSorted();
 
