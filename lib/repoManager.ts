@@ -1,25 +1,5 @@
 import Dexie, { Table } from 'dexie';
-
-interface Repo {
-  databaseId: number;
-  nameWithOwner: string;
-  description: string;
-  stargazerCount?: number
-}
-
-interface Category {
-  id: number;
-  name: string;
-  parentId?: number;
-}
-
-
-
-export interface CategoryNode extends Category {
-  children: CategoryNode[];
-  repos: Repo[]; // add repos here
-}
-
+import { Category, CategoryNode } from './useRepoStore';
 
 export default class RepoManager {
   private db: Dexie;
@@ -74,7 +54,7 @@ export default class RepoManager {
 
   async addCategory(category: string, parentId?: Number | null): Promise<boolean> {
     console.log("Adding category", category, parentId);
-    await this.categoriesTable.add({ name: category,parentId:parentId } as Category);
+    await this.categoriesTable.add({ name: category, parentId: parentId } as Category);
     return true;
   }
 

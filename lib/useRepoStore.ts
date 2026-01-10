@@ -1,6 +1,6 @@
 import { create } from "zustand";
 
-interface Repo {
+export interface Repo {
   databaseId: number;
   nameWithOwner: string;
   description: string;
@@ -9,21 +9,32 @@ interface Repo {
   categories?: string[];
 }
 
-interface RepoState {
+export interface RepoState {
   repos: Repo[];
   setRepos: (repos: Repo[]) => void;
   addRepo: (repo: Repo) => void;
   clearRepos: () => void;
 }
 
-interface CategoryOption {
+export interface Category {
+  id: number;
+  name: string;
+  parentId?: number;
+}
+
+export interface CategoryOption {
   value: string | number;
   label: string;
 }
 
-interface CategoryState {
+export interface CategoryState {
   options: CategoryOption[];
   setOptions: (opts: CategoryOption[]) => void;
+}
+
+export interface CategoryNode extends Category {
+  children: CategoryNode[];
+  repos: Repo[];
 }
 
 export const useRepoStore = create<RepoState>((set) => ({

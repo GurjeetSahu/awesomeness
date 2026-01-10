@@ -9,7 +9,7 @@ import {
 import { Button } from "@/components/ui/button";
 import { ChevronRight, FolderTree } from "lucide-react";
 import RepoManager from "@/lib/repoManager";
-import type { CategoryNode } from "@/lib/repoManager";
+import type { CategoryNode } from "@/lib/useRepoStore";
 import { useRepoStore } from "@/lib/useRepoStore";
 
 function CategoryItem({
