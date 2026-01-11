@@ -1,5 +1,5 @@
 import Dexie, { Table } from 'dexie';
-import { Category, CategoryNode } from './useRepoStore';
+import { Category } from './useRepoStore';
 
 export default class RepoManager {
   private db: Dexie;
@@ -77,7 +77,7 @@ export default class RepoManager {
     );
   }
 
-  async getCategoryTreeFromDexie(): Promise<CategoryNode[]> {
+  async getCategoryTreeFromDexie(): Promise<Category[]> {
     const [categories, repos, repoCategories] = await Promise.all([
       this.categoriesTable.toArray(),
       this.reposTable.toArray(),
@@ -85,7 +85,7 @@ export default class RepoManager {
     ]);
 
     // Map categories by id
-    const map = new Map<number, CategoryNode>();
+    const map = new Map<number, Category>();
     categories.forEach((cat) => map.set(cat.id!, { ...cat, children: [], repos: [] }));
 
     // Attach repos to categories
@@ -98,7 +98,7 @@ export default class RepoManager {
     });
 
     // Build category tree
-    const roots: CategoryNode[] = [];
+    const roots: Category[] = [];
     map.forEach((node) => {
       if (!node.parentId) roots.push(node);
       else {

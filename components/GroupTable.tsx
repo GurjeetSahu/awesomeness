@@ -9,15 +9,15 @@ import {
 import { Button } from "@/components/ui/button";
 import { ChevronRight, FolderTree } from "lucide-react";
 import RepoManager from "@/lib/repoManager";
-import type { CategoryNode } from "@/lib/useRepoStore";
+import type { Category } from "@/lib/useRepoStore";
 import { useRepoStore } from "@/lib/useRepoStore";
 
 function CategoryItem({
   node,
   onCategoryClick,
 }: {
-  node: CategoryNode;
-  onCategoryClick?: (category: CategoryNode) => void;
+  node: Category;
+  onCategoryClick?: (category: Category) => void;
 }) {
   const [open, setOpen] = useState(false);
 
@@ -77,8 +77,8 @@ function CategoryItem({
 export default function CategoryTree() {
   const { setRepos } = useRepoStore();
   const [repoManager] = useState(() => new RepoManager());
-  const [categories, setCategories] = useState<CategoryNode[]>([]);
-  const handleCategoryClick = async (cat: CategoryNode) => {
+  const [categories, setCategories] = useState<Category[]>([]);
+  const handleCategoryClick = async (cat: Category) => {
     setRepos(await repoManager.getReposByCategory(cat.id));
   };
 

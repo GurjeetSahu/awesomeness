@@ -1,3 +1,4 @@
+//Fetches all stars from github using react query and stores the cursor in local storage
 import { useQuery } from "@tanstack/react-query";
 
 export default function useStars() {
@@ -33,5 +34,5 @@ export default function useStars() {
       }
     },
   })
-  return { allStars: data, isError, isLoading,isFetching }
+  return { allStars: data, isError, isLoading, isFetching }
 }

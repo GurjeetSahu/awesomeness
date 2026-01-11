@@ -1,3 +1,4 @@
+//Global store for repos and categorise using zustand
 import { create } from "zustand";
 
 export interface Repo {
@@ -15,13 +16,17 @@ export interface RepoState {
   addRepo: (repo: Repo) => void;
   clearRepos: () => void;
 }
+//
+
 
 export interface Category {
   id: number;
   name: string;
   parentId?: number;
+  children: Category[];
+  repos: Repo[];
 }
-
+//
 export interface CategoryOption {
   value: string | number;
   label: string;
@@ -31,11 +36,7 @@ export interface CategoryState {
   options: CategoryOption[];
   setOptions: (opts: CategoryOption[]) => void;
 }
-
-export interface CategoryNode extends Category {
-  children: CategoryNode[];
-  repos: Repo[];
-}
+//
 
 export const useRepoStore = create<RepoState>((set) => ({
   repos: [],
