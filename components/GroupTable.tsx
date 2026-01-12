@@ -7,7 +7,7 @@ import {
   CollapsibleTrigger,
 } from "@/components/ui/collapsible";
 import { Button } from "@/components/ui/button";
-import { ChevronRight, FolderTree } from "lucide-react";
+import { ChevronRight } from "lucide-react";
 import RepoManager from "@/lib/repoManager";
 import type { Category } from "@/lib/useRepoStore";
 import { useRepoStore } from "@/lib/useRepoStore";
@@ -24,7 +24,7 @@ function CategoryItem({
   return (
     <Collapsible open={open} onOpenChange={setOpen}>
       <div className="flex items-center space-x-2">
-        {node.children.length > 0 ? (
+        {node.children ? (
           <CollapsibleTrigger asChild>
             <Button
               variant="ghost"
@@ -56,7 +56,7 @@ function CategoryItem({
         )}
       </div>
 
-      {node.children.length > 0 && (
+      {node.children && (
         <CollapsibleContent className="pl-6">
           <div className="space-y-1 border-l border-muted-foreground/20 ml-2 pl-2">
             {node.children.map((child) => (
@@ -78,16 +78,13 @@ export default function CategoryTree() {
   const { setRepos } = useRepoStore();
   const [repoManager] = useState(() => new RepoManager());
   const [categories, setCategories] = useState<Category[]>([]);
+
   const handleCategoryClick = async (cat: Category) => {
     setRepos(await repoManager.getReposByCategory(cat.id));
   };
 
-  const hcc = async (category: string | number) => {
-    if (category === "Uncategorized") {
-      setRepos(await repoManager.getAllRepos());
-    } else {
-      setRepos(await repoManager.getReposByCategory(category));
-    }
+  const hcc = async () => {
+    setRepos(await repoManager.getAllRepos());
   };
 
   // Fetch categories on mount
@@ -104,7 +101,7 @@ export default function CategoryTree() {
   return (
     <div className="p-4 space-y-2 w-full bg-card border rounded-lg shadow-sm">
       <div className="space-y-1">
-        <Button className="bg-green-500" onClick={() => hcc("Uncategorized")}>
+        <Button className="bg-green-500" onClick={() => hcc()}>
           All Stars
         </Button>
         {categories.map((cat) => (

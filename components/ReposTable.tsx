@@ -31,7 +31,6 @@ import ExportBtn from "./exportBtn";
 
 export default function ReposTable() {
   const [repoManager] = useState(() => new RepoManager());
-  const [categories, setCategories] = useState<string[]>([]);
   const { repos, setRepos } = useRepoStore();
   const [sorting, setSorting] = useState<SortingState>([]);
   const { allStars: repoMap, isLoading, isFetching } = useStars();
@@ -43,19 +42,10 @@ export default function ReposTable() {
           await repoManager.saveReposLocally(repoMap);
           setRepos(await repoManager.getAllRepos());
         }
-        setCategories(await repoManager.getAllCategories());
         setRepos(await repoManager.getAllRepos());
       }
     })();
   }, [repoMap, repoManager, setRepos]);
-
-  const handleCategoryClick = async (category: string | number) => {
-    if (category === "Uncategorized") {
-      setRepos(await repoManager.getAllRepos());
-    } else {
-      setRepos(await repoManager.getReposByCategory(category));
-    }
-  };
 
   const columnHelper = createColumnHelper<any>();
   const columns = useMemo(
@@ -84,7 +74,7 @@ export default function ReposTable() {
     getCoreRowModel: getCoreRowModel(),
     getSortedRowModel: getSortedRowModel(),
   });
-  if (isFetching) {
+  if (isFetching || isLoading) {
     return (
       <div>
         <h1 className="scroll-m-20 text-center text-4xl font-extrabold tracking-tight text-balance">

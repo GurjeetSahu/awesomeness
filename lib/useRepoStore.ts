@@ -23,7 +23,7 @@ export interface Category {
   id: number;
   name: string;
   parentId?: number;
-  children: Category[];
+  children?: Category[];
   repos: Repo[];
 }
 //

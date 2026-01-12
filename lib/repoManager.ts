@@ -42,6 +42,15 @@ export default class RepoManager {
       .map(e => e?.value);
     return values;
   }
+
+  //NewCategory.tsx uses this to create new category
+  async addCategory(category: string, parentId?: Number | null): Promise<boolean> {
+    console.log("Adding category", category, parentId);
+    await this.categoriesTable.add({ name: category, parentId: parentId } as Category);
+    return true;
+  }
+
+  //(Getter) Repo's Categories
   async getCategoriesByRepo(repoId: string | number): Promise<any> {
     const links = await this.categoryMapEntry.where("mapEntryId").equals(repoId).toArray();
     const categoryIds = links.map(l => l.categoryId);
@@ -51,13 +60,7 @@ export default class RepoManager {
     return values;
   }
 
-
-  async addCategory(category: string, parentId?: Number | null): Promise<boolean> {
-    console.log("Adding category", category, parentId);
-    await this.categoriesTable.add({ name: category, parentId: parentId } as Category);
-    return true;
-  }
-
+  //(Setter) (Repo's Categories) The Add button You see in front of each repo in RepoList
   async ModifyRepoCategory(repoId: string, catId: number, state: boolean): Promise<boolean> {
     if (!state) {
       await this.categoryMapEntry
@@ -71,12 +74,14 @@ export default class RepoManager {
     return true;
   }
 
+  //Used after fetching from Github API
   async saveReposLocally(repos: any) {
     await this.reposTable.bulkPut(
       Array.from(repos, ([key, value], index) => ({ key, value }))
     );
   }
 
+  //Used by GroupTable on Mount to build Category Tree
   async getCategoryTreeFromDexie(): Promise<Category[]> {
     const [categories, repos, repoCategories] = await Promise.all([
       this.categoriesTable.toArray(),
@@ -103,7 +108,7 @@ export default class RepoManager {
       if (!node.parentId) roots.push(node);
       else {
         const parent = map.get(node.parentId);
-        if (parent) parent.children.push(node);
+        if (parent && parent.children) parent.children.push(node);
       }
     });
     return roots;
