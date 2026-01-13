@@ -18,6 +18,7 @@ import {
   DialogTitle,
   DialogTrigger,
   DialogDescription,
+  DialogClose,
 } from "./ui/dialog";
 import {
   AlertDialog,
@@ -99,9 +100,11 @@ const MultipleSelectorWithDisabledOption = () => {
                 setValue("repos", selected[0].value);
               }}
             />
-            <Button type="submit" variant="outline">
-              Save
-            </Button>
+            <DialogClose asChild>
+              <Button type="submit" variant="outline">
+                Save
+              </Button>
+            </DialogClose>
           </form>
         </DialogContent>
       </Dialog>
