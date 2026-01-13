@@ -1,15 +1,18 @@
 "use client";
+
+//TOP LEVEL
 import React, { useEffect, useState } from "react";
 import { useForm, SubmitHandler } from "react-hook-form";
 import { z } from "zod";
 
+//MID LEVEL
 import RepoManager from "@/lib/repoManager";
 import { useCategoryStore } from "@/lib/useStore";
 
+//UI LEVEL
 import MultipleSelector, { Option } from "@/components/ui/multiple-selector";
-import { Button } from "./ui/button";
+import { Button } from "@/components/ui/button";
 import { Label } from "@/components/ui/label";
-import { AlertDialogDescription } from "@radix-ui/react-alert-dialog";
 import { Plus } from "lucide-react";
 import {
   Dialog,
@@ -19,16 +22,7 @@ import {
   DialogTrigger,
   DialogDescription,
   DialogClose,
-} from "./ui/dialog";
-import {
-  AlertDialog,
-  AlertDialogAction,
-  AlertDialogContent,
-  AlertDialogFooter,
-  AlertDialogHeader,
-  AlertDialogTitle,
-  AlertDialogTrigger,
-} from "@/components/ui/alert-dialog";
+} from "@/components/ui/dialog";
 
 const MultipleSelectorWithDisabledOption = () => {
   const { options: OPTIONS, setOptions } = useCategoryStore();

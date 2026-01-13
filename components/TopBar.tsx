@@ -4,7 +4,7 @@ import { User } from "@/components/User";
 import Ai from "@/components/Ai";
 import { useEffect } from "react";
 import { useQueryClient } from "@tanstack/react-query";
-import { Button } from "./ui/button";
+import { Button } from "@/components/ui/button";
 
 export default function TopBar() {
   const queryClient = useQueryClient();

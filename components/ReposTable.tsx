@@ -1,5 +1,6 @@
 "use client";
 
+//TOP LEVEL
 import { useEffect, useMemo, useState } from "react";
 import {
   createColumnHelper,
@@ -9,12 +10,13 @@ import {
   SortingState,
 } from "@tanstack/react-table";
 
+//MID LEVEL
 import RepoManager from "@/lib/repoManager";
 import useStars from "@/lib/useStars";
 import { useRepoStore } from "@/lib/useStore";
-
 import CheckBox from "@/components/ModifyCategories";
 
+//UI LEVEL
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Separator } from "@/components/ui/separator";
 import { Badge } from "@/components/ui/badge";

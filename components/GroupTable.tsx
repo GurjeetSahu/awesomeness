@@ -2,18 +2,21 @@
 
 //Top level
 import { useEffect, useState } from "react";
+
+//MID LEVEL
+import RepoManager from "@/lib/repoManager";
+import type { Category } from "@/lib/useStore";
+import { useRepoStore } from "@/lib/useStore";
+import { useCategoryStore } from "@/lib/useStore";
+
+//UI LEVEL
+import { Button } from "@/components/ui/button";
+import { ChevronRight } from "lucide-react";
 import {
   Collapsible,
   CollapsibleContent,
   CollapsibleTrigger,
 } from "@/components/ui/collapsible";
-import { Button } from "@/components/ui/button";
-import { ChevronRight } from "lucide-react";
-
-import RepoManager from "@/lib/repoManager";
-import type { Category } from "@/lib/useStore";
-import { useRepoStore } from "@/lib/useStore";
-import { useCategoryStore } from "@/lib/useStore";
 
 function CategoryItem({
   node,
