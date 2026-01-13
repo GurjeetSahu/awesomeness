@@ -1,8 +1,24 @@
 "use client";
 import React, { useEffect, useState } from "react";
-
 import { useForm, SubmitHandler } from "react-hook-form";
+import { z } from "zod";
 
+import RepoManager from "@/lib/repoManager";
+import { useCategoryStore } from "@/lib/useStore";
+
+import MultipleSelector, { Option } from "@/components/ui/multiple-selector";
+import { Button } from "./ui/button";
+import { Label } from "@/components/ui/label";
+import { AlertDialogDescription } from "@radix-ui/react-alert-dialog";
+import { Plus } from "lucide-react";
+import {
+  Dialog,
+  DialogContent,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+  DialogDescription,
+} from "./ui/dialog";
 import {
   AlertDialog,
   AlertDialogAction,
@@ -12,24 +28,6 @@ import {
   AlertDialogTitle,
   AlertDialogTrigger,
 } from "@/components/ui/alert-dialog";
-
-import MultipleSelector, { Option } from "@/components/ui/multiple-selector";
-import { Button } from "./ui/button";
-import { Label } from "@/components/ui/label";
-import {
-  Dialog,
-  DialogContent,
-  DialogHeader,
-  DialogTitle,
-  DialogTrigger,
-  DialogDescription,
-} from "./ui/dialog";
-
-import { Plus } from "lucide-react";
-import { z } from "zod";
-import RepoManager from "@/lib/repoManager";
-import { AlertDialogDescription } from "@radix-ui/react-alert-dialog";
-import { useCategoryStore } from "@/lib/useRepoStore";
 
 const MultipleSelectorWithDisabledOption = () => {
   const { options: OPTIONS, setOptions } = useCategoryStore();
@@ -45,8 +43,11 @@ const MultipleSelectorWithDisabledOption = () => {
     useForm<z.infer<typeof FormSchema>>();
 
   async function onSubmit(data: z.infer<typeof FormSchema>) {
-    console.log(data)
-    await repoManager.addCategory(data.name,data.repos ? Number(data.repos) : null);
+    console.log(data);
+    await repoManager.addCategory(
+      data.name,
+      data.repos ? Number(data.repos) : null
+    );
   }
   useEffect(() => {
     (async () => {

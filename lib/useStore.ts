@@ -9,7 +9,7 @@ export interface Repo {
   primaryLanguage?: { name: string; color: string };
   categories?: string[];
 }
-
+//Visible on repo list UI
 export interface RepoState {
   repos: Repo[];
   setRepos: (repos: Repo[]) => void;
@@ -17,8 +17,6 @@ export interface RepoState {
   clearRepos: () => void;
 }
 //
-
-
 export interface Category {
   id: number;
   name: string;

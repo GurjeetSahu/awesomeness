@@ -25,18 +25,21 @@ export default function RepoCheckBox({ repoId }: { repoId: string }) {
   const [repoManager] = useState(() => new RepoManager());
   const [cats, setCats] = useState<string[]>([]);
   const [isChecked, setIsChecked] = useState<string[]>([]);
+
   const form = useForm<z.infer<typeof FormSchema>>({
     resolver: zodResolver(FormSchema),
     defaultValues: {
       categories: [],
     },
   });
+
   useEffect(() => {
     (async function () {
       setIsChecked(await repoManager.getCategoriesByRepo(repoId.toString()));
       setCats(await repoManager.getAllCategories());
     })();
   }, []);
+
   function onSubmit(local: z.infer<typeof FormSchema>) {
     local.categories.forEach((categoryName) => {
       console.log(categoryName);

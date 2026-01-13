@@ -1,15 +1,6 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-
-import CheckBox from "@/components/ModifyCategories";
-import DownLoadbtn from "@/components/Download";
-import { create } from "zustand";
-
-import { ScrollArea } from "@/components/ui/scroll-area";
-import { Separator } from "@/components/ui/separator";
-import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
 import {
   createColumnHelper,
   getCoreRowModel,
@@ -17,17 +8,22 @@ import {
   useReactTable,
   SortingState,
 } from "@tanstack/react-table";
+
+import RepoManager from "@/lib/repoManager";
+import useStars from "@/lib/useStars";
+import { useRepoStore } from "@/lib/useStore";
+
+import CheckBox from "@/components/ModifyCategories";
+
+import { ScrollArea } from "@/components/ui/scroll-area";
+import { Separator } from "@/components/ui/separator";
+import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
-
-import RepoManager from "@/lib/repoManager";
-import useStars from "@/lib/useStars";
-
-import { useRepoStore } from "@/lib/useRepoStore";
-import ExportBtn from "./exportBtn";
 
 export default function ReposTable() {
   const [repoManager] = useState(() => new RepoManager());
@@ -100,16 +96,6 @@ export default function ReposTable() {
             </Button>
           );
         })}
-        {/* <DownLoadbtn
-          starred={{
-            "Web Development": [
-              { name: "cli/cli", stars: 38708 },
-              { name: "shadcn-ui/ui", stars: 84344 },
-              { name: "nextauthjs/next-auth", stars: 26403 },
-            ],
-          }}
-        /> */}
-        <ExportBtn />
       </div>
       <ScrollArea className="h-[calc(100dvh-150px)] w-full border">
         <div className=" flex flex-col ">

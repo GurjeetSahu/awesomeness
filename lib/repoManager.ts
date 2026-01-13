@@ -1,5 +1,5 @@
 import Dexie, { Table } from 'dexie';
-import { Category } from './useRepoStore';
+import { Category } from './useStore';
 
 export default class RepoManager {
   private db: Dexie;
@@ -20,11 +20,13 @@ export default class RepoManager {
     this.categoryMapEntry = this.db.table('categoryMapEntry');
   }
 
+  //Used by GroupTable to get all categories on mount
   async getAllCategories(): Promise<any> {
     const categories = await this.categoriesTable.toArray();
     return categories.map(category => category);
   }
 
+  //Get On Mount and On button click "All Stars"
   async getAllRepos(): Promise<any> {
     //const entries = await this.reposTable.orderBy("order").reverse().toArray();
     const entries = await this.reposTable.orderBy("order").reverse().toArray();
@@ -33,6 +35,7 @@ export default class RepoManager {
     return values
   }
 
+  //Category button to repo table
   async getReposByCategory(categoryId: string | number): Promise<any> {
     const links = await this.categoryMapEntry.where("categoryId").equals(categoryId).toArray();
     const entryIds = links.map(l => l.mapEntryId);
@@ -50,7 +53,7 @@ export default class RepoManager {
     return true;
   }
 
-  //(Getter) Repo's Categories
+  //(Getter) Repo's Categories; The Add button You see in front of each repo in RepoList
   async getCategoriesByRepo(repoId: string | number): Promise<any> {
     const links = await this.categoryMapEntry.where("mapEntryId").equals(repoId).toArray();
     const categoryIds = links.map(l => l.categoryId);

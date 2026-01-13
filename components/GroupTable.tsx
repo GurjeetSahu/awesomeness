@@ -9,8 +9,8 @@ import {
 import { Button } from "@/components/ui/button";
 import { ChevronRight } from "lucide-react";
 import RepoManager from "@/lib/repoManager";
-import type { Category } from "@/lib/useRepoStore";
-import { useRepoStore } from "@/lib/useRepoStore";
+import type { Category } from "@/lib/useStore";
+import { useRepoStore } from "@/lib/useStore";
 
 function CategoryItem({
   node,
