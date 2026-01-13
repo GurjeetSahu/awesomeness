@@ -102,6 +102,17 @@ export default function CategoryTree() {
     };
   });
 
+  useEffect(() => {
+    (async () => {
+      let isMounted = true;
+      repoManager.getCategoryTreeFromDexie().then((data) => {
+        if (isMounted) setCategories(data);
+      });
+      return () => {
+        isMounted = false;
+      };
+    })();
+  }, [OPTIONS]);
   return (
     <div className="p-4 space-y-2 w-full bg-card border rounded-lg shadow-sm">
       <div className="space-y-1">

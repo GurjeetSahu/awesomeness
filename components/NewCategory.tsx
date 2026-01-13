@@ -48,6 +48,10 @@ const MultipleSelectorWithDisabledOption = () => {
       data.name,
       data.repos ? Number(data.repos) : null
     );
+    const cats = await repoManager.getCategoryTreeFromDexie();
+    setOptions(
+      cats.map(({ name, id }) => ({ value: String(id), label: name }))
+    );
   }
   //Add Parent Category Options
   useEffect(() => {
@@ -57,10 +61,13 @@ const MultipleSelectorWithDisabledOption = () => {
         cats.map(({ name, id }) => ({ value: String(id), label: name }))
       );
     })();
-  }, [setOptions]);
+  }, []);
   return (
     <div className="">
       <Dialog>
+        {/* <div>
+          <p>{JSON.stringify(OPTIONS)}</p>
+        </div> */}
         <DialogTrigger asChild>
           <Button className=" w-full mb-2 bg-green-500">
             <Plus />
@@ -92,25 +99,9 @@ const MultipleSelectorWithDisabledOption = () => {
                 setValue("repos", selected[0].value);
               }}
             />
-
-            <AlertDialog>
-              <AlertDialogTrigger asChild>
-                <Button type="submit" variant="outline">
-                  Save
-                </Button>
-              </AlertDialogTrigger>
-              <AlertDialogContent>
-                <AlertDialogDescription></AlertDialogDescription>
-                <AlertDialogHeader>
-                  <AlertDialogTitle>
-                    The category has been created! Please Refresh
-                  </AlertDialogTitle>
-                </AlertDialogHeader>
-                <AlertDialogFooter>
-                  <AlertDialogAction>Continue</AlertDialogAction>
-                </AlertDialogFooter>
-              </AlertDialogContent>
-            </AlertDialog>
+            <Button type="submit" variant="outline">
+              Save
+            </Button>
           </form>
         </DialogContent>
       </Dialog>
