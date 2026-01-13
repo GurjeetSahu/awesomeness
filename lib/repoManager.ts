@@ -1,5 +1,5 @@
 import Dexie, { Table } from 'dexie';
-import { Category } from './useStore';
+import { Category } from '@/lib/useStore';
 
 export default class RepoManager {
   private db: Dexie;

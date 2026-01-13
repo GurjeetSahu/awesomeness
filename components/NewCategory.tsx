@@ -49,6 +49,7 @@ const MultipleSelectorWithDisabledOption = () => {
       data.repos ? Number(data.repos) : null
     );
   }
+  //Add Parent Category Options
   useEffect(() => {
     (async () => {
       const cats = await repoManager.getCategoryTreeFromDexie();

@@ -1,6 +1,7 @@
 "use client";
 
-import { useState } from "react";
+//Top level
+import { useEffect, useState } from "react";
 import {
   Collapsible,
   CollapsibleContent,
@@ -8,9 +9,11 @@ import {
 } from "@/components/ui/collapsible";
 import { Button } from "@/components/ui/button";
 import { ChevronRight } from "lucide-react";
+
 import RepoManager from "@/lib/repoManager";
 import type { Category } from "@/lib/useStore";
 import { useRepoStore } from "@/lib/useStore";
+import { useCategoryStore } from "@/lib/useStore";
 
 function CategoryItem({
   node,
@@ -75,6 +78,7 @@ function CategoryItem({
 
 // Main component
 export default function CategoryTree() {
+  const { options: OPTIONS, setOptions } = useCategoryStore();
   const { setRepos } = useRepoStore();
   const [repoManager] = useState(() => new RepoManager());
   const [categories, setCategories] = useState<Category[]>([]);
