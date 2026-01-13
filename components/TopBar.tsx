@@ -1,7 +1,5 @@
 "use client";
 import { ThemeChanger } from "@/components/ThemeChanger";
-import { User } from "@/components/User";
-import Ai from "@/components/Ai";
 import { useEffect } from "react";
 import { useQueryClient } from "@tanstack/react-query";
 import { Button } from "@/components/ui/button";
@@ -32,10 +30,7 @@ export default function TopBar() {
       <div className="text-white text-lg font-bold">StarVault</div>
       <div className="flex space-x-4"></div>
       <div className="flex space-x-4">
-        {/* Work in Progress */}
-        {/* <Ai /> */}
         <ThemeChanger />
-        {/* <User /> */}
         <Button
           className="ml-3"
           onClick={() => {
