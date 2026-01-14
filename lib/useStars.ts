@@ -6,11 +6,8 @@ export default function useStars() {
   const { data, isError, isLoading, isFetching } = useQuery({
     queryKey: ["all-stars"],
     queryFn: async () => {
-      console.log("Fetching from github")
       const retrievedString = localStorage.getItem('cursor');
-
       if (!retrievedString) {
-        console.log("No cursor found, fetching first page")
         const res = await fetch("/api/github")
         if (!res.ok) throw new Error("Failed to fetch")
         const { stars, cursor } = await res.json();

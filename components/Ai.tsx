@@ -60,7 +60,6 @@ export default function Ai() {
               disabled
               onClick={async () => {
                 await handleSubmit().then((res: any) => {
-                  console.log(res);
                   setText(res.choices[0].message.content);
                 });
               }}

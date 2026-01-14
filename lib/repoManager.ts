@@ -46,7 +46,6 @@ export default class RepoManager {
 
   //NewCategory.tsx uses this to create new category
   async addCategory(category: string, parentId?: Number | null): Promise<boolean> {
-    console.log("Adding category", category, parentId);
     await this.categoriesTable.add({ name: category, parentId: parentId } as Category);
     return true;
   }

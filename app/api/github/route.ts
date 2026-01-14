@@ -60,7 +60,6 @@ export async function GET(req: Request) {
     await Promise.resolve(
       page.edges.forEach((item: any) => {
         allStars.set(item.node.databaseId.toString(), item.node);
-        //console.log(item.node.nameWithOwner)
       })
     );
     hasNextPage = page.pageInfo.hasNextPage;
