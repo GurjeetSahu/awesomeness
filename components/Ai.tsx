@@ -12,7 +12,7 @@ import {
 import { useState } from "react";
 
 export default function Ai() {
-  const [text, setText] = useState("Text will appear here");
+  const [text, setText] = useState("Work in Progress...");
   const [loading, setLoading] = useState(false);
 
   async function handleSubmit() {
@@ -31,7 +31,7 @@ export default function Ai() {
           messages: [
             {
               role: "user",
-              content: "How many 'G's in 'huggingface'?",
+              content: "Say only Hi nothing else",
             },
           ],
         }),
@@ -49,7 +49,7 @@ export default function Ai() {
         </DialogTrigger>
         <DialogContent className="sm:max-w-[425px]">
           <DialogHeader>
-            <DialogTitle>Edit profile</DialogTitle>
+            <DialogTitle>Auto-Categorise in one click.</DialogTitle>
             <DialogDescription>{text}</DialogDescription>
           </DialogHeader>
           <DialogFooter>
@@ -57,7 +57,7 @@ export default function Ai() {
               <Button variant="outline">Cancel</Button>
             </DialogClose>
             <Button
-              disabled={loading}
+              disabled
               onClick={async () => {
                 await handleSubmit().then((res: any) => {
                   console.log(res);
@@ -66,7 +66,7 @@ export default function Ai() {
               }}
               type="submit"
             >
-              Save changes
+              Generate
             </Button>
           </DialogFooter>
         </DialogContent>

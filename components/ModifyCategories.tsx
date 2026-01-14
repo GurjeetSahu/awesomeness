@@ -34,7 +34,7 @@ export default function RepoCheckBox({ repoId }: { repoId: string }) {
       categories: [],
     },
   });
-
+  //LOAD CATEGORIES AND CHECKED STATUS
   useEffect(() => {
     (async function () {
       setIsChecked(await repoManager.getCategoriesByRepo(repoId.toString()));

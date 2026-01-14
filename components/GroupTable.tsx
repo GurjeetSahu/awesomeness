@@ -81,7 +81,7 @@ function CategoryItem({
 
 // Main component
 export default function CategoryTree() {
-  const { options: OPTIONS, setOptions } = useCategoryStore();
+  const { options: OPTIONS } = useCategoryStore();
   const { setRepos } = useRepoStore();
   const [repoManager] = useState(() => new RepoManager());
   const [categories, setCategories] = useState<Category[]>([]);

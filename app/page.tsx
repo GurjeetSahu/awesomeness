@@ -6,8 +6,6 @@ import ReposTable from "@/components/ReposTable";
 import TopBar from "@/components/TopBar";
 import GroupTable from "@/components/SideBar";
 
-import { Button } from "@/components/ui/button";
-
 export default async function Home() {
   const token = process.env.PAT;
   if (token) {

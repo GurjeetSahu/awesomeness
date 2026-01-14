@@ -60,9 +60,6 @@ const MultipleSelectorWithDisabledOption = () => {
   return (
     <div className="">
       <Dialog>
-        {/* <div>
-          <p>{JSON.stringify(OPTIONS)}</p>
-        </div> */}
         <DialogTrigger asChild>
           <Button className=" w-full mb-2 bg-green-500">
             <Plus />
@@ -79,11 +76,13 @@ const MultipleSelectorWithDisabledOption = () => {
           <form onSubmit={handleSubmit(onSubmit)}>
             <Label htmlFor="name">Name</Label>
             <input
-              className="border border-2"
+              placeholder="Name of Category"
+              className="border border-2 mb-4 p-1 w-full rounded-md"
               {...register("name", { required: true })}
             />
 
             <MultipleSelector
+              className="border border-2  p-2 w-full rounded-md"
               defaultOptions={OPTIONS.map((opt) => ({
                 ...opt,
                 value: String(opt.value),
@@ -95,7 +94,11 @@ const MultipleSelectorWithDisabledOption = () => {
               }}
             />
             <DialogClose asChild>
-              <Button type="submit" variant="outline">
+              <Button
+                className="border border-2 mt-4 p-1 w-full rounded-md"
+                type="submit"
+                variant="outline"
+              >
                 Save
               </Button>
             </DialogClose>

@@ -39,8 +39,6 @@ export default class RepoManager {
   async getReposByCategory(categoryId: string | number): Promise<any> {
     const links = await this.categoryMapEntry.where("categoryId").equals(categoryId).toArray();
     const entryIds = links.map(l => l.mapEntryId);
-    console.log(entryIds)
-
     const values = (await this.reposTable.where("key").anyOf(entryIds).toArray())
       .map(e => e?.value);
     return values;
