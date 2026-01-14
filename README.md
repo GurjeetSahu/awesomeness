@@ -2,7 +2,7 @@
 <img width="1846" height="925" alt="Screenshot" src="https://github.com/user-attachments/assets/24058082-3493-4878-a552-768ae9a8e80f" />
 
 
-# Awesomeness
+# StarVault
 
 A **local solution to organize your GitHub stars**. Built for developers who want more ways to categorize and manage their starred repositories on their own machine.
 
