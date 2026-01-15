@@ -24,7 +24,7 @@ import {
   DialogClose,
 } from "@/components/ui/dialog";
 
-export default function MultipleSelectorWithDisabledOption () {
+export default function MultipleSelectorWithDisabledOption() {
   const { options: OPTIONS, setOptions } = useCategoryStore();
   const [repoManager] = useState(() => new RepoManager());
 
@@ -95,6 +95,7 @@ export default function MultipleSelectorWithDisabledOption () {
             />
             <DialogClose asChild>
               <Button
+                onSubmit={() => setValue("repos", "")}
                 className="border border-2 mt-4 p-1 w-full rounded-md"
                 type="submit"
                 variant="outline"
@@ -107,5 +108,4 @@ export default function MultipleSelectorWithDisabledOption () {
       </Dialog>
     </div>
   );
-};
-
+}
