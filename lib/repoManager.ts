@@ -1,3 +1,5 @@
+// All database interactions are handled in this file
+
 import Dexie, { Table } from 'dexie';
 import { Category } from '@/lib/useStore';
 

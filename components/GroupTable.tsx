@@ -96,6 +96,7 @@ export default function CategoryTree() {
   };
 
   const hcc = async () => {
+    setCurrentCategory?.("All Stars");
     setRepos(await repoManager.getAllRepos());
   };
 
@@ -124,10 +125,13 @@ export default function CategoryTree() {
   return (
     <div className="p-4 space-y-2 w-full bg-card border rounded-lg shadow-sm">
       <div className="space-y-1">
-        <h3>{currentCategory || "All Stars"}</h3>
-        <Button className="bg-green-500" onClick={() => hcc()}>
-          All Stars
-        </Button>
+        <div className="flex items-center ">
+          <Button className="bg-green-500 mr-2" onClick={() => hcc()}>
+            All Stars
+          </Button>
+          <h3>Currently in {currentCategory || "All Stars"}</h3>
+        </div>
+
         {categories.map((cat) => (
           <CategoryItem
             key={cat.id}

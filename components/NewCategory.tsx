@@ -24,7 +24,7 @@ import {
   DialogClose,
 } from "@/components/ui/dialog";
 
-const MultipleSelectorWithDisabledOption = () => {
+export default function MultipleSelectorWithDisabledOption () {
   const { options: OPTIONS, setOptions } = useCategoryStore();
   const [repoManager] = useState(() => new RepoManager());
 
@@ -109,4 +109,3 @@ const MultipleSelectorWithDisabledOption = () => {
   );
 };
 
-export default MultipleSelectorWithDisabledOption;

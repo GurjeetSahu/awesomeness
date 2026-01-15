@@ -4,8 +4,10 @@ import Ai from "@/components/Ai";
 import { useEffect } from "react";
 import { useQueryClient } from "@tanstack/react-query";
 import { Button } from "@/components/ui/button";
+import useStars from "@/lib/useStars";
 
 export default function TopBar() {
+  const { isLoading, isFetching } = useStars();
   const queryClient = useQueryClient();
   useEffect(() => {
     if (typeof window === "undefined") return;
@@ -35,6 +37,8 @@ export default function TopBar() {
         <ThemeChanger />
         {/* <User /> */}
         <Button
+        variant="outline"
+          disabled={isLoading || isFetching}
           className="ml-3"
           onClick={() => {
             queryClient.invalidateQueries({ queryKey: ["all-stars"] });
