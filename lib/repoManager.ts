@@ -6,18 +6,18 @@ export default class RepoManager {
 
   private categoriesTable: Table<Category>;
   private reposTable: Table<any, any>;
-  private categoryMapEntry: Table<any, any>;
+  private categoryRepos: Table<any, any>;
 
   constructor() {
     this.db = new Dexie('Awesomeness');
     this.db.version(1).stores({
       categories: '++id,name,parentId',
       repos: "++order,key",
-      categoryMapEntry: '++id, categoryId, repoId, [categoryId+repoId]'
+      categoryRepos: '++id, categoryId, repoId, [categoryId+repoId]'
     });
     this.categoriesTable = this.db.table('categories');
     this.reposTable = this.db.table('repos');
-    this.categoryMapEntry = this.db.table('categoryMapEntry');
+    this.categoryRepos = this.db.table('categoryRepos');
   }
 
   //Used by GroupTable to get all categories on mount
@@ -36,7 +36,7 @@ export default class RepoManager {
 
   //Category button to repo table
   async getReposByCategory(categoryId: string | number): Promise<any> {
-    const links = await this.categoryMapEntry.where("categoryId").equals(categoryId).toArray();
+    const links = await this.categoryRepos.where("categoryId").equals(categoryId).toArray();
     const entryIds = links.map(l => l.mapEntryId);
     const values = (await this.reposTable.where("key").anyOf(entryIds).toArray())
       .map(e => e?.value);
@@ -51,7 +51,7 @@ export default class RepoManager {
 
   //(Getter) Repo's Categories; The Add button You see in front of each repo in RepoList
   async getCategoriesByRepo(repoId: string | number): Promise<any> {
-    const links = await this.categoryMapEntry.where("repoId").equals(repoId).toArray();
+    const links = await this.categoryRepos.where("repoId").equals(repoId).toArray();
     const categoryIds = links.map(l => l.categoryId);
     const values = (await this.categoriesTable.bulkGet(categoryIds))
       .filter(e => e)
@@ -62,13 +62,13 @@ export default class RepoManager {
   //(Setter) (Repo's Categories) The Add button You see in front of each repo in RepoList
   async ModifyRepoCategory(repoId: string, catId: number, state: boolean): Promise<boolean> {
     if (!state) {
-      await this.categoryMapEntry
+      await this.categoryRepos
         .where("[categoryId+repoId]")
         .equals([catId, repoId.toString()])
         .delete();
     }
     else {
-      await this.categoryMapEntry.add({ categoryId: catId, repoId: repoId.toString() });
+      await this.categoryRepos.add({ categoryId: catId, repoId: repoId.toString() });
     }
     return true;
   }
@@ -85,7 +85,7 @@ export default class RepoManager {
     const [categories, repos, repoCategories] = await Promise.all([
       this.categoriesTable.toArray(),
       this.reposTable.toArray(),
-      this.categoryMapEntry.toArray(),
+      this.categoryRepos.toArray(),
     ]);
 
     // Map categories by id
