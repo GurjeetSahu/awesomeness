@@ -24,17 +24,19 @@ export interface Category {
   children?: Category[];
   repos: Repo[];
 }
-//
+//These are only for giving MultipleSelector add parent category UI while creating new category
 export interface CategoryOption {
   value: string | number;
   label: string;
 }
 
 export interface CategoryState {
+  currentCategory: string;
   options: CategoryOption[];
   setOptions: (opts: CategoryOption[]) => void;
+  setCurrentCategory?: (cat: string) => void;
 }
-//
+
 
 export const useRepoStore = create<RepoState>((set) => ({
   repos: [],
@@ -45,6 +47,8 @@ export const useRepoStore = create<RepoState>((set) => ({
 }));
 
 export const useCategoryStore = create<CategoryState>((set) => ({
+  currentCategory: "",
   options: [],
   setOptions: (opts) => set({ options: opts }),
+  setCurrentCategory: (cat) => set({ currentCategory: cat })
 }));

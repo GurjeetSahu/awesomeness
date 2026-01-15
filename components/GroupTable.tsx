@@ -81,12 +81,17 @@ function CategoryItem({
 
 // Main component
 export default function CategoryTree() {
-  const { options: OPTIONS } = useCategoryStore();
+  const {
+    options: OPTIONS,
+    currentCategory,
+    setCurrentCategory,
+  } = useCategoryStore();
   const { setRepos } = useRepoStore();
   const [repoManager] = useState(() => new RepoManager());
   const [categories, setCategories] = useState<Category[]>([]);
 
   const handleCategoryClick = async (cat: Category) => {
+    setCurrentCategory?.(cat.name);
     setRepos(await repoManager.getReposByCategory(cat.id));
   };
 
@@ -119,6 +124,7 @@ export default function CategoryTree() {
   return (
     <div className="p-4 space-y-2 w-full bg-card border rounded-lg shadow-sm">
       <div className="space-y-1">
+        <h3>{currentCategory || "All Stars"}</h3>
         <Button className="bg-green-500" onClick={() => hcc()}>
           All Stars
         </Button>
