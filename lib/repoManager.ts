@@ -12,11 +12,11 @@ export default class RepoManager {
     this.db = new Dexie('Awesomeness');
     this.db.version(1).stores({
       categories: '++id,name,parentId',
-      mapEntries: "++order,key",
-      categoryMapEntry: '++id, categoryId, mapEntryId, [categoryId+mapEntryId]'
+      repos: "++order,key",
+      categoryMapEntry: '++id, categoryId, repoId, [categoryId+repoId]'
     });
     this.categoriesTable = this.db.table('categories');
-    this.reposTable = this.db.table('mapEntries');
+    this.reposTable = this.db.table('repos');
     this.categoryMapEntry = this.db.table('categoryMapEntry');
   }
 
@@ -28,7 +28,6 @@ export default class RepoManager {
 
   //Get On Mount and On button click "All Stars"
   async getAllRepos(): Promise<any> {
-    //const entries = await this.reposTable.orderBy("order").reverse().toArray();
     const entries = await this.reposTable.orderBy("order").reverse().toArray();
     const restoredMap = new Map(entries.map(({ key, value }) => [key, value]));
     const values = Array.from(restoredMap.values());
@@ -52,7 +51,7 @@ export default class RepoManager {
 
   //(Getter) Repo's Categories; The Add button You see in front of each repo in RepoList
   async getCategoriesByRepo(repoId: string | number): Promise<any> {
-    const links = await this.categoryMapEntry.where("mapEntryId").equals(repoId).toArray();
+    const links = await this.categoryMapEntry.where("repoId").equals(repoId).toArray();
     const categoryIds = links.map(l => l.categoryId);
     const values = (await this.categoriesTable.bulkGet(categoryIds))
       .filter(e => e)
@@ -64,12 +63,12 @@ export default class RepoManager {
   async ModifyRepoCategory(repoId: string, catId: number, state: boolean): Promise<boolean> {
     if (!state) {
       await this.categoryMapEntry
-        .where("[categoryId+mapEntryId]")
+        .where("[categoryId+repoId]")
         .equals([catId, repoId.toString()])
         .delete();
     }
     else {
-      await this.categoryMapEntry.add({ categoryId: catId, mapEntryId: repoId.toString() });
+      await this.categoryMapEntry.add({ categoryId: catId, repoId: repoId.toString() });
     }
     return true;
   }
@@ -90,12 +89,12 @@ export default class RepoManager {
     ]);
 
     // Map categories by id
-    const map = new Map<number, Category>();
-    categories.forEach((cat) => map.set(cat.id!, { ...cat, children: [], repos: [] }));
+    const catMap = new Map<number, Category>();
+    categories.forEach((cat) => catMap.set(cat.id!, { ...cat, children: [], repos: [] }));
 
     // Attach repos to categories
     repoCategories.forEach((rc) => {
-      const cat = map.get(rc.categoryId);
+      const cat = catMap.get(rc.categoryId);
       if (cat) {
         const repo = repos.find((r) => r.id === rc.repoId);
         if (repo) cat.repos.push(repo);
@@ -104,10 +103,10 @@ export default class RepoManager {
 
     // Build category tree
     const roots: Category[] = [];
-    map.forEach((node) => {
+    catMap.forEach((node) => {
       if (!node.parentId) roots.push(node);
       else {
-        const parent = map.get(node.parentId);
+        const parent = catMap.get(node.parentId);
         if (parent && parent.children) parent.children.push(node);
       }
     });
