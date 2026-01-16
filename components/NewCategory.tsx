@@ -39,6 +39,7 @@ export default function MultipleSelectorWithDisabledOption() {
 
   async function onSubmit(data: z.infer<typeof FormSchema>) {
     console.log(data);
+     setValue("repos", "")
     await repoManager.addCategory(
       data.name,
       data.repos ? Number(data.repos) : null
@@ -95,7 +96,7 @@ export default function MultipleSelectorWithDisabledOption() {
             />
             <DialogClose asChild>
               <Button
-                onSubmit={() => setValue("repos", "")}
+               
                 className="border border-2 mt-4 p-1 w-full rounded-md"
                 type="submit"
                 variant="outline"
