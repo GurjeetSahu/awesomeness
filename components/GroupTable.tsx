@@ -11,7 +11,7 @@ import { useCategoryStore } from "@/lib/useStore";
 
 //UI LEVEL
 import { Button } from "@/components/ui/button";
-import { ChevronRight } from "lucide-react";
+import { ChevronRight, Trash2 } from "lucide-react";
 import {
   Collapsible,
   CollapsibleContent,
@@ -31,25 +31,32 @@ function CategoryItem({
     <Collapsible open={open} onOpenChange={setOpen}>
       <div className="flex items-center space-x-2">
         {node.children ? (
-          <CollapsibleTrigger asChild>
-            <Button
-              variant="ghost"
-              size="sm"
-              className="flex items-center space-x-2 px-2 py-1 w-full justify-start hover:bg-muted rounded-md"
-              onClick={(e) => {
-                e.stopPropagation();
-                onCategoryClick?.(node);
-              }}
-            >
-              <ChevronRight
-                className={`h-4 w-4 transition-transform ${
-                  open ? "rotate-90" : ""
-                }`}
-              />
+          <div className="flex items-center space-x-2 px-2 py-1 w-full justify-start hover:bg-muted rounded-md">
+            <CollapsibleTrigger asChild>
+              <Button
+                variant="ghost"
+                size="sm"
+                onClick={(e) => {
+                  e.stopPropagation();
+                  onCategoryClick?.(node);
+                }}
+              >
+                <ChevronRight
+                  className={`h-4 w-4 transition-transform ${
+                    open ? "rotate-90" : ""
+                  }`}
+                />
 
-              <span className="truncate">{node.name}</span>
+                <span className="truncate">{node.name}</span>
+              </Button>
+            </CollapsibleTrigger>
+            <Button
+              onClick={() => console.log("button pressed")}
+              variant="ghost"
+            >
+              <Trash2 size="icon" color="#ff0000" strokeWidth={2}></Trash2>
             </Button>
-          </CollapsibleTrigger>
+          </div>
         ) : (
           <Button
             variant="ghost"

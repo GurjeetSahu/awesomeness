@@ -39,7 +39,7 @@ export default class RepoManager {
   //Category button to repo table
   async getReposByCategory(categoryId: string | number): Promise<any> {
     const links = await this.categoryRepos.where("categoryId").equals(categoryId).toArray();
-    const entryIds = links.map(l => l.mapEntryId);
+    const entryIds = links.map(l => l.repoId);
     const values = (await this.reposTable.where("key").anyOf(entryIds).toArray())
       .map(e => e?.value);
     return values;
