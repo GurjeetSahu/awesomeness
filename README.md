@@ -8,9 +8,6 @@ A **local solution to organize your GitHub stars**. Built for developers who wan
 
 </div>
 
-
-A **local solution to organize your GitHub stars**. Built for developers who want more ways to categorize and manage their starred repositories on their own machine.
-
 ---
 ## Features
 
