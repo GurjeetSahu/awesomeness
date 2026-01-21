@@ -1,6 +1,6 @@
 <div align="center">
 
-![Logo](logo.png)
+<img src="logo.png" width="100" height="100" />
 
 # StarVault
 
